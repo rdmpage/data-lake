@@ -1,0 +1,135 @@
+
+Connecting all the dots
+
+
+
+species 
+
+Solanum anomalostemon  60453563-2
+
+published in 10.3417/2007108
+
+in ORCID profile  http://orcid.org/0000-0001-7698-3945
+
+BHL 40330417 (annotation)
+
+BioStor 137255 (inclusion of BHL page)
+
+ISOTYPE http://www.gbif.org/occurrence/1097294063 34b0f668-4bf7-4326-846d-bc7b7510beb2
+
+MO http://www.gbif.org/occurrence/1259496700 (not recognised as a type...?!)
+
+How do we link from IPNI types to GBIF specimens?
+
+Need to load GBIF specimens
+
+
+
+
+
+60447735-2	60447735-2	◉	Cypringlea evadens (C.D.Adams) Reznicek & S.González	Acta Bot. Mex. 83: 21 2008 [Apr 2008]	01877151	10.21829/abm83.2008.1057								
+20011928-1	20011928-1	◉	Cypringlea M.T.Strong	Novon 13(1): 123 2003	10553177	10.2307/3393577		64725		3393577				
+326724-2	20011928-1	◉	Cypringlea M.T.Strong	Novon 13(1): 123 2003 [25 Mar 2003]	10553177	10.2307/3393577		64725		3393577				
+20011929-1	20011929-1	◉	Cypringlea analecta (Beetle) M.T.Strong	Novon 13(1): 125 2003	10553177	10.2307/3393577		64725		3393577				
+20011930-1	20011930-1	◉	Cypringlea coahuilensis (Svenson) M.T.Strong	Novon 13(1): 129 2003	10553177	10.2307/3393577		64725		3393577				
+1020928-2	20011930-1	◉	Cypringlea coahuilensis (Svenson) M.T.Strong	Novon 13(1): 129 2003 [25 Mar 2003]	10553177	10.2307/3393577		64725		3393577				
+1012364-2
+
+
+urn:lsid:ipni.org:names:230486-2
+
+// names
+'urn:lsid:ipni.org:names:60447735-2',
+'urn:lsid:ipni.org:names:20011928-1',
+'urn:lsid:ipni.org:names:326724-2',
+'urn:lsid:ipni.org:names:20011929-1',
+'urn:lsid:ipni.org:names:20011930-1',
+'urn:lsid:ipni.org:names:1020928-2',
+'urn:lsid:ipni.org:names:1012364-2',
+
+// basionyms
+'urn:lsid:ipni.org:names:284742-2',
+'urn:lsid:ipni.org:names:313164-1',
+'urn:lsid:ipni.org:names:313398-1',
+'urn:lsid:ipni.org:names:230281-2',
+'urn:lsid:ipni.org:names:230193-2',
+
+// invalid
+'urn:lsid:ipni.org:names:230486-2'
+
+# Example Queries
+
+
+
+
+Journal names (e.g., cited work, orcid works)
+
+SELECT *
+WHERE
+{
+	?work <http://schema.org/name> ?title . 
+	?work <http://prismstandard.org/namespaces/basic/2.1/publicationName> ?journal .
+	?work <http://schema.org/datePublished> ?date .  
+}
+
+
+
+
+SELECT *
+WHERE
+{
+	?work <http://schema.org/name> ?title . 
+	?work <http://prismstandard.org/namespaces/basic/2.1/publicationName> ?journal . 
+     ?work <http://schema.org/datePublished> ?date .
+    ?citedBy <http://schema.org/citation> ?work .
+}
+ORDER BY (?journal)
+
+
+SELECT *
+WHERE
+{
+  ?citedBy <http://schema.org/citation> ?work .
+  ?work <http://schema.org/description> ?description . 
+  OPTIONAL {
+	?work <http://prismstandard.org/namespaces/basic/2.1/publicationName> ?journal . 
+  }
+    
+}
+
+Cited papers with some details
+
+SELECT *
+WHERE
+{
+  ?citedBy <http://schema.org/citation> ?work .
+   OPTIONAL {
+  ?work <http://schema.org/description> ?description . 
+    }
+    OPTIONAL {
+  ?work <http://schema.org/name> ?name . 
+    }
+  OPTIONAL {
+	?work <http://prismstandard.org/namespaces/basic/2.1/publicationName> ?journal . 
+  }
+  OPTIONAL {
+	?work <http://schema.org/volumeNumber> ?volume . 
+  }
+  OPTIONAL {
+	?work <http://schema.org/pageStart> ?spage  . 
+  }
+  OPTIONAL {
+	?work <http://schema.org/datePublished> ?date  . 
+  }
+OPTIONAL {
+	?work <http://prismstandard.org/namespaces/basic/2.1/doi> ?doi  . 
+  }    
+    
+}
+
+
+
+
+
+
+

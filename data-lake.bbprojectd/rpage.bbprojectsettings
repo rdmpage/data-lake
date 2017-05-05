@@ -7,7 +7,10 @@
 	<key>ExpandedEditorWidth:rpage:displays([(0, 0), (1280, 800)])</key>
 	<integer>667</integer>
 	<key>ExpandedItems:rpage</key>
-	<array/>
+	<array>
+		<string>D879B969-AADB-4898-A8A7-33831C6145AA</string>
+		<string>5DEC4C78-B054-49D8-89BD-BB8C22EBB4D7</string>
+	</array>
 	<key>FileFilterMode:rpage</key>
 	<integer>0</integer>
 	<key>OpenDocuments:rpage</key>
@@ -15,7 +18,7 @@
 	<key>OpenDocumentsExpanded</key>
 	<true/>
 	<key>OpenDocumentsSplitterProportion</key>
-	<real>0.80741798877716064</real>
+	<real>0.80028533935546875</real>
 	<key>ProjectItemsExpanded</key>
 	<true/>
 	<key>ProjectViewVisible</key>
@@ -33,6 +36,6 @@
 	<key>ViewSplitterPosition:rpage</key>
 	<real>0.23333333432674408</real>
 	<key>WindowFrame:rpage:displays([(0, 0), (1280, 800)])</key>
-	<string>rect(236,512,937,1382)</string>
+	<string>rect(100,414,801,1284)</string>
 </dict>
 </plist>
