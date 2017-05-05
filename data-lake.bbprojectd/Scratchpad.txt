@@ -24,7 +24,36 @@ How do we link from IPNI types to GBIF specimens?
 Need to load GBIF specimens
 
 
+----------- ZooBank and ORCID --------------
 
+
+for any works look for author with LSID and ORCID and same last name, these
+are likely to be the same person and we can map ZooBank LSID to ORCID
+
+SELECT *
+WHERE
+{
+    
+   ?work <http://schema.org/author> ?authorzoobank . 
+    ?work <http://schema.org/identifier> ?identifier . 
+    ?work2 <http://schema.org/identifier> ?identifier . 
+    
+    ?work2 <http://schema.org/author> ?authororcid . 
+    
+    ?authorzoobank <http://schema.org/familyName> ?f1 . 
+    ?authororcid <http://schema.org/familyName> ?f2 . 
+   
+
+    FILTER regex(str(?authorzoobank),'lsid','i') .
+    FILTER regex(str(?authororcid),'orcid','i') .
+    FILTER (?f1 = ?f2) 
+   
+}
+
+
+
+
+--------------------------------------------
 
 
 60447735-2	60447735-2	◉	Cypringlea evadens (C.D.Adams) Reznicek & S.González	Acta Bot. Mex. 83: 21 2008 [Apr 2008]	01877151	10.21829/abm83.2008.1057								
