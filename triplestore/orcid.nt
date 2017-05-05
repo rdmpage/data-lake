@@ -1,0 +1,1339 @@
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10#author_2> <http://schema.org/familyName> "Neves" .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10#author_2> <http://schema.org/givenName> "S S" .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.1007/978-1-61779-276-2_10#author_2> .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10#author_2> <http://schema.org/name> "S S Neves" .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Methods in Molecular Biology" .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://schema.org/author> <http://identifiers.org/doi/10.1007/978-1-61779-276-2_10#author_2> .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://schema.org/datePublished> "2011" .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://schema.org/datePublished> "2011" .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://schema.org/identifier> "978-1-61779-275-5" .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://schema.org/identifier> <http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://schema.org/identifier> <http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://schema.org/isPartOf> <http://identifiers.org/issn/1064-3745> .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://schema.org/name> "Plant DNA Sequencing for Phylogenetic Analyses: From Plants to Sequences" .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://schema.org/name> "Plant DNA sequencing for phylogenetic analyses: From plants to sequences" .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://schema.org/pagination> "183-235" .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://schema.org/pagination> "183-235" .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://schema.org/volumeNumber> "781" .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Book> .
+<http://identifiers.org/doi/10.1007/978-1-61779-276-2_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y#author_2> <http://schema.org/familyName> "Hollingsworth" .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y#author_2> <http://schema.org/givenName> "P M" .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.1007/s00606-002-0033-y#author_2> .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y#author_2> <http://schema.org/name> "P M Hollingsworth" .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Plant Systematics and Evolution" .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y> <http://schema.org/author> <http://identifiers.org/doi/10.1007/s00606-002-0033-y#author_2> .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y> <http://schema.org/datePublished> "2003" .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y> <http://schema.org/identifier> <http://identifiers.org/doi/10.1007/s00606-002-0033-y> .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y> <http://schema.org/issueNumber> "3-4" .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y> <http://schema.org/name> "A recircumscription of Begonia based on nuclear ribosomal sequences" .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y> <http://schema.org/pagination> "193-211" .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y> <http://schema.org/volumeNumber> "241" .
+<http://identifiers.org/doi/10.1007/s00606-002-0033-y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_2> <http://schema.org/familyName> "Gascoigne" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_2> <http://schema.org/givenName> "A" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_2> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_2> <http://schema.org/name> "A Gascoigne" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_3> <http://schema.org/familyName> "Harris" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_3> <http://schema.org/givenName> "D" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_3> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_3> <http://schema.org/name> "D Harris" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_4> <http://schema.org/familyName> "Pennington" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_4> <http://schema.org/givenName> "R T" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_4> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_4> <http://schema.org/name> "R T Pennington" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_5> <http://schema.org/familyName> "Plana" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_5> <http://schema.org/givenName> "V" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_5> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_5> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_5> <http://schema.org/name> "V Plana" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Molecular Phylogenetics and Evolution" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_2> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_3> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_4> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_5> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/datePublished> "2004" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/datePublished> "2004" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/isPartOf> <http://identifiers.org/issn/1055-7903> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/issueNumber> "2" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/issueNumber> "2" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/name> "Pleistocene and pre-Pleistocene Begonia speciation in Africa" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/name> "Pleistocene and pre-Pleistocene Begonia speciation in Africa" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/pagination> "449-461" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/pagination> "449-461" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/volumeNumber> "31" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://schema.org/volumeNumber> "31" .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1016/j.ympev.2003.08.023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_1> <http://schema.org/familyName> "Bainard" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_1> <http://schema.org/givenName> "J D" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_1> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_1> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_1> <http://schema.org/name> "Bainard JD" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_1> <http://schema.org/name> "J D Bainard" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_2> <http://schema.org/familyName> "Budke" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_2> <http://schema.org/givenName> "J M" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_2> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_2> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_2> <http://schema.org/name> "Budke JM" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_2> <http://schema.org/name> "J M Budke" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_4> <http://schema.org/familyName> "Goffinet" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_4> <http://schema.org/givenName> "B" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_4> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_4> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_4> <http://schema.org/name> "B Goffinet" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_4> <http://schema.org/name> "Goffinet B" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_5> <http://schema.org/familyName> "Liu" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_5> <http://schema.org/givenName> "Y" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_5> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_5> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_5> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_5> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_5> <http://schema.org/name> "Liu Y" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_5> <http://schema.org/name> "Y Liu" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Molecular Phylogenetics and Evolution" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_1> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_1> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_2> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_2> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_4> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_4> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_5> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_5> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/datePublished> "2013" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/datePublished> "2013" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/identifier> <http://identifiers.org/pmid/23261712> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/issueNumber> "3" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/name> "Organellar genome, nuclear ribosomal DNA repeat unit, and microsatellites isolated from a small-scale of 454 GS FLX sequencing on two mosses" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/name> "Organellar genome, nuclear ribosomal DNA repeat unit, and microsatellites isolated from a small-scale of 454 GS FLX sequencing on two mosses." .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/pagination> "1089-1094" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://schema.org/volumeNumber> "66" .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1016/j.ympev.2012.12.006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_1> <http://schema.org/familyName> "Bainard" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_1> <http://schema.org/givenName> "J D" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_1> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_1> <http://schema.org/name> "J D Bainard" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_3> <http://schema.org/familyName> "Goffinet" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_3> <http://schema.org/givenName> "B" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_3> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_3> <http://schema.org/name> "B Goffinet" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_4> <http://schema.org/familyName> "Newmaster" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_4> <http://schema.org/givenName> "S G" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_4> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_4> <http://schema.org/name> "S G Newmaster" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Molecular Phylogenetics and Evolution" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_1> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_3> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/author> <http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_4> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/datePublished> "2013" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/datePublished> "2013" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/isPartOf> <http://identifiers.org/issn/1055-7903> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/issueNumber> "3" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/issueNumber> "3" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/name> "Nuclear DNA content variation and evolution in liverworts" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/name> "Nuclear DNA content variation and evolution in liverworts" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/pagination> "619-627" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/pagination> "619-627" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/volumeNumber> "68" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://schema.org/volumeNumber> "68" .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1016/j.ympev.2013.04.008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_10> <http://schema.org/familyName> "Conrad" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_10> <http://schema.org/givenName> "F" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_10> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_10> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_10> <http://schema.org/name> "F Conrad" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_11> <http://schema.org/familyName> "Cowan" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_11> <http://schema.org/givenName> "R S" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_11> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_11> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_11> <http://schema.org/name> "R S Cowan" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_12> <http://schema.org/familyName> "Devey" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_12> <http://schema.org/givenName> "D S" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_12> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_12> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_12> <http://schema.org/name> "D S Devey" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_13> <http://schema.org/familyName> "Erickson" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_13> <http://schema.org/givenName> "D L" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_13> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_13> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_13> <http://schema.org/name> "D L Erickson" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_14> <http://schema.org/familyName> "Fazekas" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_14> <http://schema.org/givenName> "A J" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_14> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_14> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_14> <http://schema.org/name> "A J Fazekas" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_15> <http://schema.org/familyName> "Ford" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_15> <http://schema.org/givenName> "C S" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_15> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_15> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_15> <http://schema.org/name> "C S Ford" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_17> <http://schema.org/familyName> "Graham" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_17> <http://schema.org/givenName> "S W" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_17> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_17> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_17> <http://schema.org/name> "S W Graham" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_18> <http://schema.org/familyName> "Hajibabaei" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_18> <http://schema.org/givenName> "M" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_18> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_18> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_18> <http://schema.org/name> "M Hajibabaei" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_19> <http://schema.org/familyName> "Hedderson" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_19> <http://schema.org/givenName> "T A J" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_19> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_19> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_19> <http://schema.org/name> "T A J Hedderson" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_1> <http://schema.org/familyName> "Barrett" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_1> <http://schema.org/givenName> "S C H" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_1> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_1> <http://schema.org/name> "S C H Barrett" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_20> <http://schema.org/familyName> "Hollingsworth" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_20> <http://schema.org/givenName> "M L" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_20> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_20> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_20> <http://schema.org/name> "M L Hollingsworth" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_21> <http://schema.org/familyName> "Hollingsworth" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_21> <http://schema.org/givenName> "P M" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_21> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_21> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_21> <http://schema.org/name> "P M Hollingsworth" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_22> <http://schema.org/familyName> "Husband" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_22> <http://schema.org/givenName> "B C" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_22> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_22> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_22> <http://schema.org/name> "B C Husband" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_23> <http://schema.org/familyName> "James" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_23> <http://schema.org/givenName> "K E" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_23> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_23> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_23> <http://schema.org/name> "K E James" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_24> <http://schema.org/familyName> "John Kress" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_24> <http://schema.org/givenName> "W" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_24> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_24> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_24> <http://schema.org/name> "W John Kress" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_25> <http://schema.org/familyName> "Kelly" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_25> <http://schema.org/givenName> "L J" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_25> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_25> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_25> <http://schema.org/name> "L J Kelly" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_26> <http://schema.org/familyName> "Kesanakurti" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_26> <http://schema.org/givenName> "P R" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_26> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_26> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_26> <http://schema.org/name> "P R Kesanakurti" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_27> <http://schema.org/familyName> "Kim" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_27> <http://schema.org/givenName> "J S" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_27> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_27> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_27> <http://schema.org/name> "J S Kim" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_28> <http://schema.org/familyName> "Kim" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_28> <http://schema.org/givenName> "K-J" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_28> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_28> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_28> <http://schema.org/name> "K-J Kim" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_29> <http://schema.org/familyName> "Kim" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_29> <http://schema.org/givenName> "Y-D" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_29> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_29> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_29> <http://schema.org/name> "Y-D Kim" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_2> <http://schema.org/familyName> "Bogarin" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_2> <http://schema.org/givenName> "D" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_2> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_2> <http://schema.org/name> "D Bogarin" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_30> <http://schema.org/familyName> "Lahaye" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_30> <http://schema.org/givenName> "R" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_30> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_30> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_30> <http://schema.org/name> "R Lahaye" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_31> <http://schema.org/familyName> "Lee" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_31> <http://schema.org/givenName> "H-L" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_31> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_31> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_31> <http://schema.org/name> "H-L Lee" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_32> <http://schema.org/familyName> "Little" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_32> <http://schema.org/givenName> "D P" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_32> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_32> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_32> <http://schema.org/name> "D P Little" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_33> <http://schema.org/familyName> "Long" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_33> <http://schema.org/givenName> "D G" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_33> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_33> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_33> <http://schema.org/name> "D G Long" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_34> <http://schema.org/familyName> "Madriñán" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_34> <http://schema.org/givenName> "S" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_34> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_34> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_34> <http://schema.org/name> "S Madriñán" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_35> <http://schema.org/familyName> "Maurin" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_35> <http://schema.org/givenName> "O" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_35> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_35> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_35> <http://schema.org/name> "O Maurin" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_36> <http://schema.org/familyName> "Meusnier" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_36> <http://schema.org/givenName> "I" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_36> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_36> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_36> <http://schema.org/name> "I Meusnier" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_37> <http://schema.org/familyName> "Newmaster" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_37> <http://schema.org/givenName> "S G" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_37> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_37> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_37> <http://schema.org/name> "S G Newmaster" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_38> <http://schema.org/familyName> "Park" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_38> <http://schema.org/givenName> "C-W" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_38> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_38> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_38> <http://schema.org/name> "C-W Park" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_39> <http://schema.org/familyName> "Percy" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_39> <http://schema.org/givenName> "D M" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_39> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_39> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_39> <http://schema.org/name> "D M Percy" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_3> <http://schema.org/familyName> "Burgess" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_3> <http://schema.org/givenName> "K S" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_3> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_3> <http://schema.org/name> "K S Burgess" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_40> <http://schema.org/familyName> "Petersen" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_40> <http://schema.org/givenName> "G" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_40> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_40> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_40> <http://schema.org/name> "G Petersen" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_41> <http://schema.org/familyName> "Ratnasingham" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_41> <http://schema.org/givenName> "S" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_41> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_41> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_41> <http://schema.org/name> "S Ratnasingham" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_42> <http://schema.org/familyName> "Richardson" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_42> <http://schema.org/givenName> "J E" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_42> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_42> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_42> <http://schema.org/name> "J E Richardson" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_43> <http://schema.org/familyName> "Salazar" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_43> <http://schema.org/givenName> "G A" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_43> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_43> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_43> <http://schema.org/name> "G A Salazar" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_44> <http://schema.org/familyName> "Savolainen" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_44> <http://schema.org/givenName> "V" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_44> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_44> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_44> <http://schema.org/name> "V Savolainen" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_45> <http://schema.org/familyName> "Schneider" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_45> <http://schema.org/givenName> "H" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_45> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_45> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_45> <http://schema.org/name> "H Schneider" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_46> <http://schema.org/familyName> "Seberg" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_46> <http://schema.org/givenName> "O" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_46> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_46> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_46> <http://schema.org/name> "O Seberg" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_47> <http://schema.org/familyName> "Spouge" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_47> <http://schema.org/givenName> "J L" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_47> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_47> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_47> <http://schema.org/name> "J L Spouge" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_48> <http://schema.org/familyName> "Wilkinson" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_48> <http://schema.org/givenName> "M J" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_48> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_48> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_48> <http://schema.org/name> "M J Wilkinson" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_49> <http://schema.org/familyName> "Yi" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_49> <http://schema.org/givenName> "D-K" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_49> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_49> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_49> <http://schema.org/name> "D-K Yi" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_4> <http://schema.org/familyName> "Cameron" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_4> <http://schema.org/givenName> "K M" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_4> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_4> <http://schema.org/name> "K M Cameron" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_50> <http://schema.org/familyName> "van AlphenStahl" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_50> <http://schema.org/givenName> "J" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_50> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_50> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_50> <http://schema.org/name> "J van AlphenStahl" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_51> <http://schema.org/familyName> "van den Berg" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_51> <http://schema.org/givenName> "C" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_51> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_51> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_51> <http://schema.org/name> "C van den Berg" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_52> <http://schema.org/familyName> "van der Bank" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_52> <http://schema.org/givenName> "M" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_52> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_52> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_52> <http://schema.org/name> "M van der Bank" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_5> <http://schema.org/familyName> "Carine" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_5> <http://schema.org/givenName> "M" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_5> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_5> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_5> <http://schema.org/name> "M Carine" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_6> <http://schema.org/familyName> "Chacón" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_6> <http://schema.org/givenName> "J" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_6> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_6> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_6> <http://schema.org/name> "J Chacón" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_7> <http://schema.org/familyName> "Chase" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_7> <http://schema.org/givenName> "M W" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_7> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_7> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_7> <http://schema.org/name> "M W Chase" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_8> <http://schema.org/familyName> "Clark" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_8> <http://schema.org/givenName> "A" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_8> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_8> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_8> <http://schema.org/name> "A Clark" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_9> <http://schema.org/familyName> "Clarkson" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_9> <http://schema.org/givenName> "J J" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_9> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_9> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_9> <http://schema.org/name> "J J Clarkson" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106#author_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Proceedings of the National Academy of Sciences of the United States of America" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_10> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_11> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_12> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_13> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_14> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_15> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_17> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_18> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_19> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_1> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_20> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_21> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_22> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_23> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_24> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_25> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_26> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_27> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_28> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_29> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_2> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_30> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_31> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_32> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_33> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_34> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_35> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_36> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_37> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_38> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_39> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_3> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_40> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_41> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_42> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_43> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_44> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_45> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_46> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_47> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_48> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_49> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_4> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_50> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_51> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_52> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_5> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_6> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_7> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_8> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_9> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/datePublished> "2009" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/datePublished> "2009" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/identifier> "PMC2722355" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/identifier> <http://identifiers.org/pmid/19666622> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/issueNumber> "31" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/name> "A DNA barcode for land plants" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/name> "A DNA barcode for land plants." .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/pagination> "12794-12797" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://schema.org/volumeNumber> "106" .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1073/pnas.0905845106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.10M/S0960428603000416#author_2> <http://schema.org/familyName> "Jong" .
+<http://identifiers.org/doi/10.10M/S0960428603000416#author_2> <http://schema.org/givenName> "K" .
+<http://identifiers.org/doi/10.10M/S0960428603000416#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.10M/S0960428603000416#author_2> .
+<http://identifiers.org/doi/10.10M/S0960428603000416#author_2> <http://schema.org/name> "K Jong" .
+<http://identifiers.org/doi/10.10M/S0960428603000416#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.10M/S0960428603000416> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Edinburgh Journal of Botany" .
+<http://identifiers.org/doi/10.10M/S0960428603000416> <http://schema.org/author> <http://identifiers.org/doi/10.10M/S0960428603000416#author_2> .
+<http://identifiers.org/doi/10.10M/S0960428603000416> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.10M/S0960428603000416> <http://schema.org/datePublished> "2003" .
+<http://identifiers.org/doi/10.10M/S0960428603000416> <http://schema.org/identifier> <http://identifiers.org/doi/10.10M/S0960428603000416> .
+<http://identifiers.org/doi/10.10M/S0960428603000416> <http://schema.org/issueNumber> "3" .
+<http://identifiers.org/doi/10.10M/S0960428603000416> <http://schema.org/name> "Karyotype asymmetry in Galtonia and Pseudogaltonia (Hyacinthaceae)" .
+<http://identifiers.org/doi/10.10M/S0960428603000416> <http://schema.org/pagination> "569-579" .
+<http://identifiers.org/doi/10.10M/S0960428603000416> <http://schema.org/volumeNumber> "60" .
+<http://identifiers.org/doi/10.10M/S0960428603000416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_10> <http://schema.org/familyName> "Richardson" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_10> <http://schema.org/givenName> "J" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_10> <http://schema.org/identifier> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_10> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_10> <http://schema.org/name> "J Richardson" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_1> <http://schema.org/familyName> "Andra Clark" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_1> <http://schema.org/givenName> "A" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_1> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_1> <http://schema.org/name> "A Andra Clark" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_2> <http://schema.org/familyName> "Chase" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_2> <http://schema.org/givenName> "M W" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_2> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_2> <http://schema.org/name> "M W Chase" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_3> <http://schema.org/familyName> "Cowan" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_3> <http://schema.org/givenName> "R" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_3> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_3> <http://schema.org/name> "R Cowan" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_5> <http://schema.org/familyName> "Gaudeul" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_5> <http://schema.org/givenName> "M" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_5> <http://schema.org/identifier> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_5> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_5> <http://schema.org/name> "M Gaudeul" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_6> <http://schema.org/familyName> "Hollingsworth" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_6> <http://schema.org/givenName> "M L" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_6> <http://schema.org/identifier> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_6> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_6> <http://schema.org/name> "M L Hollingsworth" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_7> <http://schema.org/familyName> "Hollingsworth" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_7> <http://schema.org/givenName> "P M" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_7> <http://schema.org/identifier> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_7> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_7> <http://schema.org/name> "P M Hollingsworth" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_8> <http://schema.org/familyName> "Long" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_8> <http://schema.org/givenName> "D G" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_8> <http://schema.org/identifier> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_8> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_8> <http://schema.org/name> "D G Long" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_9> <http://schema.org/familyName> "Pennington" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_9> <http://schema.org/givenName> "R T" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_9> <http://schema.org/identifier> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_9> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_9> <http://schema.org/name> "R T Pennington" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Molecular Ecology Resources" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/author> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_10> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/author> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_1> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/author> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_2> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/author> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_3> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/author> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_5> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/author> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_6> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/author> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_7> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/author> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_8> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/author> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_9> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/datePublished> "2009" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/datePublished> "2009" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/identifier> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/identifier> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/isPartOf> <http://identifiers.org/issn/1755-098X> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/issueNumber> "2" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/issueNumber> "2" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/name> "DNA BARCODING" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/name> "Selecting barcoding loci for plants: Evaluation of seven candidate loci with species-level sampling in three divergent groups of land plants" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/pagination> "439-457" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/pagination> "439-457" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/volumeNumber> "9" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://schema.org/volumeNumber> "9" .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_1> <http://schema.org/familyName> "Crandall-Stotler" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_1> <http://schema.org/givenName> "B" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_1> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_1> <http://schema.org/name> "B Crandall-Stotler" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_3> <http://schema.org/familyName> "Stotler" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_3> <http://schema.org/givenName> "R E" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_3> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_3> <http://schema.org/name> "R E Stotler" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_4> <http://schema.org/familyName> "Zhang" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_4> <http://schema.org/givenName> "L" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_4> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_4> <http://schema.org/name> "L Zhang" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Nova Hedwigia" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/author> <http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_1> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/author> <http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_3> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/author> <http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_4> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/datePublished> "2010" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/datePublished> "2010" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/identifier> <http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/identifier> <http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/isPartOf> <http://identifiers.org/issn/0029-5035> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/issueNumber> "3" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/issueNumber> "3-4" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/name> "On the morphology, systematics and phylogeny of &lt;I&gt;Noteroclada&lt;/I&gt; (Noterocladaceae, Marchantiophyta)" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/name> "On the morphology, systematics and phylogeny of Noteroclada (Noterocladaceae, Marchantiophyta)" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/pagination> "421-450" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/pagination> "421-450" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/volumeNumber> "91" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://schema.org/volumeNumber> "91" .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1201/9781420005592.ch17> <http://schema.org/datePublished> "2007" .
+<http://identifiers.org/doi/10.1201/9781420005592.ch17> <http://schema.org/identifier> "978-0-8493-3856-4" .
+<http://identifiers.org/doi/10.1201/9781420005592.ch17> <http://schema.org/identifier> <http://identifiers.org/doi/10.1201/9781420005592.ch17> .
+<http://identifiers.org/doi/10.1201/9781420005592.ch17> <http://schema.org/isPartOf> <http://identifiers.org/issn/2155-6547> .
+<http://identifiers.org/doi/10.1201/9781420005592.ch17> <http://schema.org/name> "Dating the Diversification of the Pleurocarpous Mosses" .
+<http://identifiers.org/doi/10.1201/9781420005592.ch17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1600/0363644054782297#author_2> <http://schema.org/familyName> "Hollingsworth" .
+<http://identifiers.org/doi/10.1600/0363644054782297#author_2> <http://schema.org/givenName> "P M" .
+<http://identifiers.org/doi/10.1600/0363644054782297#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.1600/0363644054782297#author_2> .
+<http://identifiers.org/doi/10.1600/0363644054782297#author_2> <http://schema.org/name> "P M Hollingsworth" .
+<http://identifiers.org/doi/10.1600/0363644054782297#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1600/0363644054782297#author_3> <http://schema.org/familyName> "Hughes" .
+<http://identifiers.org/doi/10.1600/0363644054782297#author_3> <http://schema.org/givenName> "M" .
+<http://identifiers.org/doi/10.1600/0363644054782297#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.1600/0363644054782297#author_3> .
+<http://identifiers.org/doi/10.1600/0363644054782297#author_3> <http://schema.org/name> "M Hughes" .
+<http://identifiers.org/doi/10.1600/0363644054782297#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Systematic Botany" .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/author> <http://identifiers.org/doi/10.1600/0363644054782297#author_2> .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/author> <http://identifiers.org/doi/10.1600/0363644054782297#author_3> .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/datePublished> "2005" .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/datePublished> "2005" .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/identifier> <http://identifiers.org/doi/10.1600/0363644054782297> .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/identifier> <http://identifiers.org/doi/10.1600/0363644054782297> .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/isPartOf> <http://identifiers.org/issn/0363-6445> .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/issueNumber> "3" .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/issueNumber> "3" .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/name> "A Phylogeny of &lt;I&gt;Begonia&lt;/I&gt; Using Nuclear Ribosomal Sequence Data and Morphological Characters" .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/name> "A phylogeny of Begonia using nuclear ribosomal sequence data and morphological characters" .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/pagination> "671-682" .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/pagination> "671-682" .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/volumeNumber> "30" .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://schema.org/volumeNumber> "30" .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1600/0363644054782297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_1> <http://schema.org/familyName> "Clement" .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_1> <http://schema.org/givenName> "W L" .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.1600/036364406777585784#author_1> .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_1> <http://schema.org/name> "W L Clement" .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_3> <http://schema.org/familyName> "Santoriello" .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_3> <http://schema.org/givenName> "A" .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.1600/036364406777585784#author_3> .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_3> <http://schema.org/name> "A Santoriello" .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_4> <http://schema.org/familyName> "Swensen" .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_4> <http://schema.org/givenName> "S M" .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.1600/036364406777585784#author_4> .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_4> <http://schema.org/name> "S M Swensen" .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_5> <http://schema.org/familyName> "Tebbitt" .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_5> <http://schema.org/givenName> "M C" .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_5> <http://schema.org/identifier> <http://identifiers.org/doi/10.1600/036364406777585784#author_5> .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_5> <http://schema.org/name> "M C Tebbitt" .
+<http://identifiers.org/doi/10.1600/036364406777585784#author_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Systematic Botany" .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/author> <http://identifiers.org/doi/10.1600/036364406777585784#author_1> .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/author> <http://identifiers.org/doi/10.1600/036364406777585784#author_3> .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/author> <http://identifiers.org/doi/10.1600/036364406777585784#author_4> .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/author> <http://identifiers.org/doi/10.1600/036364406777585784#author_5> .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/datePublished> "2006" .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/datePublished> "2006" .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/identifier> <http://identifiers.org/doi/10.1600/036364406777585784> .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/identifier> <http://identifiers.org/doi/10.1600/036364406777585784> .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/isPartOf> <http://identifiers.org/issn/0363-6445> .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/issueNumber> "2" .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/issueNumber> "2" .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/name> "Phylogenetic Relationships of Asian &lt;I&gt;Begonia&lt;/I&gt;, with an Emphasis on the Evolution of Rain-ballist and Animal Dispersal Mechanisms in Sections &lt;I&gt;Platycentrum, Sphenanthera&lt;/I&gt; and &lt;I&gt;Leprosae&lt;/I&gt;" .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/name> "Phylogenetic relationships of Asian Begonia, with an emphasis on the evolution of rain-ballist and animal dispersal mechanisms in sections Platycentrum, Sphenanthera and Leprosae" .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/pagination> "327-336" .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/pagination> "327-336" .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/volumeNumber> "31" .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://schema.org/volumeNumber> "31" .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1600/036364406777585784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_1> <http://schema.org/familyName> "Clark" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_1> <http://schema.org/givenName> "A" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_1> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_1> <http://schema.org/name> "A Clark" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_2> <http://schema.org/familyName> "Crandall-Stotler" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_2> <http://schema.org/givenName> "B J" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_2> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_2> <http://schema.org/name> "B J Crandall-Stotler" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_3> <http://schema.org/familyName> "Davis" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_3> <http://schema.org/givenName> "E C" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_3> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_3> <http://schema.org/name> "E C Davis" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_5> <http://schema.org/familyName> "Hollingsworth" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_5> <http://schema.org/givenName> "M L" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_5> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_5> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_5> <http://schema.org/name> "M L Hollingsworth" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_6> <http://schema.org/familyName> "Long" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_6> <http://schema.org/givenName> "D G" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_6> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_6> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_6> <http://schema.org/name> "D G Long" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Bryologist" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_1> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_2> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_3> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_5> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_6> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://schema.org/datePublished> "2006" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://schema.org/issueNumber> "3" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://schema.org/name> "Unraveling the evolutionary history of the liverworts (Marchantiophyta): Multiple taxa, genomes and analyses" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://schema.org/pagination> "303-334" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://schema.org/volumeNumber> "109" .
+<http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_2> <http://schema.org/familyName> "Long" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_2> <http://schema.org/givenName> "D G" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_2> .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_2> <http://schema.org/name> "D G Long" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_3> <http://schema.org/familyName> "Schill" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_3> <http://schema.org/givenName> "D B" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_3> .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_3> <http://schema.org/name> "D B Schill" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Bryologist" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_2> .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_3> .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/datePublished> "2010" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/datePublished> "2010" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-113.1.164> .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-113.1.164> .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/isPartOf> <http://identifiers.org/issn/0007-2745> .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/issueNumber> "1" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/issueNumber> "1" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/name> "A molecular phylogenetic study of Mannia (Marchantiophyta, Aytoniaceae) using chloroplast and nuclear markers" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/name> "A molecular phylogenetic study of Mannia (Marchantiophyta, Aytoniaceae) using chloroplast and nuclear markers" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/pagination> "164-179" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/pagination> "164-179" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/volumeNumber> "113" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://schema.org/volumeNumber> "113" .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1639/0007-2745-113.1.164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_1> <http://schema.org/familyName> "Allen" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_1> <http://schema.org/givenName> "N S" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_1> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_1> <http://schema.org/name> "N S Allen" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_3> <http://schema.org/familyName> "Gudiño" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_3> <http://schema.org/givenName> "J A" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_3> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_3> <http://schema.org/name> "J A Gudiño" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_4> <http://schema.org/familyName> "Korpelainen" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_4> <http://schema.org/givenName> "H" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_4> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_4> <http://schema.org/name> "H Korpelainen" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_5> <http://schema.org/familyName> "Long" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_5> <http://schema.org/givenName> "D G" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_5> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_5> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_5> <http://schema.org/name> "D G Long" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Bryologist" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_1> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_3> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_4> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_5> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/datePublished> "2011" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/datePublished> "2011" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-114.1.102> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-114.1.102> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/isPartOf> <http://identifiers.org/issn/0007-2745> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/issueNumber> "1" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/name> "Molecular and morphological evidence for distinct species in Dumortiera (Dumortieraceae)" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/name> "Molecular and morphological evidence for distinct species in Dumortiera (Dumortieraceae)" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/pagination> "102-115" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://schema.org/volumeNumber> "114" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_2> <http://schema.org/familyName> "Long" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_2> <http://schema.org/givenName> "D G" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_2> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_2> <http://schema.org/name> "D G Long" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_3> <http://schema.org/familyName> "Milne" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_3> <http://schema.org/givenName> "R" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_3> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_3> <http://schema.org/name> "R Milne" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_4> <http://schema.org/familyName> "Rubasinghe" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_4> <http://schema.org/givenName> "S C K" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_4> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_4> <http://schema.org/name> "S C K Rubasinghe" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Bryologist" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_2> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_3> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/author> <http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_4> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/datePublished> "2011" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/datePublished> "2011" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-114.1.116> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-114.1.116> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/isPartOf> <http://identifiers.org/issn/0007-2745> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/issueNumber> "1" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/issueNumber> "1" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/name> "Realignment of the genera of Cleveaceae (Marchantiopsida, Marchantiidae)" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/name> "Realignment of the genera of Cleveaceae (Marchantiopsida, Marchantiidae)" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/pagination> "116-127" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/pagination> "116-127" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/volumeNumber> "114" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://schema.org/volumeNumber> "114" .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.1639/0007-2745-114.1.116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.2307/25065359> <http://schema.org/datePublished> "2005" .
+<http://identifiers.org/doi/10.2307/25065359> <http://schema.org/identifier> <http://identifiers.org/doi/10.2307/25065359> .
+<http://identifiers.org/doi/10.2307/25065359> <http://schema.org/isPartOf> <http://identifiers.org/issn/0040-0262> .
+<http://identifiers.org/doi/10.2307/25065359> <http://schema.org/issueNumber> "2" .
+<http://identifiers.org/doi/10.2307/25065359> <http://schema.org/name> "Evolutionary Trends in the Simple Thalloid Liverworts (Marchantiophyta, Jungermanniopsida Subclass Metzgeriidae)" .
+<http://identifiers.org/doi/10.2307/25065359> <http://schema.org/pagination> "299" .
+<http://identifiers.org/doi/10.2307/25065359> <http://schema.org/volumeNumber> "54" .
+<http://identifiers.org/doi/10.2307/25065359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_2> <http://schema.org/familyName> "Goffinet" .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_2> <http://schema.org/givenName> "B" .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1000283#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1000283#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_2> <http://schema.org/name> "B Goffinet" .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_2> <http://schema.org/name> "Goffinet B" .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_3> <http://schema.org/familyName> "Magain" .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_3> <http://schema.org/givenName> "N" .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1000283#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1000283#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_3> <http://schema.org/name> "Magain N" .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_3> <http://schema.org/name> "N Magain" .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_4> <http://schema.org/familyName> "Sérusiaux" .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_4> <http://schema.org/givenName> "E" .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1000283#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1000283#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_4> <http://schema.org/name> "E Sérusiaux" .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_4> <http://schema.org/name> "Sérusiaux E" .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1000283#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "American Journal of Botany" .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1000283#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1000283#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1000283#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1000283#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1000283#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1000283#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/datePublished> "2010" .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/datePublished> "2010" .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1000283> .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1000283> .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/identifier> <http://identifiers.org/pmid/21616786> .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/issueNumber> "10" .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/name> "Microsatellite primers in the Peltigera dolichorhiza complex (lichenized ascomycete, Peltigerales)." .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/name> "Microsatellite primers in the Peltigera dolichorhiza complex (lichenized ascomycete, peltigerales)" .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/pagination> "102-104" .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://schema.org/volumeNumber> "97" .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.3732/ajb.1000283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_1> <http://schema.org/familyName> "Budke" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_1> <http://schema.org/givenName> "J M" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100010#author_1> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100010#author_1> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_1> <http://schema.org/name> "Budke JM" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_1> <http://schema.org/name> "J M Budke" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_3> <http://schema.org/familyName> "Goffinet" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_3> <http://schema.org/givenName> "B" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100010#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100010#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_3> <http://schema.org/name> "B Goffinet" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_3> <http://schema.org/name> "Goffinet B" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_4> <http://schema.org/familyName> "Shaw" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_4> <http://schema.org/givenName> "B" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100010#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100010#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_4> <http://schema.org/name> "B Shaw" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_4> <http://schema.org/name> "Shaw B" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_5> <http://schema.org/familyName> "Wickett" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_5> <http://schema.org/givenName> "N J" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_5> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100010#author_5> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_5> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100010#author_5> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_5> <http://schema.org/name> "N J Wickett" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_5> <http://schema.org/name> "Wickett NJ" .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100010#author_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "American Journal of Botany" .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100010#author_1> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100010#author_1> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100010#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100010#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100010#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100010#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100010#author_5> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100010#author_5> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/datePublished> "2011" .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/datePublished> "2011" .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100010> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100010> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/identifier> <http://identifiers.org/pmid/21821590> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/issueNumber> "8" .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/name> "Frequent pseudogenization and loss of the plastid-encoded sulfate-transport gene cysA throughout the evolution of liverworts" .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/name> "Frequent pseudogenization and loss of the plastid-encoded sulfate-transport gene cysA throughout the evolution of liverworts." .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/pagination> "1263-1275" .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://schema.org/volumeNumber> "98" .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.3732/ajb.1100010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_2> <http://schema.org/familyName> "Goffinet" .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_2> <http://schema.org/givenName> "B" .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100392#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100392#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_2> <http://schema.org/name> "B Goffinet" .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_2> <http://schema.org/name> "Goffinet B" .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_3> <http://schema.org/familyName> "McFarland" .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_3> <http://schema.org/givenName> "K" .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100392#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100392#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_3> <http://schema.org/name> "K McFarland" .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_3> <http://schema.org/name> "McFarland K" .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_4> <http://schema.org/familyName> "Villarreal" .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_4> <http://schema.org/givenName> "J C" .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100392#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100392#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_4> <http://schema.org/name> "J C Villarreal" .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_4> <http://schema.org/name> "Villarreal JC" .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100392#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "American Journal of Botany" .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100392#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100392#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100392#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100392#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100392#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1100392#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/datePublished> "2012" .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/datePublished> "2012" .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100392> .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100392> .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/identifier> <http://identifiers.org/pmid/22343540> .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/issueNumber> "3" .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/name> "Chloroplast, mitochondrial, and nuclear microsatellites from the southern Appalachian hornwort, Nothoceros aenigmaticus (Dendrocerotaceae)" .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/name> "Chloroplast, mitochondrial, and nuclear microsatellites from the southern Appalachian hornwort, Nothoceros aenigmaticus (Dendrocerotaceae)." .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://schema.org/volumeNumber> "99" .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.3732/ajb.1100392> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_2> <http://schema.org/familyName> "Goffinet" .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_2> <http://schema.org/givenName> "B" .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1200429#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1200429#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_2> <http://schema.org/name> "B Goffinet" .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_2> <http://schema.org/name> "Goffinet B" .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_3> <http://schema.org/familyName> "Villarreal" .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_3> <http://schema.org/givenName> "J C" .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1200429#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1200429#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_3> <http://schema.org/name> "J C Villarreal" .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_3> <http://schema.org/name> "Villarreal JC" .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_4> <http://schema.org/familyName> "Wickett" .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_4> <http://schema.org/givenName> "N" .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1200429#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1200429#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_4> <http://schema.org/name> "N Wickett" .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_4> <http://schema.org/name> "Wickett N" .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1200429#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "American Journal of Botany" .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1200429#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1200429#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1200429#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1200429#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1200429#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.1200429#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/datePublished> "2013" .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/datePublished> "2013" .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1200429> .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1200429> .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/identifier> <http://identifiers.org/pmid/23416362> .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/issueNumber> "3" .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/name> "The plastid genome of the hornwort Nothoceros aenigmaticus (Dendrocerotaceae): Phylogenetic signal in inverted repeat expansion, pseudogenization, and intron gain" .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/name> "The plastid genome of the hornwort Nothoceros aenigmaticus (Dendrocerotaceae): phylogenetic signal in inverted repeat expansion, pseudogenization, and intron gain." .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/pagination> "467-477" .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://schema.org/volumeNumber> "100" .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.3732/ajb.1200429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_1> <http://schema.org/familyName> "Blair" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_1> <http://schema.org/givenName> "J E" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_1> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_1> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_1> <http://schema.org/name> "Blair JE" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_1> <http://schema.org/name> "J E Blair" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_2> <http://schema.org/familyName> "Brouillet" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_2> <http://schema.org/givenName> "L" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_2> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_2> <http://schema.org/name> "Brouillet L" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_2> <http://schema.org/name> "L Brouillet" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_3> <http://schema.org/familyName> "Clement" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_3> <http://schema.org/givenName> "W L" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_3> <http://schema.org/name> "Clement WL" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_3> <http://schema.org/name> "W L Clement" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_4> <http://schema.org/familyName> "Eriksson" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_4> <http://schema.org/givenName> "T" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_4> <http://schema.org/name> "Eriksson T" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_4> <http://schema.org/name> "T Eriksson" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_6> <http://schema.org/familyName> "Swensen" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_6> <http://schema.org/givenName> "S M" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_6> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_6> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_6> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_6> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_6> <http://schema.org/name> "S M Swensen" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_6> <http://schema.org/name> "Swensen SM" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_7> <http://schema.org/familyName> "Tebbitt" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_7> <http://schema.org/givenName> "M C" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_7> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_7> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_7> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_7> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_7> <http://schema.org/name> "M C Tebbitt" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_7> <http://schema.org/name> "Tebbitt MC" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905#author_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "American Journal of Botany" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_1> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_1> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_2> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_3> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_4> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_6> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_6> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_7> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_7> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/datePublished> "2004" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/datePublished> "2004" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/identifier> <http://identifiers.org/pmid/21653447> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/issueNumber> "6" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/name> "Phylogenetic position and biogeography of Hillebrandia sandwicensis (Begoniaceae): A rare Hawaiian relict" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/name> "Phylogenetic position and biogeography of Hillebrandia sandwicensis (Begoniaceae): a rare Hawaiian relict." .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/pagination> "905-917" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://schema.org/volumeNumber> "91" .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.3732/ajb.91.6.905> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_1> <http://schema.org/familyName> "Cox" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_1> <http://schema.org/givenName> "C J" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_1> <http://schema.org/identifier> <http://identifiers.org/doi/10.5091/plecevo.2011.535#author_1> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_1> <http://schema.org/name> "C J Cox" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_3> <http://schema.org/familyName> "Goffinet" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_3> <http://schema.org/givenName> "B" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_3> <http://schema.org/identifier> <http://identifiers.org/doi/10.5091/plecevo.2011.535#author_3> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_3> <http://schema.org/name> "B Goffinet" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_4> <http://schema.org/familyName> "Wickett" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_4> <http://schema.org/givenName> "N J" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_4> <http://schema.org/identifier> <http://identifiers.org/doi/10.5091/plecevo.2011.535#author_4> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_4> <http://schema.org/name> "N J Wickett" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Plant Ecology and Evolution" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/author> <http://identifiers.org/doi/10.5091/plecevo.2011.535#author_1> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/author> <http://identifiers.org/doi/10.5091/plecevo.2011.535#author_3> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/author> <http://identifiers.org/doi/10.5091/plecevo.2011.535#author_4> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/datePublished> "2011" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/datePublished> "2011" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/identifier> <http://identifiers.org/doi/10.5091/plecevo.2011.535> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/identifier> <http://identifiers.org/doi/10.5091/plecevo.2011.535> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/isPartOf> <http://identifiers.org/issn/2032-3921> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/issueNumber> "1" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/issueNumber> "1" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/name> "Deep sequencing of Ptilidium (Ptilidiaceae) suggests evolutionary stasis in liverwort plastid genome structure" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/name> "Deep sequencing ofPtilidium(Ptilidiaceae) suggests evolutionary stasis in liverwort plastid genome structure" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/pagination> "29-43" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/pagination> "29-43" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/volumeNumber> "144" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://schema.org/volumeNumber> "144" .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/doi/10.5091/plecevo.2011.535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://identifiers.org/issn/0007-2745> <http://schema.org/issn> "0007-2745" .
+<http://identifiers.org/issn/0007-2745> <http://schema.org/issn> "0007-2745" .
+<http://identifiers.org/issn/0007-2745> <http://schema.org/issn> "0007-2745" .
+<http://identifiers.org/issn/0007-2745> <http://schema.org/name> "The Bryologist" .
+<http://identifiers.org/issn/0007-2745> <http://schema.org/name> "The Bryologist" .
+<http://identifiers.org/issn/0007-2745> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://identifiers.org/issn/0007-2745> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://identifiers.org/issn/0007-2745> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://identifiers.org/issn/0029-5035> <http://schema.org/issn> "0029-5035" .
+<http://identifiers.org/issn/0029-5035> <http://schema.org/name> "Nova Hedwigia" .
+<http://identifiers.org/issn/0029-5035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://identifiers.org/issn/0040-0262> <http://schema.org/issn> "0040-0262" .
+<http://identifiers.org/issn/0040-0262> <http://schema.org/name> "Taxon" .
+<http://identifiers.org/issn/0040-0262> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://identifiers.org/issn/0363-6445> <http://schema.org/issn> "0363-6445" .
+<http://identifiers.org/issn/0363-6445> <http://schema.org/issn> "0363-6445" .
+<http://identifiers.org/issn/0363-6445> <http://schema.org/name> "Systematic Botany" .
+<http://identifiers.org/issn/0363-6445> <http://schema.org/name> "Systematic Botany" .
+<http://identifiers.org/issn/0363-6445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://identifiers.org/issn/0363-6445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://identifiers.org/issn/1055-7903> <http://schema.org/issn> "1055-7903" .
+<http://identifiers.org/issn/1055-7903> <http://schema.org/issn> "1055-7903" .
+<http://identifiers.org/issn/1055-7903> <http://schema.org/name> "Molecular Phylogenetics and Evolution" .
+<http://identifiers.org/issn/1055-7903> <http://schema.org/name> "Molecular Phylogenetics and Evolution" .
+<http://identifiers.org/issn/1055-7903> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://identifiers.org/issn/1055-7903> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://identifiers.org/issn/1064-3745> <http://schema.org/issn> "1064-3745" .
+<http://identifiers.org/issn/1064-3745> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://identifiers.org/issn/1755-098X> <http://schema.org/issn> "1755-098X" .
+<http://identifiers.org/issn/1755-098X> <http://schema.org/name> "Molecular Ecology Resources" .
+<http://identifiers.org/issn/1755-098X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://identifiers.org/issn/2032-3921> <http://schema.org/issn> "2032-3921" .
+<http://identifiers.org/issn/2032-3921> <http://schema.org/name> "Plant Ecology and Evolution" .
+<http://identifiers.org/issn/2032-3921> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://identifiers.org/issn/2155-6547> <http://schema.org/issn> "2155-6547" .
+<http://identifiers.org/issn/2155-6547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> .
+<http://orcid.org/0000-0002-0235-9506/9874737#author_1> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874737#author_1> .
+<http://orcid.org/0000-0002-0235-9506/9874737#author_1> <http://schema.org/name> "Forrest LauraL" .
+<http://orcid.org/0000-0002-0235-9506/9874737#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://orcid.org/0000-0002-0235-9506/9874737#author_2> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874737#author_2> .
+<http://orcid.org/0000-0002-0235-9506/9874737#author_2> <http://schema.org/name> "Goffinet Bernard" .
+<http://orcid.org/0000-0002-0235-9506/9874737#author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://orcid.org/0000-0002-0235-9506/9874737#author_3> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874737#author_3> .
+<http://orcid.org/0000-0002-0235-9506/9874737#author_3> <http://schema.org/name> "McFarland Ken" .
+<http://orcid.org/0000-0002-0235-9506/9874737#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://orcid.org/0000-0002-0235-9506/9874737> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506/9874737#author_1> .
+<http://orcid.org/0000-0002-0235-9506/9874737> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506/9874737#author_2> .
+<http://orcid.org/0000-0002-0235-9506/9874737> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506/9874737#author_3> .
+<http://orcid.org/0000-0002-0235-9506/9874737> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506/9874737> <http://schema.org/datePublished> "2012" .
+<http://orcid.org/0000-0002-0235-9506/9874737> <http://schema.org/identifier> "IND44700045" .
+<http://orcid.org/0000-0002-0235-9506/9874737> <http://schema.org/name> "Chloroplast, mitochondrial, and nuclear microsatellites from the southern Appalachian hornwort, Nothoceros aenigmaticus (Dendrocerotaceae)" .
+<http://orcid.org/0000-0002-0235-9506/9874737> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://orcid.org/0000-0002-0235-9506/9874740#author_1> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874740#author_1> .
+<http://orcid.org/0000-0002-0235-9506/9874740#author_1> <http://schema.org/name> "Budke JessicaM" .
+<http://orcid.org/0000-0002-0235-9506/9874740#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://orcid.org/0000-0002-0235-9506/9874740#author_3> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874740#author_3> .
+<http://orcid.org/0000-0002-0235-9506/9874740#author_3> <http://schema.org/name> "Goffinet Bernard" .
+<http://orcid.org/0000-0002-0235-9506/9874740#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://orcid.org/0000-0002-0235-9506/9874740#author_4> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874740#author_4> .
+<http://orcid.org/0000-0002-0235-9506/9874740#author_4> <http://schema.org/name> "Shaw Blanka" .
+<http://orcid.org/0000-0002-0235-9506/9874740#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://orcid.org/0000-0002-0235-9506/9874740#author_5> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874740#author_5> .
+<http://orcid.org/0000-0002-0235-9506/9874740#author_5> <http://schema.org/name> "Wickett NormanJ" .
+<http://orcid.org/0000-0002-0235-9506/9874740#author_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://orcid.org/0000-0002-0235-9506/9874740> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506/9874740#author_1> .
+<http://orcid.org/0000-0002-0235-9506/9874740> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506/9874740#author_3> .
+<http://orcid.org/0000-0002-0235-9506/9874740> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506/9874740#author_4> .
+<http://orcid.org/0000-0002-0235-9506/9874740> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506/9874740#author_5> .
+<http://orcid.org/0000-0002-0235-9506/9874740> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506/9874740> <http://schema.org/datePublished> "2011" .
+<http://orcid.org/0000-0002-0235-9506/9874740> <http://schema.org/identifier> "IND44607559" .
+<http://orcid.org/0000-0002-0235-9506/9874740> <http://schema.org/name> "Frequent pseudogenization and loss of the plastid-encoded sulfate-transport gene cysA throughout the evolution of liverworts." .
+<http://orcid.org/0000-0002-0235-9506/9874740> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_1> <http://schema.org/familyName> "Crandall-Stotler" .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_1> <http://schema.org/givenName> "B J" .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_1> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874839#author_1> .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_1> <http://schema.org/name> "B J Crandall-Stotler" .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_3> <http://schema.org/familyName> "Schuette" .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_3> <http://schema.org/givenName> "S W" .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_3> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874839#author_3> .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_3> <http://schema.org/name> "S W Schuette" .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_4> <http://schema.org/familyName> "Stotler" .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_4> <http://schema.org/givenName> "R E" .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_4> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874839#author_4> .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_4> <http://schema.org/name> "R E Stotler" .
+<http://orcid.org/0000-0002-0235-9506/9874839#author_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://orcid.org/0000-0002-0235-9506/9874839> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Bryologist" .
+<http://orcid.org/0000-0002-0235-9506/9874839> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506/9874839#author_1> .
+<http://orcid.org/0000-0002-0235-9506/9874839> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506/9874839#author_3> .
+<http://orcid.org/0000-0002-0235-9506/9874839> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506/9874839#author_4> .
+<http://orcid.org/0000-0002-0235-9506/9874839> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506/9874839> <http://schema.org/datePublished> "2005" .
+<http://orcid.org/0000-0002-0235-9506/9874839> <http://schema.org/issueNumber> "2" .
+<http://orcid.org/0000-0002-0235-9506/9874839> <http://schema.org/name> "A molecular study of the simple thalloid liverwort Jensenia (Marchantiophyta, Pallaviciniaceae)" .
+<http://orcid.org/0000-0002-0235-9506/9874839> <http://schema.org/pagination> "204-211" .
+<http://orcid.org/0000-0002-0235-9506/9874839> <http://schema.org/volumeNumber> "108" .
+<http://orcid.org/0000-0002-0235-9506/9874839> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://orcid.org/0000-0002-0235-9506/9874841#author_1> <http://schema.org/familyName> "Crandall-Stotler" .
+<http://orcid.org/0000-0002-0235-9506/9874841#author_1> <http://schema.org/givenName> "B J" .
+<http://orcid.org/0000-0002-0235-9506/9874841#author_1> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874841#author_1> .
+<http://orcid.org/0000-0002-0235-9506/9874841#author_1> <http://schema.org/name> "B J Crandall-Stotler" .
+<http://orcid.org/0000-0002-0235-9506/9874841#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://orcid.org/0000-0002-0235-9506/9874841#author_3> <http://schema.org/familyName> "Stotler" .
+<http://orcid.org/0000-0002-0235-9506/9874841#author_3> <http://schema.org/givenName> "R E" .
+<http://orcid.org/0000-0002-0235-9506/9874841#author_3> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874841#author_3> .
+<http://orcid.org/0000-0002-0235-9506/9874841#author_3> <http://schema.org/name> "R E Stotler" .
+<http://orcid.org/0000-0002-0235-9506/9874841#author_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://orcid.org/0000-0002-0235-9506/9874841> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Taxon" .
+<http://orcid.org/0000-0002-0235-9506/9874841> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506/9874841#author_1> .
+<http://orcid.org/0000-0002-0235-9506/9874841> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506/9874841#author_3> .
+<http://orcid.org/0000-0002-0235-9506/9874841> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506/9874841> <http://schema.org/datePublished> "2005" .
+<http://orcid.org/0000-0002-0235-9506/9874841> <http://schema.org/issueNumber> "2" .
+<http://orcid.org/0000-0002-0235-9506/9874841> <http://schema.org/name> "Evolutionary trends in the simple thalloid liverworts (Marchantiophyta, Jungermanniopsida subclass Metzgeriidae)" .
+<http://orcid.org/0000-0002-0235-9506/9874841> <http://schema.org/pagination> "299-316" .
+<http://orcid.org/0000-0002-0235-9506/9874841> <http://schema.org/volumeNumber> "54" .
+<http://orcid.org/0000-0002-0235-9506/9874841> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://orcid.org/0000-0002-0235-9506/9874842#author_1> <http://schema.org/familyName> "Crandall-Stotler" .
+<http://orcid.org/0000-0002-0235-9506/9874842#author_1> <http://schema.org/givenName> "B J" .
+<http://orcid.org/0000-0002-0235-9506/9874842#author_1> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874842#author_1> .
+<http://orcid.org/0000-0002-0235-9506/9874842#author_1> <http://schema.org/name> "B J Crandall-Stotler" .
+<http://orcid.org/0000-0002-0235-9506/9874842#author_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://orcid.org/0000-0002-0235-9506/9874842> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "Journal of the Hattori Botanical Laboratory" .
+<http://orcid.org/0000-0002-0235-9506/9874842> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506/9874842#author_1> .
+<http://orcid.org/0000-0002-0235-9506/9874842> <http://schema.org/author> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506/9874842> <http://schema.org/datePublished> "2005" .
+<http://orcid.org/0000-0002-0235-9506/9874842> <http://schema.org/issueNumber> "97" .
+<http://orcid.org/0000-0002-0235-9506/9874842> <http://schema.org/name> "Progress towards a robust phylogeny for the liverworts, with particular focus on the simple thalloids" .
+<http://orcid.org/0000-0002-0235-9506/9874842> <http://schema.org/pagination> "127-159" .
+<http://orcid.org/0000-0002-0235-9506/9874842> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/alternateName> "L.L. Forrest" .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/alternateName> "Laura Forrest" .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/alternateName> "Laura L Forrest" .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/familyName> "Forrest" .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/givenName> "Laura" .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1007/978-1-61779-276-2_10#author_1> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1007/s00606-002-0033-y#author_1> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2003.08.023#author_1> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_3> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2012.12.006#author_3> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1016/j.ympev.2013.04.008#author_2> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1073/pnas.0905845106#author_16> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.10M/S0960428603000416#author_1> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1111/j.1755-0998.2008.02439.x#author_4> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1127/0029-5035/2010/0091-0421#author_2> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1600/0363644054782297#author_1> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1600/036364406777585784#author_2> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745(2006)109[303:UTEHOT]2.0.CO;2#author_4> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-113.1.164#author_1> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-114.1.102#author_2> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.1639/0007-2745-114.1.116#author_1> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1000283#author_1> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1000283#author_1> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100010#author_2> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100010#author_2> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100392#author_1> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1100392#author_1> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1200429#author_1> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.1200429#author_1> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_5> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.3732/ajb.91.6.905#author_5> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://identifiers.org/doi/10.5091/plecevo.2011.535#author_2> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874737#author_4> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874740#author_2> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874839#author_2> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874841#author_2> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506/9874842#author_2> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://orcid.org/0000-0002-0235-9506> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/identifier> <http://www.scopus.com/inward/authorDetails.url?authorID=7006763865&partnerID=MN8TOARS> .
+<http://orcid.org/0000-0002-0235-9506> <http://schema.org/name> "Laura Forrest" .
+<http://orcid.org/0000-0002-0235-9506> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .

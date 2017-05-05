@@ -1,0 +1,1014 @@
+<html>
+	<head>
+		<title>CSL JSON to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<script src="viz.js"></script>
+		<!-- stuff below needs to go into CouchDB views -->
+		<script src="shared.js"></script>
+		<script src="language.js"></script>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>CSL JSON to n-triples</h1>
+
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>JSON</h2>
+			<!-- JSON for data object goes below -->
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+{
+   "_id": "http://dx.doi.org/10.3897/zookeys.647.11192",
+   "_rev": "2-18fbf17d8e79b6bf382923ee72877e6f",
+   "message-timestamp": "2017-04-25T14:18:58+00:00",
+   "message-modified": "2017-04-25T14:19:00+00:00",
+   "message-format": "application/vnd.crossref-api-message+json",
+   "message": {
+       "indexed": {
+           "date-parts": [
+               [
+                   2017,
+                   4,
+                   3
+               ]
+           ],
+           "date-time": "2017-04-03T06:53:22Z",
+           "timestamp": 1491202402680
+       },
+       "reference-count": 30,
+       "publisher": "Pensoft Publishers",
+       "license": [
+           {
+               "URL": "http://creativecommons.org/licenses/by/4.0/",
+               "start": {
+                   "date-parts": [
+                       [
+                           2017,
+                           1,
+                           23
+                       ]
+                   ],
+                   "date-time": "2017-01-23T00:00:00Z",
+                   "timestamp": 1485129600000
+               },
+               "delay-in-days": 0,
+               "content-version": "vor"
+           }
+       ],
+       "funder": [
+           {
+               "DOI": "10.13039/501100001809",
+               "name": "National Natural Science Foundation of China",
+               "doi-asserted-by": "publisher",
+               "award": [
+               ]
+           }
+       ],
+       "content-domain": {
+           "domain": [
+           ],
+           "crossmark-restriction": false
+       },
+       "short-container-title": [
+           "ZK"
+       ],
+       "DOI": "10.3897/zookeys.647.11192",
+       "type": "journal-article",
+       "created": {
+           "date-parts": [
+               [
+                   2017,
+                   1,
+                   23
+               ]
+           ],
+           "date-time": "2017-01-23T15:16:34Z",
+           "timestamp": 1485184594000
+       },
+       "page": "1-22",
+       "source": "Crossref",
+       "is-referenced-by-count": 0,
+       "title": [
+           "A new subterranean species of Pseudocrangonyx from China with an identification key to all species of the genus (Crustacea, Amphipoda, Pseudocrangonyctidae)"
+       ],
+       "prefix": "10.3897",
+       "volume": "647",
+       "author": [
+           {
+               "given": "Zhonge",
+               "family": "Hou",
+               "affiliation": [
+               ]
+           },
+           {
+               "given": "Shuangyan",
+               "family": "Zhao",
+               "affiliation": [
+               ]
+           }
+       ],
+       "member": "2258",
+       "published-online": {
+           "date-parts": [
+               [
+                   2017,
+                   1,
+                   23
+               ]
+           ]
+       },
+       "reference": [
+           {
+               "key": "11192_B1",
+               "first-page": "119",
+               "article-title": "Pseudocrangonyx, a new genus of subterranean amphipods from Japan.",
+               "volume": "10",
+               "author": "Akatsuka",
+               "year": "1922",
+               "journal-title": "Annotationes Zoologicae Japonenses"
+           },
+           {
+               "key": "11192_B2",
+               "first-page": "55",
+               "article-title": "Fresh-water amphipod crustaceans of glaciated North America.",
+               "volume": "72",
+               "author": "Bousfield",
+               "year": "1958",
+               "journal-title": "Canadian Field Naturalist"
+           },
+           {
+               "key": "11192_B3",
+               "first-page": "77",
+               "article-title": "Rod Pseudocrangonyx Akatsuka et Komai (Crustacea, Amphipoda) v SSSR.",
+               "volume": "60",
+               "author": "Birstein",
+               "year": "1955",
+               "journal-title": "Biulleten’ Moskovskogo Obshchestva Ispytatelej Prirody, Otdeln’yi Ottisk"
+           },
+           {
+               "key": "11192_B4",
+               "first-page": "176",
+               "article-title": "New forms of freshwater gammarids of Ussury District.",
+               "volume": "6",
+               "author": "Derzhavin",
+               "year": "1927",
+               "journal-title": "Russkii Gidrobiologicheskii Zhurnal"
+           },
+           {
+               "key": "11192_B5",
+               "first-page": "947",
+               "article-title": "Allocrangonyctidae and Pseudocrangonyctidae, two new families of Holarctic subterranean amphipod crustaceans (Gammaridea), with comments on their phylogenetic and zoogeographic relationships.",
+               "volume": "102",
+               "author": "Holsinger",
+               "year": "1989",
+               "journal-title": "Proceedings of the Biological Society of Washington"
+           },
+           {
+               "key": "11192_B6",
+               "DOI": "10.5479/si.03629236.259.1"
+           },
+           {
+               "key": "11192_B7",
+               "first-page": "42",
+               "article-title": "A new troglobitic species found in Huayangdong cave, China (Crustacea, Amphipoda, Pseudocrangonyctidae).",
+               "volume": "28",
+               "author": "Hou",
+               "year": "2003",
+               "journal-title": "Acta Zootaxonomica Sinica"
+           },
+           {
+               "key": "11192_B8",
+               "DOI": "10.1016/j.ympev.2007.06.006"
+           },
+           {
+               "key": "11192_B9",
+               "DOI": "10.1111/zoj.12119"
+           },
+           {
+               "key": "11192_B10",
+               "DOI": "10.1093/bioinformatics/btw108"
+           },
+           {
+               "key": "11192_B11",
+               "DOI": "10.1080/00222930310001597295"
+           },
+           {
+               "key": "11192_B12",
+               "author": "Labay",
+               "volume": "Vol. 2",
+               "first-page": "59",
+               "year": "1999",
+               "journal-title": "Atlas and key to the Malacostraca of fresh- and brackish waters of the Island of Sakhalin – Fisheries Research in Sakhalin-Kuril Region and Adjacent Waters"
+           },
+           {
+               "key": "11192_B13",
+               "first-page": "289",
+               "article-title": "Three species of the genus Pseudocrangonyx Akatsuka et Komai, 1922 (Crustacea: Amphipoda) from subterraneanfresh waters of the Island of Sakhalin.",
+               "volume": "10",
+               "author": "Labay",
+               "year": "2001",
+               "journal-title": "Arthropoda Selecta"
+           },
+           {
+               "key": "11192_B14",
+               "DOI": "10.1093/molbev/mss020"
+           },
+           {
+               "key": "11192_B15",
+               "first-page": "71",
+               "article-title": "A new subterranean Amphipod, Pseudocrangonyx manchuricus sp. nov. found in Manchoukuo.",
+               "volume": "6",
+               "author": "Oguro",
+               "year": "1938",
+               "journal-title": "Journal of Science of the Hiroshima University (BI)"
+           },
+           {
+               "key": "11192_B16",
+               "author": "Rambaut",
+               "year": "2009",
+               "journal-title": "Tracer 1.5"
+           },
+           {
+               "key": "11192_B17",
+               "DOI": "10.1038/sj.hdy.6800971"
+           },
+           {
+               "key": "11192_B18",
+               "DOI": "10.1093/sysbio/sys029"
+           },
+           {
+               "key": "11192_B19",
+               "first-page": "1486",
+               "article-title": "A new species of the genus Pseudocrangonyx (Crustacea, Amphipoda, Pseudocrangonyctidae) from Primorye region (Russia).",
+               "volume": "85",
+               "author": "Sidorov",
+               "year": "2006",
+               "journal-title": "Zoologicheskii Zhurnal"
+           },
+           {
+               "key": "11192_B20",
+               "first-page": "92",
+               "article-title": "New species of stygobiont amphipod (Crustacea: Amphipoda: Pseudocrangonyctidae) from Primorye, with description of female of Pseudocrangony levanidovi Birstein from the Khor River springs.",
+               "volume": "1",
+               "author": "Sidorov",
+               "year": "2009",
+               "journal-title": "Amurian Zoological Journal"
+           },
+           {
+               "key": "11192_B21",
+               "first-page": "3",
+               "article-title": "Pseudocrangonyx elenae, sp. n. (Crustacea: Amphipoda: Pseudocrangonyctidae) from shallow subterranean habitats (SSHs) of Eastern Sikhote-Alin.",
+               "volume": "3",
+               "author": "Sidorov",
+               "year": "2011",
+               "journal-title": "Amurian Zoological Journal"
+           },
+           {
+               "key": "11192_B22",
+               "first-page": "30",
+               "article-title": "Pseudocrangonyx kseniae, a new species of Amphipoda (Crustacea, Pseudocrangonyctidae) from subterranean waters of Southern Primorye.",
+               "volume": "91",
+               "author": "Sidorov",
+               "year": "2012",
+               "journal-title": "Zoologicheskii Zhurnal"
+           },
+           {
+               "key": "11192_B23",
+               "DOI": "10.11646/zootaxa.3693.4.8"
+           },
+           {
+               "key": "11192_B24",
+               "DOI": "10.1093/bioinformatics/btu033"
+           },
+           {
+               "key": "11192_B25",
+               "author": "Swofford",
+               "year": "2002",
+               "journal-title": "PAUP*. Phylogenetic Analysis Using Parsimony (*and other methods), version 4.0b10."
+           },
+           {
+               "key": "11192_B26",
+               "first-page": "275",
+               "article-title": "Redescription of a subterranean amphipod, Pseudocrangonyx shikokunis (Crustacea: Amphipoda: Pseudocrangonyctidae) from Japan.",
+               "volume": "13",
+               "author": "Tomikawa",
+               "year": "2008",
+               "journal-title": "Species Diversity"
+           },
+           {
+               "key": "11192_B27",
+               "DOI": "10.3897/zse.92.10176"
+           },
+           {
+               "key": "11192_B28",
+               "first-page": "445",
+               "article-title": "Subterranean Crustacea from Kwantung.",
+               "volume": "14",
+               "author": "Uéno",
+               "year": "1934",
+               "journal-title": "Annotationes Zoologicae Japonenses"
+           },
+           {
+               "key": "11192_B29",
+               "first-page": "501",
+               "article-title": "Results of the speleological survey in South Korea 1966 II. Gammarid Amphipoda found in subterranean waters of South Korea.",
+               "volume": "9",
+               "author": "Uéno",
+               "year": "1966",
+               "journal-title": "Bulletin of the National Science Museum, Tokyo"
+           },
+           {
+               "key": "11192_B30",
+               "DOI": "10.1163/156854008X367205"
+           }
+       ],
+       "container-title": [
+           "ZooKeys"
+       ],
+       "original-title": [
+       ],
+       "link": [
+           {
+               "URL": "http://zookeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=11192",
+               "content-type": "application/pdf",
+               "content-version": "vor",
+               "intended-application": "text-mining"
+           },
+           {
+               "URL": "http://zookeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=11192",
+               "content-type": "application/xml",
+               "content-version": "vor",
+               "intended-application": "text-mining"
+           }
+       ],
+       "deposited": {
+           "date-parts": [
+               [
+                   2017,
+                   1,
+                   23
+               ]
+           ],
+           "date-time": "2017-01-23T15:16:36Z",
+           "timestamp": 1485184596000
+       },
+       "score": 1,
+       "subtitle": [
+       ],
+       "short-title": [
+       ],
+       "issued": {
+           "date-parts": [
+               [
+                   2017,
+                   1,
+                   23
+               ]
+           ]
+       },
+       "references-count": 30,
+       "URL": "http://dx.doi.org/10.3897/zookeys.647.11192",
+       "relation": {
+           "cites": [
+           ]
+       },
+       "ISSN": [
+           "1313-2970",
+           "1313-2989"
+       ],
+       "issn-type": [
+           {
+               "value": "1313-2989",
+               "type": "print"
+           },
+           {
+               "value": "1313-2970",
+               "type": "electronic"
+           }
+       ],
+       "subject": [
+           "Animal Science and Zoology",
+           "Ecology, Evolution, Behavior and Systematics"
+       ]
+   }
+}			
+			</textarea>
+			<br />
+			<button onclick="convert()">Convert JSON to RDF</button>
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;background-color:#FF7;color:#222;overflow:auto;"></div>
+		<h2>Graph</h2>
+		<div id="graph" style="width:100%;overflow:auto;"></div>
+		<h2>JSON-LD</h2>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;overflow:auto;"></div>
+
+</div>			
+			
+		
+		
+		
+<script>
+	
+//----------------------------------------------------------------------------------------
+// START COUCHDB VIEW
+function message(doc) {
+  if (doc.message) {
+
+    var subject_id = doc._id.toLowerCase();   
+    subject_id = subject_id.replace(/http[s]?:\/\/(dx\.)?doi.org\//, 'http://identifiers.org/doi/');
+    
+    var triples = [];
+    var type = '';
+
+    for (var i in doc.message) {
+      switch (i) {
+
+        case 'DOI':
+          triples.push(triple(subject_id,
+            'http://schema.org/identifier',
+            'http://identifiers.org/doi/' + doc.message[i].toLowerCase()));
+          break;
+
+        case 'URL':
+          triples.push(triple(subject_id,
+            'http://schema.org/url',
+            doc.message[i]));
+          break;
+          
+        case 'alternative-id':
+			for (var j in doc.message[i]) {
+			  triples.push(triple(subject_id,
+				'http://schema.org/identifier',
+				doc.message[i][j]));
+			}
+			break;      
+			
+		case 'type':
+			switch (doc.message[i]) {
+			  case 'article-journal':
+			  case 'journal-article':
+			    type = 'http://schema.org/ScholarlyArticle';
+				break;
+			  default:
+				break;
+			}
+			break;
+			  
+
+          // title can be string or array
+        case 'title':
+          if (Array.isArray(doc.message[i])) {
+            for (var j in doc.message[i]) {
+
+              var lang = detect_language(doc.message[i][j]);
+
+              triples.push(triple(subject_id,
+                'http://schema.org/name',
+                doc.message[i][j], lang));
+            }
+          } else {
+            triples.push(triple(subject_id,
+              'http://schema.org/name',
+              doc.message[i]));
+          }
+          break;
+          
+
+			// article metadata
+		  case 'issue':
+			triples.push(triple(subject_id,
+			  'http://schema.org/issueNumber',
+			  doc.message[i]));
+			break;
+
+		  case 'pages':
+			triples.push(triple(subject_id,
+			  'http://schema.org/pagination',
+			  doc.message[i]));
+			break;
+
+		  case 'volume':
+			triples.push(triple(subject_id,
+			  'http://schema.org/volumeNumber',
+			  doc.message[i]));
+			break;
+		
+		  case 'page':
+			var parts = doc.message[i].match(/^(.*)\-(.*)$/);
+			if (parts) {
+			  triples.push(triple(subject_id,
+				'http://schema.org/pageStart',
+				parts[1]));
+			  triples.push(triple(subject_id,
+				'http://schema.org/pageEnd',
+				parts[2]));
+			} else {
+			  triples.push(triple(subject_id,
+				'http://schema.org/pagination',
+				doc.message[i]));
+			}
+			break;
+		
+	  case 'issued':
+	     var date = '';
+	     var dateparts = doc.message[i]['date-parts'][0];
+	     
+	     switch (dateparts.length) {
+	        case 1:
+	           date = dateparts[0];
+	           break;
+	        case 2:
+	           date = dateparts[0] + '-' + ("00" + dateparts[1]).slice(-2) + '-00';
+	           break;
+	        case 3:
+	           date = dateparts[0] + '-' + ("00" + dateparts[1]).slice(-2) + '-' + ("00" + dateparts[2]).slice(-2);	           
+	           break;
+	        default:
+	        	break;
+	    }
+	    triples.push(triple(subject_id,
+          'http://schema.org/datePublished',
+          date.toString()));
+	    
+	    break;
+          
+          
+			// tags
+		  case 'subject':
+			for (var j in doc.message[i]) {
+			  triples.push(triple(subject_id,
+				'http://schema.org/keywords',
+				doc.message[i][j]));
+			}
+			break;
+			
+			// license
+		  case 'license':
+			for (var j in doc.message[i]) {
+			  if (doc.message[i][j].URL) {
+				triples.push(triple(subject_id,
+				  'http://schema.org/license',
+				  doc.message[i][j].URL));
+			  }
+			}
+			break;
+			
+			// publisher
+			// should this be linked to journal rather than article?
+			// should this be an object rather than a string?
+		  case 'publisher':
+			triples.push(triple(subject_id,
+			  'http://schema.org/publisher',
+			  doc.message[i]));
+			break;
+						
+		
+			// abstract
+		  case 'abstract':
+			triples.push(triple(subject_id,
+				  'http://schema.org/description',
+				  doc.message[i]));
+			break;
+          
+          
+		  // work level multi
+		  // do this because there may be fields that only exist in multi keys
+		  case 'multi':
+			for (var j in doc.message['multi']._key) {
+			  for (var k in doc.message['multi']._key[j]) {
+				switch (j) {
+				  case 'title':
+					triples.push(triple(subject_id,
+						'http://schema.org/name',
+						doc.message['multi']._key[j][k], k));
+					break;
+				  case 'abstract':
+					triples.push(triple(subject_id,
+						'http://schema.org/description',
+						doc.message['multi']._key[j][k], k));
+					break;
+				   default:
+					 break;
+				  }
+				}
+			}               
+			break; 
+			
+			// journal
+		  case 'ISSN':
+			// one journal, but can have 1-2 ISSNs
+			// pick one for cluster_id
+			 var journal_id = 'http://identifiers.org/issn/' + doc.message[i][0];
+		 
+			  triples.push(triple(subject_id,
+				'http://schema.org/isPartOf',
+				journal_id
+			  ));
+		 
+			  // type
+			  triples.push(triple(journal_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/Periodical'));
+
+			  // journal name can be string or array
+			  if (Array.isArray(doc.message['container-title'])) {
+				for (var j in doc.message['container-title']) {
+				  triples.push(triple(journal_id,
+					'http://schema.org/name',
+					doc.message['container-title'][j]));
+				}
+			  } else {
+				triples.push(triple(journal_id,
+				  'http://schema.org/name',
+				  doc.message['container-title']));
+			  }
+		  
+				// multi?
+				if (doc.message['multi']) {
+				  if (doc.message['multi']._key['container-title']) {
+					for (var j in doc.message['multi']._key['container-title']) {
+					  triples.push(triple(journal_id,
+						'http://schema.org/name',
+						doc.message['multi']._key['container-title'][j], j));  
+					}
+				  }
+				} 
+		  
+		  
+			  // ISSNs
+			for (var j in doc.message[i]) {
+
+			  // issn
+			  triples.push(triple(journal_id,
+				'http://schema.org/issn',
+				doc.message[i][j]));
+			
+			  // identifiers
+			triples.push(triple(journal_id,
+			  'http://schema.org/identifier',
+			  'http://identifiers.org/issn/' + doc.message[i][j]));
+		  
+		  
+
+			}
+			break;
+			
+			// authors (may include ORCIDs)
+			// create an identifier to make this addressable
+		  case 'author':
+			var n = doc.message[i].length;
+			
+			// store an ordered list of authors as well
+			
+			//http://purl.org/ontology/bibo/contributorList
+			
+			
+			for (var j = 0; j < n; j++) {
+			  var author_id = '';
+
+			  // create identifier
+			  if (1) {
+			     // use ORCID if available, otherwise hash
+			  	if (doc.message[i][j].ORCID) {
+					author_id = doc.message[i][j].ORCID;
+			  	} else {
+					// #hash identifier 
+					author_id = subject_id + '#author_' + (j + 1);
+			  	}
+			  } else {
+			 	 // always use #hash identifier 
+			   	author_id = subject_id + '#author_' + (j + 1);
+			  }
+
+			  // type, need to handle organisations as authors
+			  triples.push(triple(author_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/Person'));
+
+			  triples.push(triple(subject_id,
+				'http://schema.org/author',
+				author_id));
+
+			  // name
+			  var name = '';
+			  if (doc.message[i][j].given) {
+				triples.push(triple(author_id,
+				  'http://schema.org/givenName', // ?
+				  doc.message[i][j].given));
+
+				name += doc.message[i][j].given;
+			  }
+			  if (doc.message[i][j].family) {
+				triples.push(triple(author_id,
+				  'http://schema.org/familyName', // ?
+				  doc.message[i][j].family));
+
+				name += ' ' + doc.message[i][j].family;
+			  }
+
+			  if (name != '') {
+				triples.push(triple(author_id,
+				  'http://schema.org/name', // ?
+				  name));
+			  }
+			  
+			  // identifier
+			  if (doc.message[i][j].ORCID) {
+			    triples.push(triple(author_id,
+				  'http://schema.org/identifier',
+				  doc.message[i][j].ORCID));
+				
+			  }
+		  
+			  // affiliation
+			  // make into a role
+			 if (doc.message[i][j].affiliation) {     
+				var affiliation_count = 1;       
+				for (var k in doc.message[i][j].affiliation) {
+				   if (doc.message[i][j].affiliation[k].name) {
+					 var affiliation_id = author_id + '/affiliation_' + affiliation_count;
+					 var affiliation_role_id = author_id + '/affiliation_' + affiliation_count + '/role';
+			   
+					 // author to role
+					 triples.push(triple(author_id,
+					  'http://schema.org/affiliation', 
+					  affiliation_role_id));
+				  
+					 triples.push(triple(affiliation_role_id,
+					   'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+						'http://schema.org/OrganizationRole'));
+					
+					 // role to affiliation
+					 triples.push(triple(affiliation_role_id,
+					  'http://schema.org/affiliation', 
+					  affiliation_id));
+				 
+					 triples.push(triple(affiliation_id,
+					  'http://schema.org/name', 
+					  doc.message[i][j].affiliation[k].name));
+ 
+					 triples.push(triple(affiliation_id,
+					   'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+					  'http://schema.org/Organisation'));
+ 
+				   }
+				   affiliation_count++;
+				 }
+			  }
+		 
+
+			}
+			break;			
+			
+          
+			// funding
+		  case 'funder':
+			var n = doc.message[i].length;
+			for (var j = 0; j < n; j++) {
+			  var funder_id = '';
+
+			  // create identifier for funder
+			  if (doc.message[i][j].DOI) {
+				funder_id = 'http://identifiers.org/doi/' + doc.message[i][j].DOI;
+			  } else {
+				// #hash identifier 
+				funder_id = subject_id + '#funder_' + (j + 1);
+			  }
+
+			  // create funder 
+			  triples.push(triple(funder_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/Organisation'));
+
+			  triples.push(triple(funder_id,
+				'http://schema.org/name',
+				doc.message[i][j].name));
+
+			  // role
+			  var m = doc.message[i][j].award.length;
+
+			  if (m == 0) {
+				// funder but award not known
+				var award_id = funder_id + '/award';
+
+				triples.push(triple(award_id,
+				  'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				  'http://schema.org/Role'));
+
+				// link to funder 
+				triples.push(triple(award_id,
+				  'http://schema.org/funder',
+				  funder_id));
+
+				// link role to work         
+				triples.push(triple(subject_id,
+				  'http://schema.org/funder',
+				  award_id));
+			  } else {
+				// we have one or more awards
+				for (var a = 0; a < m; a++) {
+				  var award_id = funder_id + '/award_' + (a+1);
+
+				  triples.push(triple(award_id,
+					'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+					'http://schema.org/Role'));
+
+				  triples.push(triple(award_id,
+					'http://schema.org/roleName',
+					doc.message[i][j].award[a]
+				  ));
+
+				  // link to funder 
+				  triples.push(triple(award_id,
+					'http://schema.org/funder',
+					funder_id));
+
+				  // link role to work         
+				  triples.push(triple(subject_id,
+					'http://schema.org/funder',
+					award_id));
+				}
+			  }
+			}
+			break;
+			
+
+			// links to representions such as PDFs, XML, HTML, etc.
+			// may be links to text mining sources
+		  case 'link':
+			var n = doc.message[i].length;
+			for (var j = 0; j < n; j++) {
+			  var link_id = subject_id + '#link_' + (j + 1);
+
+			  // type
+			  triples.push(triple(link_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/CreativeWork'));
+
+			  if (doc.message[i][j].URL) {
+				triples.push(triple(link_id,
+				  'http://schema.org/url',
+				  doc.message[i][j].URL));
+
+				if (doc.message[i][j]['content-type']) {
+				  triples.push(triple(link_id,
+					'http://schema.org/fileFormat',
+					doc.message[i][j]['content-type']));
+				}
+
+				// link to work
+				triples.push(triple(subject_id,
+				  'http://schema.org/workExample',
+				  link_id));
+			  }
+			}
+			break;
+
+
+/*
+      "reference": [
+           {
+               "key": "11192_B1",
+               "first-page": "119",
+               "article-title": "Pseudocrangonyx, a new genus of subterranean amphipods from Japan.",
+               "volume": "10",
+               "author": "Akatsuka",
+               "year": "1922",
+               "journal-title": "Annotationes Zoologicae Japonenses"
+           },
+ */
+ 		  case 'reference':
+			var n = doc.message[i].length;
+			for (var j = 0; j < n; j++) {
+			  var reference_id = subject_id + '#' + doc.message[i][j].key;
+			  
+ 				// link to work
+				triples.push(triple(subject_id,
+				  'http://schema.org/citation',
+				  reference_id));
+			  
+			  // type
+			  triples.push(triple(reference_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/CreativeWork'));
+
+			  // default identifier
+			  triples.push(triple(reference_id,
+				'http://schema.org/identifier',
+				reference_id));
+
+               // DOI?
+               if (doc.message[i][j].DOI) {
+				  triples.push(triple(reference_id,
+					'http://schema.org/identifier',
+					'http://identifiers.org/doi/' + doc.message[i][j].DOI));
+					
+				  // for ease of querying
+                  triples.push(triple(reference_id,
+					'http://prismstandard.org/namespaces/basic/2.1/doi',
+					doc.message[i][j].DOI));				  						
+				}  
+				
+				// unstructured?
+                if (doc.message[i][j].unstructured) {
+				  triples.push(triple(reference_id,
+					'http://schema.org/description',
+					doc.message[i][j].unstructured));
+				}               
+				
+				// metadata
+				
+				/* *** non schema *** */
+               if (doc.message[i][j].author) {
+				  triples.push(triple(reference_id,
+					'http://purl.org/dc/terms/creator',
+					doc.message[i][j].author));
+				}               
+				
+				
+               if (doc.message[i][j]['article-title']) {
+				  triples.push(triple(reference_id,
+					'http://schema.org/name',
+					doc.message[i][j]['article-title']));
+				}               
+				
+				/* *** non schema *** */
+               if (doc.message[i][j]['journal-title']) {
+				  triples.push(triple(reference_id,
+					'http://prismstandard.org/namespaces/basic/2.1/publicationName',
+					doc.message[i][j]['journal-title']));
+				}  
+                if (doc.message[i][j].volume) {
+				  triples.push(triple(reference_id,
+					'http://schema.org/volumeNumber',
+					doc.message[i][j].volume));
+				}               				             
+               if (doc.message[i][j]['first-page']) {
+				  triples.push(triple(reference_id,
+					'http://schema.org/pageStart',
+					doc.message[i][j]['first-page']));
+				}               
+               if (doc.message[i][j].year) {
+				  triples.push(triple(reference_id,
+					'http://schema.org/datePublished',
+					doc.message[i][j].year));
+				}               
+				             
+			  }
+			
+			break;
+  
+			
+
+        default:
+          break;
+      }
+    }
+
+    if (type == '') {
+      type = 'http://schema.org/CreativeWork';
+    }
+    
+
+    // defaults
+    triples.push(triple(subject_id,
+      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+      type));
+
+    output(doc, triples);
+  }
+}
+
+function couchdb(doc) {
+  if (doc['message-format']) {
+    if (doc['message-format'] == 'application/vnd.crossref-api-message+json') {
+      message(doc);
+    }
+  }
+}
+// END COUCHDB VIEW
+
+		
+//----------------------------------------------------------------------------------------
+function convert() {
+	var json = $('#json').val();
+	var doc = JSON.parse(json);
+	
+	couchdb(doc);
+}
+
+	
+	</script>		
+			
+
+</div>
+</body>
+</html>			

@@ -1,0 +1,364 @@
+<html>
+	<head>
+		<title>RDF/XML to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<script src="viz.js"></script>
+		<!-- stuff below needs to go into CouchDB views -->
+		<script src="shared.js"></script>
+		<script src="language.js"></script>
+		<script src="xml2json.js"></script>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>RDF/XML</h1>
+
+<div style="background-color:orange">Warning, XML javascript parser breaks some XML
+so we lose some information (e.g., author names). Note that for CiNii Japanase language test
+needs to accept short strings, not 10 which is default.
+</div>
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>RDF/XML</h2>
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+{
+   "_id": "http://ci.nii.ac.jp/naid/130000017049#article",
+   "_rev": "5-f52725fdfc6ae3e1126dde3a081e0d4d",
+   "message": {
+       "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<rdf:RDF \n    xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" \n    xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\" \n    xmlns:dc=\"http://purl.org/dc/elements/1.1/\" \n    xmlns:dcterms=\"http://purl.org/dc/terms/\" \n    xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" \n    xmlns:prism=\"http://prismstandard.org/namespaces/basic/2.0/\" \n    xmlns:con=\"http://www.w3.org/2000/10/swap/pim/contact#\" \n    xmlns:cinii=\"http://ci.nii.ac.jp/ns/1.0/\" \n    xmlns:bibo=\"http://purl.org/ontology/bibo/\">\n    <rdf:Description rdf:about=\"http://ci.nii.ac.jp/naid/130000017049#article\">\n        <rdf:type rdf:resource=\"http://purl.org/ontology/bibo/Article\"/>\n        <foaf:isPrimaryTopicOf rdf:resource=\"http://ci.nii.ac.jp/naid/130000017049.rdf\" />\n        <dc:title>Phylogenetic Relationships Within Parrots (Psittacidae) Inferred from Mitochondrial Cytochrome-b Gene Sequences(Phylogeny)</dc:title>\n        <dc:creator>Astuti Dwi</dc:creator>\n        <dc:creator>Azuma Noriko</dc:creator>\n        <dc:creator>Suzuki Hitoshi</dc:creator>\n        <dc:creator>Higashi Seigo</dc:creator>\n        <dc:publisher>社団法人日本動物学会</dc:publisher>\n        <prism:publicationName>Zoological science</prism:publicationName>\n        <prism:issn>02890003</prism:issn>\n        <prism:volume>23</prism:volume>\n        <prism:number>2</prism:number>\n        <prism:startingPage>191</prism:startingPage>\n        <prism:endingPage>198</prism:endingPage>\n        <prism:publicationDate>2006-02-25</prism:publicationDate>\n        <dc:description>Blood and tissue samples of 40 individuals including 27 parrot species (15 genera; 3 subfamilies) were collected in Indonesia. Their phylogenetic relationships were inferred from 907 bp of the mitochondrial cytochrome-b gene, using the maximum-parsimony method, the maximum-likelihood method and the neighbor-joining method with Kimura two-parameter distance. The phylogenetic analysis revealed that (1) cockatoos (subfamily Cacatuinae) form a monophyletic sister group to other parrot groups; (2) within the genus Cacatua, C. goffini and C. sanguines form a sister group to a clade containing other congeners; (3) subfamily Psittacinae emerged as paraphyletic, consisting of three clades, with a clade of Psittaculirostris grouping with sub family Loriinae rather than with other Psittacinae; (4) lories and lorikeets (subfamily Loriinae) emerged as monophyletic, with Charmosyna placentis a basal sister group to other Loriinae, which comprised the subclades Lorius; Trichoglossus+Eos; and Chalcopsitta+Pseudeos.</dc:description>\n        <foaf:topic rdf:resource=\"http://ci.nii.ac.jp/keyword/phylogeny\" dc:title=\"phylogeny\" />\n        <foaf:topic rdf:resource=\"http://ci.nii.ac.jp/keyword/parrots\" dc:title=\"parrots\" />\n        <foaf:topic rdf:resource=\"http://ci.nii.ac.jp/keyword/Psittacidae\" dc:title=\"Psittacidae\" />\n        <foaf:topic rdf:resource=\"http://ci.nii.ac.jp/keyword/mitochondrial\" dc:title=\"mitochondrial\" />\n        <foaf:topic rdf:resource=\"http://ci.nii.ac.jp/keyword/cytochrome-b\" dc:title=\"cytochrome-b\" />\n        <dc:date>2006-02-25</dc:date>\n        <cinii:naid>130000017049</cinii:naid>\n        <cinii:ncid>AA10545874</cinii:ncid>\n        <cinii:ndljpi>7924143</cinii:ndljpi>\n        <dc:language>ENG</dc:language>\n        <dc:source>CJP</dc:source>\n        <dc:source>NDL</dc:source>\n        <dc:source>NII-ELS</dc:source>\n        <dc:source>J-STAGE</dc:source>\n        <cinii:fulltext>1</cinii:fulltext>\n        <cinii:references>36</cinii:references>\n        <dcterms:isPartOf rdf:resource=\"http://ci.nii.ac.jp/ncid/AA10545874#entity\" dc:title=\"Zoological science\" />\n        <rdfs:seeAlso rdf:resource=\"http://id.ndl.go.jp/bib/7924143\" dc:title=\"NDL-OPAC\" />\n        <rdfs:seeAlso rdf:resource=\"http://joi.jlc.jst.go.jp/JST.JSTAGE/zsj/23.191?from=CiNii\" dc:title=\"J-STAGE\" />\n        <rdfs:seeAlso rdf:resource=\"http://dx.doi.org/10.2108/zsj.23.191\" dc:title=\"DOI\" />\n        <prism:doi>10.2108/zsj.23.191</prism:doi>\n    </rdf:Description>\n    <rdf:Description rdf:about=\"http://ci.nii.ac.jp/naid/130000017049#article\" xml:lang=\"en\">\n        <rdf:type rdf:resource=\"http://purl.org/ontology/bibo/Article\"/>\n        <dc:title>Phylogenetic Relationships Within Parrots (Psittacidae) Inferred from Mitochondrial Cytochrome-b Gene Sequences(Phylogeny)</dc:title>\n        <dc:creator>Astuti Dwi</dc:creator>\n        <dc:creator>Azuma Noriko</dc:creator>\n        <dc:creator>Suzuki Hitoshi</dc:creator>\n        <dc:creator>Higashi Seigo</dc:creator>\n        <dc:publisher>The Zoological Society of Japan</dc:publisher>\n        <prism:publicationName>Zoological science</prism:publicationName>\n        <dc:description>Blood and tissue samples of 40 individuals including 27 parrot species (15 genera; 3 subfamilies) were collected in Indonesia. Their phylogenetic relationships were inferred from 907 bp of the mitochondrial cytochrome-b gene, using the maximum-parsimony method, the maximum-likelihood method and the neighbor-joining method with Kimura two-parameter distance. The phylogenetic analysis revealed that (1) cockatoos (subfamily Cacatuinae) form a monophyletic sister group to other parrot groups; (2) within the genus Cacatua, C. goffini and C. sanguines form a sister group to a clade containing other congeners; (3) subfamily Psittacinae emerged as paraphyletic, consisting of three clades, with a clade of Psittaculirostris grouping with sub family Loriinae rather than with other Psittacinae; (4) lories and lorikeets (subfamily Loriinae) emerged as monophyletic, with Charmosyna placentis a basal sister group to other Loriinae, which comprised the subclades Lorius; Trichoglossus+Eos; and Chalcopsitta+Pseudeos.</dc:description>\n        <foaf:topic rdf:resource=\"http://ci.nii.ac.jp/keyword/phylogeny\" dc:title=\"phylogeny\" />\n        <foaf:topic rdf:resource=\"http://ci.nii.ac.jp/keyword/parrots\" dc:title=\"parrots\" />\n        <foaf:topic rdf:resource=\"http://ci.nii.ac.jp/keyword/Psittacidae\" dc:title=\"Psittacidae\" />\n        <foaf:topic rdf:resource=\"http://ci.nii.ac.jp/keyword/mitochondrial\" dc:title=\"mitochondrial\" />\n        <foaf:topic rdf:resource=\"http://ci.nii.ac.jp/keyword/cytochrome-b\" dc:title=\"cytochrome-b\" />\n    </rdf:Description>\n    <rdf:Description rdf:about=\"http://ci.nii.ac.jp/naid/130000017049#article\">\n        <rdf:type rdf:resource=\"http://purl.org/ontology/bibo/Article\"/>\n        <foaf:depiction>\n            <foaf:Image rdf:about=\"http://ci.nii.ac.jp/pdfthumbnail/13/1300/130000/130000017049.jpg\" />\n        </foaf:depiction>\n        <foaf:maker>\n            <foaf:Person rdf:about=\"http://ci.nii.ac.jp/nrid/9000007023442#me\">\n                <foaf:name>Astuti Dwi</foaf:name>\n                <foaf:name xml:lang=\"en\">Astuti Dwi</foaf:name>\n                <con:organization>\n                    <foaf:Organization rdf:about=\"http://ci.nii.ac.jp/org/Zoological_Division%252C_Research_Center_for_Biology\">\n                        <foaf:name xml:lang=\"en\">Zoological Division, Research Center for Biology</foaf:name>\n                    </foaf:Organization>\n                </con:organization>\n                <con:organization>\n                    <foaf:Organization rdf:about=\"http://ci.nii.ac.jp/org/Graduate_School_of_Environmental_Earth_Science%252C_Hokkaido_University\">\n                        <foaf:name xml:lang=\"en\">Graduate School of Environmental Earth Science, Hokkaido University</foaf:name>\n                    </foaf:Organization>\n                </con:organization>\n            </foaf:Person>\n        </foaf:maker>\n        <foaf:maker>\n            <foaf:Person rdf:about=\"http://ci.nii.ac.jp/nrid/9000007023445#me\">\n                <foaf:name>Azuma Noriko</foaf:name>\n                <foaf:name xml:lang=\"en\">Azuma Noriko</foaf:name>\n                <con:organization>\n                    <foaf:Organization rdf:about=\"http://ci.nii.ac.jp/org/Graduate_School_of_Environmental_Earth_Science%252C_Hokkaido_University\">\n                        <foaf:name xml:lang=\"en\">Graduate School of Environmental Earth Science, Hokkaido University</foaf:name>\n                    </foaf:Organization>\n                </con:organization>\n            </foaf:Person>\n        </foaf:maker>\n        <foaf:maker>\n            <foaf:Person rdf:about=\"http://ci.nii.ac.jp/nrid/1000040179239#me\">\n                <foaf:name>Suzuki Hitoshi</foaf:name>\n                <foaf:name xml:lang=\"en\">Suzuki Hitoshi</foaf:name>\n                <con:organization>\n                    <foaf:Organization rdf:about=\"http://ci.nii.ac.jp/org/Graduate_School_of_Environmental_Earth_Science%252C_Hokkaido_University\">\n                        <foaf:name xml:lang=\"en\">Graduate School of Environmental Earth Science, Hokkaido University</foaf:name>\n                    </foaf:Organization>\n                </con:organization>\n            </foaf:Person>\n        </foaf:maker>\n        <foaf:maker>\n            <foaf:Person rdf:about=\"http://ci.nii.ac.jp/nrid/9000007023450#me\">\n                <foaf:name xml:lang=\"en\">Higashi Seigo</foaf:name>\n                <con:organization>\n                    <foaf:Organization rdf:about=\"http://ci.nii.ac.jp/org/Graduate_School_of_Environmental_Earth_Science%252C_Hokkaido_University\">\n                        <foaf:name xml:lang=\"en\">Graduate School of Environmental Earth Science, Hokkaido University</foaf:name>\n                    </foaf:Organization>\n                </con:organization>\n            </foaf:Person>\n        </foaf:maker>\n    </rdf:Description>\n</rdf:RDF>"
+   },
+   "message-format": "application/rdf+xml"
+}			</textarea>
+			<br />
+			<button onclick="convert()">Convert JSON to RDF</button>
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;background-color:#FF7;color:#222;overflow:auto;"></div>
+		<h2>Graph</h2>
+		<div id="graph" style="width:100%;overflow:auto;"></div>
+		<h2>JSON-LD</h2>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;overflow:auto;"></div>
+
+</div>			
+			
+		
+		
+		
+<script>
+
+// http://stackoverflow.com/a/17076120
+function decodeHTMLEntities(text) {
+   var entities = [
+        ['amp', '&'],
+        ['apos', '\''],
+        ['#x27', '\''],
+        ['#x2F', '/'],
+        ['#39', '\''],
+	['#039', '\''],
+        ['#47', '/'],
+        ['lt', '<'],
+        ['gt', '>'],
+        ['nbsp', ' '],
+        ['quot', '"']
+    ];
+
+    text = String(text);
+
+    for (var i = 0, max = entities.length; i < max; ++i) {
+        text = text.replace(new RegExp('&'+entities[i][0]+';', 'g'), entities[i][1]);
+    }
+
+    return text;
+}
+
+//----------------------------------------------------------------------------------------
+// Smple key-value store to check that we don't emit duplicate triples
+var kv_store = {};
+
+function have_value_already(key, value) {
+   var found = false;
+   
+   if (!kv_store[key]) {
+     kv_store[key] = [];
+     kv_store[key].push(value);
+   } else {
+     if (kv_store[key].indexOf(value) === -1) {
+        kv_store[key].push(value);
+     } else {
+       found = true;
+     }
+   }
+   
+   return found;
+}
+	
+//----------------------------------------------------------------------------------------
+// START COUCHDB VIEW
+function message(doc) {
+
+  var subject_id = doc._id;
+  var triples = [];
+  var type = '';
+
+  var xml = doc.message.xml;
+
+  // administrivia
+  xml = xml.replace(/<\?xml version="1.0" encoding="UTF-8"\?>\s*/i, '');
+  xml = xml.replace(/<\?xml-stylesheet type="text\/xsl" href="lsid.rdf.xsl"\?>\s*/, '');
+
+  // namespaces
+  xml = xml.replace(/<rdf:RDF\s+(xmlns:\w+=([a-zA-Z0-9:\/"\.#-]+)"\s*)+?>/, '<rdf:RDF>');
+
+  // can't use colons
+  xml = xml.replace(/<(\w+):(\w+)/gm, '<$1$2');
+  xml = xml.replace(/<\/(\w+):(\w+)>/gm, '</$1$2>');
+
+  // attributes that we missed
+  xml = xml.replace(/dc:/gm, 'dc');
+  xml = xml.replace(/rdf:/gm, 'rdf');
+  xml = xml.replace(/tm:/gm, 'tm');
+  xml = xml.replace(/xml:/gm, 'xml');
+
+  // hack to handle language code in foafmaker that can cause problems
+  // converting XML to JSON
+  xml = xml.replace(/foafname xmllang="en"/gm, 'foafname');
+
+  //alert(xml);
+
+  var json = xml2json.parser(xml);
+
+  //alert(JSON.stringify(json, null, 2));
+
+  if (json.rdfrdf) {
+
+    triples.push(triple(subject_id,
+      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+      'http://schema.org/ScholarlyArticle'));
+
+    triples.push(triple(subject_id,
+      'http://schema.org/identifier',
+      subject_id));
+
+    for (var s in json.rdfrdf.rdfdescription) {
+      for (var k in json.rdfrdf.rdfdescription[s]) {
+
+        //console.log(k);
+
+        if (typeof json.rdfrdf.rdfdescription[s][k] === 'object') {
+          var value = json.rdfrdf.rdfdescription[s][k];
+
+          //console.log(JSON.stringify(value));
+
+          switch (k) {
+
+            case 'foafdepiction':
+              triples.push(triple(subject_id,
+                'http://schema.org/thumbnailUrl',
+                value.foafimage.rdfabout));
+              break;
+
+              // link to journal, CiNii uses its own identifier (which can be resolved to RDF)					
+            case 'dctermsispartof':
+              var journal_id = value.rdfresource;
+              triples.push(triple(subject_id,
+                'http://schema.org/isPartOf',
+                journal_id));
+
+              triples.push(triple(journal_id,
+                'http://schema.org/identifier',
+                journal_id));
+
+              triples.push(triple(journal_id,
+                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                'http://schema.org/Periodical'));
+
+              if (value.dctitle) {
+
+                if (!have_value_already('journal', value.dctitle)) {
+                  triples.push(triple(journal_id,
+                    'http://schema.org/name',
+                    value.dctitle,
+                    detect_language(value.dctitle)));
+                }
+              }
+              break;
+
+            case 'foafmaker':
+              var makers = [];
+              if (Array.isArray(value)) {
+                makers = value;
+              } else {
+                makers.push(value);
+              }
+
+              for (var n in makers) {
+                var maker = makers[n];
+
+                var author_id = maker.foafperson.rdfabout;
+
+                triples.push(triple(subject_id,
+                  'http://schema.org/author',
+                  author_id));
+
+                // type, to do: need to handle organisations as authors
+                triples.push(triple(author_id,
+                  'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                  'http://schema.org/Person'));
+
+                triples.push(triple(author_id,
+                  'http://schema.org/identifier',
+                  author_id));
+
+                if (Array.isArray(maker.foafperson.foafname)) {
+
+                  for (var fn in maker.foafperson.foafname) {
+                    if (!have_value_already('foafname', maker.foafperson.foafname[fn])) {
+                      triples.push(triple(author_id,
+                        'http://schema.org/name',
+                        maker.foafperson.foafname[fn], detect_language(maker.foafperson.foafname[fn])));
+
+                    }
+                  }
+                } else {
+                  triples.push(triple(author_id,
+                    'http://schema.org/name',
+                    maker.foafperson.foafname, detect_language(maker.foafperson.foafname)));
+
+                }
+              }
+              break;
+
+
+            default:
+              break;
+          }
+        } else {
+          var value = decodeHTMLEntities(json.rdfrdf.rdfdescription[s][k]);
+
+          switch (k) {
+
+            case 'dctitle':
+              if (!have_value_already('title', value)) {
+                triples.push(triple(subject_id,
+                  'http://schema.org/name',
+                  value,
+                  detect_language(value)));
+              }
+              break;
+
+            case 'dcdescription':
+              if (!have_value_already('description', value)) {
+                triples.push(triple(subject_id,
+                  'http://schema.org/description',
+                  value,
+                  detect_language(value)));
+              }
+              break;
+
+            case 'dcpublisher':
+              triples.push(triple(subject_id,
+                'http://schema.org/publisher',
+                value,
+                detect_language(value)));
+              break;
+
+            case 'prismpublicationname':
+              if (!have_value_already('publicationName', value)) {
+                triples.push(triple(subject_id,
+                  'http://prismstandard.org/namespaces/basic/2.1/publicationName',
+                  value,
+                  detect_language(value)));
+              }
+              break;
+
+            case 'prismvolume':
+              triples.push(triple(subject_id,
+                'http://schema.org/volumeNumber',
+                value));
+              break;
+            case 'prismnumber':
+              triples.push(triple(subject_id,
+                'http://schema.org/issueNumber',
+                value));
+              break;
+            case 'prismstartingpage':
+              triples.push(triple(subject_id,
+                'http://schema.org/pageStart',
+                value));
+              break;
+            case 'prismendingpage':
+              triples.push(triple(subject_id,
+                'http://schema.org/pageEnd',
+                value));
+              break;
+
+            case 'prismpublicationdate':
+              triples.push(triple(subject_id,
+                'http://schema.org/datePublished',
+                value));
+              break;
+
+            case 'prismdoi':
+              triples.push(triple(subject_id,
+                'http://schema.org/identifier',
+                'http://identifiers.org/doi/' + value));
+
+              triples.push(triple(subject_id,
+                'http://prismstandard.org/namespaces/basic/2.1/doi',
+                value));
+              break;
+
+            case 'ciniinaid':
+              triples.push(triple(subject_id,
+                'http://schema.org/url',
+                'http://ci.nii.ac.jp/naid/' + value));
+              break;
+
+            default:
+              break;
+          }
+        }
+      }
+    }
+  }
+
+  // do stuff	
+  output(doc, triples);
+}     
+         
+
+
+function couchdb(doc) {
+  if (doc['message-format']) {
+    if (doc['message-format'] == 'application/rdf+xml') {
+      if (doc._id.match(/ci.nii.ac.jp\/naid/)) {
+        message(doc);
+      }
+    }
+  }
+}
+// END COUCHDB VIEW
+
+		
+//----------------------------------------------------------------------------------------
+function convert() {
+	var json = $('#json').val();
+	var doc = JSON.parse(json);
+	
+	couchdb(doc);
+}
+
+	
+	</script>		
+			
+
+</div>
+</body>
+</html>			

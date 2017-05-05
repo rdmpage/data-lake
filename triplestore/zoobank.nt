@@ -1,0 +1,41 @@
+<http://zoobank.org/FFA67382-3779-4331-8253-CDB2B579D5FE> <http://rs.tdwg.org/dwc/terms/scientificName> "Belisana Thorell, 1898" .
+<http://zoobank.org/FFA67382-3779-4331-8253-CDB2B579D5FE> <http://rs.tdwg.org/ontology/voc/TaxonName#nameComplete> "Belisana" .
+<http://zoobank.org/FFA67382-3779-4331-8253-CDB2B579D5FE> <http://rs.tdwg.org/ontology/voc/TaxonName#nomenclaturalCode> <http://rs.tdwg.org/ontology/voc/TaxonName#ICZN> .
+<http://zoobank.org/FFA67382-3779-4331-8253-CDB2B579D5FE> <http://rs.tdwg.org/ontology/voc/TaxonName#rankString> "Genus" .
+<http://zoobank.org/FFA67382-3779-4331-8253-CDB2B579D5FE> <http://schema.org/identifier> <http://zoobank.org/FFA67382-3779-4331-8253-CDB2B579D5FE> .
+<http://zoobank.org/FFA67382-3779-4331-8253-CDB2B579D5FE> <http://schema.org/name> "Belisana Thorell, 1898" .
+<http://zoobank.org/FFA67382-3779-4331-8253-CDB2B579D5FE> <http://schema.org/url> <http://zoobank.org/FFA67382-3779-4331-8253-CDB2B579D5FE> .
+<http://zoobank.org/FFA67382-3779-4331-8253-CDB2B579D5FE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rs.tdwg.org/ontology/voc/TaxonName#TaxonName> .
+<urn:lsid:zoobank.org:act:D82D1866-428A-4F07-B1F9-43E1BD589AC9> <http://rs.tdwg.org/dwc/terms/namePublishedInID> <urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> .
+<urn:lsid:zoobank.org:act:D82D1866-428A-4F07-B1F9-43E1BD589AC9> <http://rs.tdwg.org/dwc/terms/parentNameUsageID> <http://zoobank.org/FFA67382-3779-4331-8253-CDB2B579D5FE> .
+<urn:lsid:zoobank.org:act:D82D1866-428A-4F07-B1F9-43E1BD589AC9> <http://rs.tdwg.org/dwc/terms/scientificName> "Belisana denticulata Pham, 2015" .
+<urn:lsid:zoobank.org:act:D82D1866-428A-4F07-B1F9-43E1BD589AC9> <http://rs.tdwg.org/ontology/voc/Common#publishedInCitation> <urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> .
+<urn:lsid:zoobank.org:act:D82D1866-428A-4F07-B1F9-43E1BD589AC9> <http://rs.tdwg.org/ontology/voc/TaxonName#nameComplete> "Belisana denticulata" .
+<urn:lsid:zoobank.org:act:D82D1866-428A-4F07-B1F9-43E1BD589AC9> <http://rs.tdwg.org/ontology/voc/TaxonName#nomenclaturalCode> <http://rs.tdwg.org/ontology/voc/TaxonName#ICZN> .
+<urn:lsid:zoobank.org:act:D82D1866-428A-4F07-B1F9-43E1BD589AC9> <http://rs.tdwg.org/ontology/voc/TaxonName#rankString> "Species" .
+<urn:lsid:zoobank.org:act:D82D1866-428A-4F07-B1F9-43E1BD589AC9> <http://schema.org/identifier> <http://zoobank.org/D82D1866-428A-4F07-B1F9-43E1BD589AC9> .
+<urn:lsid:zoobank.org:act:D82D1866-428A-4F07-B1F9-43E1BD589AC9> <http://schema.org/identifier> <urn:lsid:zoobank.org:act:D82D1866-428A-4F07-B1F9-43E1BD589AC9> .
+<urn:lsid:zoobank.org:act:D82D1866-428A-4F07-B1F9-43E1BD589AC9> <http://schema.org/name> "Belisana denticulata Pham, 2015" .
+<urn:lsid:zoobank.org:act:D82D1866-428A-4F07-B1F9-43E1BD589AC9> <http://schema.org/url> <http://zoobank.org/D82D1866-428A-4F07-B1F9-43E1BD589AC9> .
+<urn:lsid:zoobank.org:act:D82D1866-428A-4F07-B1F9-43E1BD589AC9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rs.tdwg.org/ontology/voc/TaxonName#TaxonName> .
+<urn:lsid:zoobank.org:author:85A47096-7226-401A-9159-8136C53699BF> <http://schema.org/familyName> "Pham" .
+<urn:lsid:zoobank.org:author:85A47096-7226-401A-9159-8136C53699BF> <http://schema.org/givenName> "Dinh-Sac" .
+<urn:lsid:zoobank.org:author:85A47096-7226-401A-9159-8136C53699BF> <http://schema.org/identifier> <urn:lsid:zoobank.org:author:85A47096-7226-401A-9159-8136C53699BF> .
+<urn:lsid:zoobank.org:author:85A47096-7226-401A-9159-8136C53699BF> <http://schema.org/name> "Dinh-Sac Pham" .
+<urn:lsid:zoobank.org:author:85A47096-7226-401A-9159-8136C53699BF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<urn:lsid:zoobank.org:pub:91BD42D4-90F1-4B45-9350-EEF175B1727A> <http://schema.org/name> "ZooKeys" .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://prismstandard.org/namespaces/basic/2.1/doi> "10.3897/zookeys.480.9046" .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://prismstandard.org/namespaces/basic/2.1/publicationName> "ZooKeys" .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://schema.org/author> <urn:lsid:zoobank.org:author:85A47096-7226-401A-9159-8136C53699BF> .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://schema.org/identifier> "f1de2c0f-1c90-468e-856b-4a0bcec56a07" .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://schema.org/identifier> <http://identifiers.org/doi/10.3897/zookeys.480.9046> .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://schema.org/identifier> <urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://schema.org/isPartOf> <urn:lsid:zoobank.org:pub:91BD42D4-90F1-4B45-9350-EEF175B1727A> .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://schema.org/name> "One new species of the genus <em>Belisana</em> Thorell, 1898 (Araneae, Pholcidae) from northern Vietnam" .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://schema.org/pageEnd> "47" .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://schema.org/pageStart> "41" .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://schema.org/pagination> "41-47" .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://schema.org/publisher> "Pensoft Publishers" .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://schema.org/url> <http://zoobank.org/F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://schema.org/volumeNumber> "480" .
+<urn:lsid:zoobank.org:pub:F1DE2C0F-1C90-468E-856B-4A0BCEC56A07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ScholarlyArticle> .

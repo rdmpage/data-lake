@@ -1,0 +1,230 @@
+<html>
+	<head>
+		<title>RDF/XML to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<script src="viz.js"></script>
+		<!-- stuff below needs to go into CouchDB views -->
+		<script src="shared.js"></script>
+		<script src="language.js"></script>
+		<script src="xml2json.js"></script>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>RDF/XML</h1>
+
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>RDF/XML</h2>
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+{
+	"_id": "urn:lsid:organismnames.com:name:5304329",
+	"message": {
+		"xml": "<?xml version=\"1.0\" encoding=\"utf-8\" ?> <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:tdwg_pc=\"http://rs.tdwg.org/ontology/voc/PublicationCitation#\" xmlns:tdwg_co=\"http://rs.tdwg.org/ontology/voc/Common#\" xmlns:tdwg_tn=\"http://rs.tdwg.org/ontology/voc/TaxonName#\" xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><tdwg_tn:TaxonName rdf:about=\"5304329\"><dc:identifier>5304329</dc:identifier><dc:creator rdf:resource=\"http://www.organismnames.com\"/><dc:Title>Yangdelphax</dc:Title><tdwg_tn:nameComplete>Yangdelphax</tdwg_tn:nameComplete><tdwg_tn:nomenclaturalCode rdf:resource=\"http://rs.tdwg.org/ontology/voc/TaxonName#ICZN\"/><tdwg_co:PublishedIn>Reassessment of some of Kirkaldy's Australian species of Delphacini (Hemiptera: Delphacidae: Delphacinae). Austral Entomology, 55(3), Aug 2016: 247-260.  255 [Zoological Record Volume 152]</tdwg_co:PublishedIn><tdwg_co:microreference>255</tdwg_co:microreference><rdfs:seeAlso rdf:resource=\"http://www.organismnames.com/namedetails.htm?lsid=5304329\"/></tdwg_tn:TaxonName></rdf:RDF>"
+	},
+	"message-format": "application/rdf+xml"
+}			</textarea>
+			<br />
+			<button onclick="convert()">Convert JSON to RDF</button>
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;background-color:#FF7;color:#222;overflow:auto;"></div>
+		<h2>Graph</h2>
+		<div id="graph" style="width:100%;overflow:auto;"></div>
+		<h2>JSON-LD</h2>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;overflow:auto;"></div>
+
+</div>			
+			
+		
+		
+		
+<script>
+
+// http://stackoverflow.com/a/17076120
+function decodeHTMLEntities(text) {
+   var entities = [
+        ['amp', '&'],
+        ['apos', '\''],
+        ['#x27', '\''],
+        ['#x2F', '/'],
+        ['#39', '\''],
+	['#039', '\''],
+        ['#47', '/'],
+        ['lt', '<'],
+        ['gt', '>'],
+        ['nbsp', ' '],
+        ['quot', '"']
+    ];
+
+    text = String(text);
+
+    for (var i = 0, max = entities.length; i < max; ++i) {
+        text = text.replace(new RegExp('&'+entities[i][0]+';', 'g'), entities[i][1]);
+    }
+
+    return text;
+}
+	
+//----------------------------------------------------------------------------------------
+// START COUCHDB VIEW
+function message(doc) {
+
+    var subject_id = doc._id;
+    var triples = [];
+    var type = '';
+
+		var xml = doc.message.xml;
+		//alert('hi');
+
+		// administrivia
+		xml = xml.replace(/<\?xml version="1.0" encoding="UTF-8"\?>\s*/i, '');
+		xml = xml.replace(/<\?xml-stylesheet type="text\/xsl" href="lsid.rdf.xsl"\?>\s*/, '');
+
+		// namespaces
+		xml = xml.replace(/<rdf:RDF\s+(xmlns:\w+=([a-zA-Z0-9:\/"\.#-]+)"\s*)+?>/, '<rdf:RDF>');
+
+		// can't use colons
+		xml = xml.replace(/<(\w+):(\w+)/gm, '<$1$2');
+		xml = xml.replace(/<\/(\w+):(\w+)>/gm, '</$1$2>');
+
+        // attributes that we missed
+		xml = xml.replace(/rdf:/gm, 'rdf');
+		xml = xml.replace(/tm:/, 'tm');   
+		
+		//alert(xml);
+		
+		var json = xml2json.parser(xml);
+
+		if (json.rdfrdf) {
+		
+		
+triples.push(triple(subject_id,
+	      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+ 	     'http://rs.tdwg.org/ontology/voc/TaxonName#TaxonName'));		
+		
+		
+		  for (var k in json.rdfrdf.tdwg_tntaxonname) {
+
+			if (typeof json.rdfrdf.tdwg_tntaxonname[k] === 'object') {
+			var value = json.rdfrdf.tdwg_tntaxonname[k];
+
+			switch (k) {
+			
+				 case 'dccreator':
+triples.push(triple(subject_id,
+            'http://purl.org/dc/terms/creator',
+            value.rdfresource));				  
+				break;
+
+				case 'rdfsseealso': 
+triples.push(triple(subject_id,
+            'http://www.w3.org/2000/01/rdf-schema#seeAlso',
+            value.rdfresource));				  
+				  
+				  triples.push(triple(subject_id,
+            'http://schema.org/url',
+            value.rdfresource));
+				  break;
+
+				 case 'tdwg_tnnomenclaturalcode':
+triples.push(triple(subject_id,
+            'http://rs.tdwg.org/ontology/voc/TaxonName#nomenclaturalCode',
+            value.rdfresource));				  				
+				  break;
+
+			default:
+				 break;
+			  }
+
+		
+			} else {
+			  var value = decodeHTMLEntities(json.rdfrdf.tdwg_tntaxonname[k]);
+
+			  switch (k) {
+
+				case 'dcidentifier': 				  
+triples.push(triple(subject_id,
+            'http://purl.org/dc/terms/identifier',
+            'urn:lsid:organismnames.com:name:' + value));				  
+				  
+triples.push(triple(subject_id,
+            'http://schema.org/identifier',
+            'urn:lsid:organismnames.com:name:' + value));				  
+				  break;
+
+				case 'dctitle': 
+triples.push(triple(subject_id,
+            'http://purl.org/dc/terms/title',
+            value));				  
+				  
+triples.push(triple(subject_id,
+            'http://schema.org/name',
+            value));					  
+				  break;
+				  
+				case 'tdwg_tnnamecomplete':
+triples.push(triple(subject_id,
+            'http://rs.tdwg.org/ontology/voc/TaxonName#nameComplete',
+            value));					  
+				  break;				
+
+				case 'tdwg_comicroreference': 
+triples.push(triple(subject_id,
+            'http://rs.tdwg.org/ontology/voc/Common#microreference',
+            value));					  
+				  break;
+
+				case 'tdwg_copublishedin': 
+				  value = value.replace(/\s+\[Zoological Record Volume \d+\]/, '');
+triples.push(triple(subject_id,
+            'http://rs.tdwg.org/ontology/voc/Common#publishedIn',
+            value));					  				  
+				  break;
+
+
+				default:
+				  break;
+			  }
+			}
+		  }
+		}
+		
+		// do stuff	
+		output(doc, triples);	   
+}         
+         
+
+
+function couchdb(doc) {
+  if (doc['message-format']) {
+    if (doc['message-format'] == 'application/rdf+xml') {
+      message(doc);
+    }
+  }
+}
+// END COUCHDB VIEW
+
+		
+//----------------------------------------------------------------------------------------
+function convert() {
+	var json = $('#json').val();
+	var doc = JSON.parse(json);
+	
+	couchdb(doc);
+}
+
+	
+	</script>		
+			
+
+</div>
+</body>
+</html>			

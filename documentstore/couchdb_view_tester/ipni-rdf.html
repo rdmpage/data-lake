@@ -1,0 +1,486 @@
+<html>
+	<head>
+		<title>RDF/XML to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<script src="viz.js"></script>
+		<!-- stuff below needs to go into CouchDB views -->
+		<script src="shared.js"></script>
+		<script src="language.js"></script>
+		<script src="xml2json.js"></script>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>RDF/XML</h1>
+
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>RDF/XML</h2>
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+{
+   "_id": "urn:lsid:ipni.org:names:230486-2",
+   "_rev": "2-861c783b543eba3bade7fad5777fc7b6",
+   "message-timestamp": "2017-04-27T14:10:33+00:00",
+   "message-modified": "2017-04-27T14:12:05+00:00",
+   "message-format": "application/rdf+xml",
+   "message": {
+       "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"lsid.rdf.xsl\"?>\n<rdf:RDF xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\nxmlns:dc=\"http://purl.org/dc/elements/1.1/\" \nxmlns:dcterms=\"http://purl.org/dc/terms/\"\nxmlns:tn=\"http://rs.tdwg.org/ontology/voc/TaxonName#\"\nxmlns:tm=\"http://rs.tdwg.org/ontology/voc/Team#\"    \nxmlns:tcom=\"http://rs.tdwg.org/ontology/voc/Common#\"    \nxmlns:p=\"http://rs.tdwg.org/ontology/voc/Person#\"    \nxmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\nxmlns:owl=\"http://www.w3.org/2002/07/owl#\">\n<tn:TaxonName rdf:about=\"urn:lsid:ipni.org:names:230486-2\">\t\n<tcom:versionedAs rdf:resource=\"urn:lsid:ipni.org:names:230486-2:1.2.2.1\"/>\n<tn:nomenclaturalCode rdf:resource=\"http://rs.tdwg.org/ontology/voc/TaxonName#botanical\"/>\n<owl:versionInfo>1.2.2.1</owl:versionInfo>\n<dc:title>Scirpus potosiensis C.B.Clarke</dc:title>                        \n<dcterms:created>2004-01-20 00:00:00.0</dcterms:created>\n<dcterms:modified>2015-09-10 21:47:33.0</dcterms:modified>\n<tn:rankString>spec.</tn:rankString>\n<tn:nameComplete>Scirpus potosiensis</tn:nameComplete>\n<tn:genusPart>Scirpus</tn:genusPart>        \n<tn:specificEpithet>potosiensis</tn:specificEpithet>                \n<tn:authorship>C.B.Clarke</tn:authorship>\n<tn:authorteam>\n<tm:Team>\n<tm:name>C.B.Clarke</tm:name>\n<tm:hasMember rdf:resource=\"urn:lsid:ipni.org:authors:1669-1\"\ntm:index=\"1\"\ntm:role=\"Publishing Author\"/>\n</tm:Team>\n</tn:authorteam>\n<tcom:publishedIn>Bull. Misc. Inform. Kew, Addit. Ser. 8: 89. 1908 </tcom:publishedIn>    \n<tn:year>1908</tn:year>        \n<tn:hasAnnotation>\n<tn:NomenclaturalNote>\n<tn:noteType rdf:resource=\"http://rs.tdwg.org/ontology/voc/TaxonName#publicationStatus\"/>\n<tn:note>nom. inval. nom. nud.</tn:note>\n</tn:NomenclaturalNote>        \n</tn:hasAnnotation>\t\n</tn:TaxonName>  \n</rdf:RDF>"
+   }
+}			</textarea>
+			<br />
+			<button onclick="convert()">Convert JSON to RDF</button>
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;background-color:#FF7;color:#222;overflow:auto;"></div>
+		<h2>Graph</h2>
+		<div id="graph" style="width:100%;overflow:auto;"></div>
+		<h2>JSON-LD</h2>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;overflow:auto;"></div>
+
+</div>			
+			
+		
+		
+		
+<script>
+
+// http://stackoverflow.com/a/17076120
+function decodeHTMLEntities(text) {
+   var entities = [
+        ['amp', '&'],
+        ['apos', '\''],
+        ['#x27', '\''],
+        ['#x2F', '/'],
+        ['#39', '\''],
+	['#039', '\''],
+        ['#47', '/'],
+        ['lt', '<'],
+        ['gt', '>'],
+        ['nbsp', ' '],
+        ['quot', '"']
+    ];
+
+    text = String(text);
+
+    for (var i = 0, max = entities.length; i < max; ++i) {
+        text = text.replace(new RegExp('&'+entities[i][0]+';', 'g'), entities[i][1]);
+    }
+
+    return text;
+}
+	
+//----------------------------------------------------------------------------------------
+// START COUCHDB VIEW
+function message(doc) {
+
+  var subject_id = doc._id;
+  var triples = [];
+  var type = '';
+
+  var xml = doc.message.xml;
+
+  // administrivia
+  xml = xml.replace(/<\?xml version="1.0" encoding="UTF-8"\?>\s*/i, '');
+  xml = xml.replace(/<\?xml-stylesheet type="text\/xsl" href="lsid.rdf.xsl"\?>\s*/, '');
+
+  // namespaces
+  xml = xml.replace(/<rdf:RDF\s+(xmlns:\w+=([a-zA-Z0-9:\/"\.#-]+)"\s*)+?>/, '<rdf:RDF>');
+
+  // can't use colons
+  xml = xml.replace(/<(\w+):(\w+)/gm, '<$1$2');
+  xml = xml.replace(/<\/(\w+):(\w+)>/gm, '</$1$2>');
+
+  // attributes that we missed
+  xml = xml.replace(/rdf:/gm, 'rdf');
+  xml = xml.replace(/tm:/gm, 'tm');
+  
+  // remove linebreaks within attrribute lists - FFS
+  xml = xml.replace(/"\s*\n/gm, '" ');
+  
+  //alert(xml);
+  //console.log(xml);
+
+  var json = xml2json.parser(xml);
+  
+  //alert(JSON.stringify(json, null, 2));
+
+  if (json.rdfrdf) {
+
+    triples.push(triple(subject_id,
+      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+      'http://rs.tdwg.org/ontology/voc/TaxonName#TaxonName'));
+
+    triples.push(triple(subject_id,
+      'http://schema.org/identifier',
+      subject_id));
+
+    triples.push(triple(subject_id,
+      'http://schema.org/url',
+      'http://www.ipni.org/ipni/idPlantNameSearch.do?id=' + subject_id.replace(/urn:lsid:ipni.org:names:/, '')));
+
+
+    for (var k in json.rdfrdf.tntaxonname) {
+
+      if (typeof json.rdfrdf.tntaxonname[k] === 'object') {
+        var value = json.rdfrdf.tntaxonname[k];
+
+        switch (k) {
+
+/*
+<tn:hasAnnotation>
+	<tn:NomenclaturalNote>
+		<tn:noteType rdf:resource="http://rs.tdwg.org/ontology/voc/TaxonName#publicationStatus"/>
+		<tn:note>nom. inval. nom. nud.</tn:note>
+	</tn:NomenclaturalNote>
+</tn:hasAnnotation>
+*/
+		 //-- annotation
+		 /*
+          case 'tnhasannotation':
+
+            for (var m in value) {
+              var annotation_id = subject_id + '#annotation';
+
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#hasAnnotation',
+                annotation_id));
+            }
+            break;*/
+                /*
+                if (value.tnnomenclaturalnote[m].tnnotetype) {
+                	triples.push(triple(node_id,
+                	'http://rs.tdwg.org/ontology/voc/TaxonName#noteType',
+                	decodeHTMLEntities(value.tnnomenclaturalnote[m].tnnotetype)));
+                }
+                */
+             
+             
+             
+
+          //------ types 
+
+          case 'tntypifiedby':
+            var type_count = 1;
+
+            for (var m in value) {
+              var type_id = subject_id + '#type_' + type_count++;
+
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#typifiedBy',
+                type_id));
+
+
+              triples.push(triple(type_id,
+                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                'http://rs.tdwg.org/ontology/voc/TaxonName#NomenclaturalType'));
+
+              var nomenclaturaltype = {};
+
+              // do we have one or multiple types
+              if (value[m].tnnomenclaturaltype) {
+                nomenclaturaltype = value[m].tnnomenclaturaltype;
+              } else {
+                nomenclaturaltype = value[m];
+              }
+
+              for (var type_key in nomenclaturaltype) {
+                switch (type_key) {
+
+                  case 'dctitle':
+                  
+                    triples.push(triple(type_id,
+                      'http://purl.org/dc/terms/title',
+                      decodeHTMLEntities(nomenclaturaltype[type_key])));
+
+                    triples.push(triple(type_id,
+                      'http://schema.org/name',
+                      decodeHTMLEntities(nomenclaturaltype[type_key])));
+                    break;
+
+                  case 'tntypespecimen':
+                    triples.push(triple(type_id,
+                      'http://rs.tdwg.org/ontology/voc/TaxonName#typeSpecimen',
+                      decodeHTMLEntities(nomenclaturaltype[type_key])));
+                    break;
+
+                  case 'tntypeoftype':
+                    triples.push(triple(type_id,
+                      'http://rs.tdwg.org/ontology/voc/TaxonName#typeOfType',
+                      nomenclaturaltype[type_key].rdfresource));
+                    break;
+
+                  default:
+                    break;
+                }
+              }
+            }
+            break;
+
+            // author team
+            /*
+            <tn:authorteam>
+            <tm:Team>
+            <tm:name>Szlach. &amp; Kolan.</tm:name>
+            <tm:hasMember rdf:resource="urn:lsid:ipni.org:authors:35457-1"
+            tm:index="1"
+            tm:role="Publishing Author"/>
+            <tm:hasMember rdf:resource="urn:lsid:ipni.org:authors:20019471-1"
+            tm:index="2"
+            tm:role="Publishing Author"/>
+            </tm:Team>
+            </tn:authorteam>
+
+            */
+
+          case 'tnauthorteam':
+            var team_id = subject_id + '#team';
+
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#authorteam',
+              team_id));
+
+            triples.push(triple(team_id,
+              'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+              'http://rs.tdwg.org/ontology/voc/Team#Team'));
+
+            for (var m in value.tmteam) {
+              switch (m) {
+                case 'tmname':
+                  triples.push(triple(team_id,
+                    'http://schema.org/name',
+                    decodeHTMLEntities(value.tmteam[m])));
+
+                  triples.push(triple(team_id,
+                    'http://rs.tdwg.org/ontology/voc/Team#name',
+                    decodeHTMLEntities(value.tmteam[m])));
+
+                  break;
+
+                case 'tmhasmember':
+                  var members = [];
+                  if (Array.isArray(value.tmteam[m])) {
+                    members = value.tmteam[m];
+                  } else {
+                    members.push(value.tmteam[m]);
+                  }
+
+                  var role_count = 1;
+
+                  for (var n in members) {
+                    member = members[n];
+                    
+                    var author_id = member.rdfresource;
+                    var role_id = team_id + '/role_' + role_count++;
+                    
+                    triples.push(triple(team_id,
+                        'http://rs.tdwg.org/ontology/voc/Team#hasMember',
+                        role_id));
+                        
+					triples.push(triple(role_id,
+                        'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                        'http://schema.org/Role')); 
+                        
+					triples.push(triple(role_id,
+                        'http://rs.tdwg.org/ontology/voc/Team#hasMember',
+                        author_id));    
+                        
+					triples.push(triple(role_id,
+                          'http://schema.org/position',
+                          String(member.tmindex)));                                                                   
+
+					triples.push(triple(role_id,
+                          'http://schema.org/roleName',
+                          String(member.tmrole)));                                                                   
+                    
+
+					/*
+                    var r = member.rdfresource;
+
+
+                    var results = r.match(/(urn:lsid:ipni.org:authors:\d+-\d+)\"/);
+                    if (results) {
+                      var author_id = results[1];
+
+                      var role_id = team_id + '/role_' + role_count++;
+
+                      triples.push(triple(team_id,
+                        'http://rs.tdwg.org/ontology/voc/Team#hasMember',
+                        role_id));
+
+                      triples.push(triple(role_id,
+                        'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                        'http://schema.org/Role'));
+
+                      triples.push(triple(role_id,
+                        'http://rs.tdwg.org/ontology/voc/Team#hasMember',
+                        author_id));
+
+                      var res = r.match(/tm:index=\"(.*)\"/);
+                      if (res) {
+                        triples.push(triple(role_id,
+                          'http://schema.org/position',
+                          decodeHTMLEntities(res[1])));
+
+                      }
+
+                      var res = r.match(/tm:role=\"(.*)/);
+                      if (res) {
+                        triples.push(triple(role_id,
+                          'http://schema.org/roleName',
+                          decodeHTMLEntities(res[1])));
+
+                      }
+                    }
+                    */
+                  }
+                  break;
+
+                default:
+                  break;
+              }
+
+
+            }
+
+            break;
+
+          case 'tnnomenclaturalcode':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#nomenclaturalCode',
+              value.rdfresource));
+            break;
+            
+ 		case 'tnhasbasionym':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#hasBasionym',
+              value.rdfresource));            
+
+          default:
+            break;
+        }
+
+      } else {
+        var value = decodeHTMLEntities(json.rdfrdf.tntaxonname[k]);
+
+        switch (k) {
+
+          case 'dcidentifier':
+            triples.push(triple(subject_id,
+              'http://purl.org/dc/terms/identifier',
+              'urn:lsid:organismnames.com:name:' + value));
+
+            triples.push(triple(subject_id,
+              'http://schema.org/identifier',
+              'urn:lsid:organismnames.com:name:' + value));
+            break;
+
+          case 'dctitle':
+            triples.push(triple(subject_id,
+              'http://purl.org/dc/terms/title',
+              value));
+
+            triples.push(triple(subject_id,
+              'http://schema.org/name',
+              value));
+            break;
+
+          case 'tnrankstring':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#rankString',
+              value));
+            break;
+
+          case 'tnnamecomplete':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#nameComplete',
+              value));
+            break;
+
+          case 'tngenuspart':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#genusPart',
+              value));
+            break;
+
+          case 'tninfragenericepithet':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#infragenericEpithet',
+              value));
+            break;
+
+          case 'tnspecificepithet':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#specificEpithet',
+              value));
+            break;
+
+          case 'tninfraspecificepithet':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#infraspecificEpithet',
+              value));
+            break;
+
+          case 'tnauthorship':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#authorship',
+              value));
+            break;
+
+          case 'tnyear':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#year',
+              value));
+            break;
+
+          case 'tcompublishedin':
+            value = value.replace(/\s+$/, '');
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/Common#publishedIn',
+              value));
+            break;
+
+          default:
+            break;
+        }
+      }
+    }
+  }
+
+  // do stuff	
+  output(doc, triples);
+}      
+         
+
+
+function couchdb(doc) {
+  if (doc['message-format']) {
+    if (doc['message-format'] == 'application/rdf+xml') {
+      message(doc);
+    }
+  }
+}
+// END COUCHDB VIEW
+
+		
+//----------------------------------------------------------------------------------------
+function convert() {
+	var json = $('#json').val();
+	var doc = JSON.parse(json);
+	
+	couchdb(doc);
+}
+
+	
+	</script>		
+			
+
+</div>
+</body>
+</html>			

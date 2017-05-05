@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:cinii="http://ci.nii.ac.jp/ns/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+<rdf:Description rdf:about="http://ci.nii.ac.jp/ncid/AA10545874#entity">
+<rdf:type rdf:resource="http://purl.org/ontology/bibo/Journal"/>
+<foaf:isPrimaryTopicOf rdf:resource="http://ci.nii.ac.jp/ncid/AA10545874.rdf"/>
+<dc:title>Zoological science</dc:title>
+<dcterms:alternative>Zoo. sci</dcterms:alternative>
+<dcterms:alternative>Zoological science</dcterms:alternative>
+<dc:creator>the Zoological Society of Japan</dc:creator>
+<dc:publisher>Zoological Society of Japan</dc:publisher>
+<dcterms:extent>v.</dcterms:extent>
+<cinii:size>26-28 cm</cinii:size>
+<dc:language>eng</dc:language>
+<dc:date>198-</dc:date>
+<cinii:ncid>AA10545874</cinii:ncid>
+<cinii:volumeYear>Vol. 1, no. 1 (Feb. 1984)-</cinii:volumeYear>
+<prism:issn>02890003</prism:issn>
+<cinii:familyid>30011900</cinii:familyid>
+<dc:relation rdf:resource="http://ci.nii.ac.jp/ncid/AA0005200X#entity" dc:title="Annotationes Zoologicae Japonenses / Societaties Zoologicae Tokyonensis"/>
+<dc:relation rdf:resource="http://ci.nii.ac.jp/ncid/AN00166645#entity" dc:title="動物学雑誌 / 東京動物學會"/>
+<cinii:ownerCount>227</cinii:ownerCount>
+<dcterms:hasFormat rdf:resource="http://www.bioone.org/loi/jzoo"/>
+<dcterms:hasFormat rdf:resource="http://www.pieronline.jp/content/serial/0289-0003"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://ci.nii.ac.jp/ncid/AA10545874#entity">
+<rdf:type rdf:resource="http://purl.org/ontology/bibo/Journal"/>
+<foaf:maker>
+<foaf:Person rdf:about="http://ci.nii.ac.jp/author/DA0076634X#entity">
+<foaf:name>日本動物学会</foaf:name>
+<foaf:name xml:lang="ja-hrkt">ニホン ドウブツ ガッカイ</foaf:name>
+</foaf:Person>
+</foaf:maker>
+</rdf:Description>
+<rdf:Description rdf:about="http://ci.nii.ac.jp/ncid/AA10545874#entity">
+<rdf:type rdf:resource="http://purl.org/ontology/bibo/Journal"/>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003330">
+<foaf:name>徳島大学 附属図書館 蔵本分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.tokushima-u.ac.jp/mylimedio/search/input-find.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003126">
+<foaf:name>鳥取大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.opac.lib.tottori-u.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA006962">
+<foaf:name>鶴見大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://library.tsurumi-u.ac.jp/opac/opac_search.cgi?smode=1?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA021671">
+<foaf:name>健康科学大学</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003261">
+<foaf:name>広島大学 図書館 東図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.hiroshima-u.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008990">
+<foaf:name>長崎総合科学大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.nias.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA006485">
+<foaf:name>日本獣医生命科学大学 付属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://jisvr02.nvlu.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008822">
+<foaf:name>久留米大学 附属図書館 医学部分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://lib.kurume-u.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA015475">
+<foaf:name>滋賀県立大学 図書情報センター</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.lib.usp.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;category-av1=1&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA007284">
+<foaf:name>椙山女学園大学 中央図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.sugiyama-u.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA009246">
+<foaf:name>自然科学研究機構 岡崎情報図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002123">
+<foaf:name>富山大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.u-toyama.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008243">
+<foaf:name>甲南大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://library.konan-u.ac.jp/gate?module=search&amp;path=search.do&amp;method=search&amp;searchForm.library=true&amp;searchForm.orderNumber=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003487">
+<foaf:name>九州工業大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.kyutech.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-book=1&amp;category-mgz=1&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA018848">
+<foaf:name>秋田県立大学 図書・情報センター</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA000106">
+<foaf:name>東京工業大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://topics.libra.titech.ac.jp/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001368">
+<foaf:name>岩手大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.iwate-u.ac.jp/gate?module=search&amp;path=search.do&amp;method=search&amp;searchForm.library=true&amp;searchForm.orderNumber=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005110">
+<foaf:name>北里大学 獣医学部図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005926">
+<foaf:name>東京医科大学 図書館分館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA013833">
+<foaf:name>早稲田大学 所沢図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003556">
+<foaf:name>熊本大学 附属図書館 医学系分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opserv.lib.kumamoto-u.ac.jp/opc/xc/search?keys=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008039">
+<foaf:name>近畿大学 医学部図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.clib.kindai.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA015147">
+<foaf:name>高松大学 附属図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008403">
+<foaf:name>武庫川女子大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://lib.mukogawa-u.ac.jp/opac/opac_details.cgi?lang=0&amp;amode=11&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003319">
+<foaf:name>徳島大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.tokushima-u.ac.jp/mylimedio/search/input-find.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005358">
+<foaf:name>上智大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://lux.lib.sophia.ac.jp/opac/?ACTION_TYPE=forward_search_result&amp;SLV=0&amp;ENCODE_TYPE=UTF-8&amp;LANG_CODE=JPN&amp;STYPE=2&amp;LOCAL_SEARCH=on&amp;NACSIS_SEARCH=off&amp;S_TARGET_BOOKS=BOOK&amp;S_TARGET_SERIALS=SERIAL&amp;SK_MARCNO=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA022980">
+<foaf:name>京都大学 フィールド科学教育研究センター</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008924">
+<foaf:name>福岡大学 図書館 医学部分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://nlopac.lib.fukuoka-u.ac.jp/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA023010">
+<foaf:name>名寄市立大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.lib-finder.net/nayoro/servlet/Index?findtype=2"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003410">
+<foaf:name>高知大学 学術情報基盤図書館 中央館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.iic.kochi-u.ac.jp/webopac/ctlsrh.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002600">
+<foaf:name>滋賀医科大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://amethyst.shiga-med.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;listcnt=50&amp;maxcnt=1000&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001299">
+<foaf:name>室蘭工業大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://mcatalog.lib.muroran-it.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA013017">
+<foaf:name>聖徳大学 川並弘昭記念図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://libserv1.seitoku.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA010347">
+<foaf:name>国立研究開発法人 水産研究・教育機構 増養殖研究所</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001798">
+<foaf:name>東京大学 駒場図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.dl.itc.u-tokyo.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA010085">
+<foaf:name>農業・食品産業技術総合研究機構 生物機能利用研究部門 図書室</foaf:name>
+<rdfs:seeAlso rdf:resource="http://app.cc.affrc.go.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874&amp;holar=04"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008731">
+<foaf:name>四国大学 附属図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001594">
+<foaf:name>福島大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.lib.fukushima-u.ac.jp/opac/opac_openurl.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003148">
+<foaf:name>島根大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.shimane-u.ac.jp/opac/opac_search/?lang=0&amp;amode=2&amp;cmode=0&amp;smode=1&amp;direct=1&amp;con1_exp=ncid&amp;kywd1_exp=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA006157">
+<foaf:name>東邦大学 習志野メディアセンター</foaf:name>
+<rdfs:seeAlso rdf:resource="http://lib.toho-u.ac.jp/opac/opac_openurl.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005981">
+<foaf:name>東京歯科大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://lib.tdc.ac.jp/webopac/ctlsrh.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA012466">
+<foaf:name>近畿大学 農学部図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.clib.kindai.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA007954">
+<foaf:name>追手門学院大学 附属図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003771">
+<foaf:name>横浜市立大学 学術情報センター</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.yokohama-cu.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA000150">
+<foaf:name>明治学院大学 横浜校舎 図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA007229">
+<foaf:name>愛知学院大学 歯学・薬学図書館情報センター</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA014439">
+<foaf:name>神奈川県立川崎図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002564">
+<foaf:name>三重大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.mie-u.ac.jp/opc/xc/openurl/search?rft.issn=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002269">
+<foaf:name>山梨大学 附属図書館 医学分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.yamanashi.ac.jp/opac/opac_openurl?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA004570">
+<foaf:name>奥羽大学 図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA006827">
+<foaf:name>麻布大学 附属学術情報センター</foaf:name>
+<rdfs:seeAlso rdf:resource="http://turf.azabu-u.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA004741">
+<foaf:name>城西大学 水田記念図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://libopac.josai.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA010846">
+<foaf:name>静岡県立中央図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003465">
+<foaf:name>九州大学 附属図書館 医学図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://catalog.lib.kyushu-u.ac.jp/xc/openurl/search?rft.ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA017652">
+<foaf:name>兵庫県立図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA004322">
+<foaf:name>北海道科学大学 図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003374">
+<foaf:name>愛媛大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac2.lib.ehime-u.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002848">
+<foaf:name>大阪大学 附属図書館 総合図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.library.osaka-u.ac.jp/opac/opac_openurl.cgi?rfe_dat=ncid/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA004639">
+<foaf:name>獨協医科大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://mopac.dokkyomed.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001357">
+<foaf:name>弘前大学 附属図書館 医学部分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opc.ul.hirosaki-u.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001721">
+<foaf:name>群馬大学 総合情報メディアセンター 医学図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.gunma-u.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002371">
+<foaf:name>静岡大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.lib.shizuoka.ac.jp/opacid/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002371">
+<foaf:name>静岡大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.lib.shizuoka.ac.jp/opacid/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008403">
+<foaf:name>武庫川女子大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://lib.mukogawa-u.ac.jp/opac/opac_details.cgi?lang=0&amp;amode=11&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA010187">
+<foaf:name>国立研究開発法人 森林総合研究所</foaf:name>
+<rdfs:seeAlso rdf:resource="http://app.cc.affrc.go.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874&amp;holar=15"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001426">
+<foaf:name>東北大学 附属図書館 農学分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.library.tohoku.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA016922">
+<foaf:name>高知工科大学 附属情報図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www-opac.lib.kochi-tech.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA012761">
+<foaf:name>大阪府立中央図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA007670">
+<foaf:name>同志社大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://doors.doshisha.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA009213">
+<foaf:name>国立遺伝学研究所 図書室</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005777">
+<foaf:name>帝京大学 医学総合図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA009687">
+<foaf:name>農林水産省 農林水産研究情報総合センター</foaf:name>
+<rdfs:seeAlso rdf:resource="http://app.cc.affrc.go.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874&amp;holar=99"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003352">
+<foaf:name>香川大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.lib.kagawa-u.ac.jp/webopac/ctlsrh.do?listcnt=50&amp;maxcnt=1000&amp;code=AA10545874&amp;code_type=NC"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003192">
+<foaf:name>岡山大学 附属図書館 資源植物科学研究所分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://webcat.lib.okayama-u.ac.jp/mylimedio/search/search.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003181">
+<foaf:name>岡山大学 附属図書館 鹿田分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://webcat.lib.okayama-u.ac.jp/mylimedio/search/search.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002531">
+<foaf:name>愛知教育大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.auelib.aichi-edu.ac.jp/webopac/ctlsrh.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA006022">
+<foaf:name>東京女子医科大学 図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001120">
+<foaf:name>北海道大学 大学院農学研究科図書室</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.hokudai.ac.jp/opac/opac_openurl.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA006496">
+<foaf:name>日本女子大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.lib.jwu.ac.jp/webopac/ctlsrh.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA01444X">
+<foaf:name>香川県立図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA010369">
+<foaf:name>国立研究開発法人 水産研究・教育機構 水産大学校</foaf:name>
+<rdfs:seeAlso rdf:resource="http://libweb.fish-u.ac.jp/fish/php/cinii.php?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003294">
+<foaf:name>山口大学 図書館 医学部図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.yamaguchi-u.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005992">
+<foaf:name>東京慈恵会医科大学 学術情報センター</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.jikei.ac.jp/mylimedio/search/search.do?mode=comp&amp;target=local&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA010857">
+<foaf:name>愛知芸術文化センター 愛知県図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA006452">
+<foaf:name>日本歯科大学 生命歯学部図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002393">
+<foaf:name>浜松医科大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.hama-med.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA007105">
+<foaf:name>松本歯科大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://sv2.opac.jp/pbop/cgi-bin/api/open065hc2u.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002327">
+<foaf:name>信州大学 附属図書館 農学部図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www-lib.shinshu-u.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA007138">
+<foaf:name>岐阜女子大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://libwww.gijodai.ac.jp/jhkweb_JPN/service/ncid_search.asp?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA009155">
+<foaf:name>沖縄国際大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opacm.okiu.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002145">
+<foaf:name>金沢大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www1.lib.kanazawa-u.ac.jp/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002065">
+<foaf:name>横浜国立大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://libopac.lib.ynu.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002280">
+<foaf:name>信州大学 附属図書館 中央図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www-lib.shinshu-u.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002087">
+<foaf:name>新潟大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.niigata-u.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA004592">
+<foaf:name>常磐大学 情報メディアセンター</foaf:name>
+<rdfs:seeAlso rdf:resource="https://libopac.tokiwa.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002586">
+<foaf:name>滋賀大学 附属図書館 教育学部分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://sglbopac.biwako.shiga-u.ac.jp/mylimedio/search/input-find.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA010256">
+<foaf:name>国立研究開発法人 水産研究・教育機構 東北区水産研究所</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005121">
+<foaf:name>北里大学 海洋生命科学部 図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003625">
+<foaf:name>宮崎大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac2.lib.miyazaki-u.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002939">
+<foaf:name>大阪教育大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac-ir.lib.osaka-kyoiku.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001404">
+<foaf:name>東北大学 附属図書館 医学分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.library.tohoku.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001379">
+<foaf:name>東北大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.library.tohoku.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003002">
+<foaf:name>神戸大学 附属図書館 総合図書館 国際文化学図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://op.lib.kobe-u.ac.jp/opac/opac_openurl/?rfe_dat=ncid/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001710">
+<foaf:name>群馬大学 総合情報メディアセンター 中央図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.gunma-u.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA007025">
+<foaf:name>金沢医科大学 図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA006463">
+<foaf:name>日本歯科大学 新潟生命歯学部図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://lib.ngt.ndu.ac.jp/jhkweb_JPN/service/ncid_search.asp?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001765">
+<foaf:name>千葉大学 附属図書館 亥鼻分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.ll.chiba-u.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA020872">
+<foaf:name>国立研究開発法人 理化学研究所 多細胞システム形成研究センター 図書室</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005267">
+<foaf:name>国際基督教大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.icu.ac.jp/opac/opac_openurl.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008221">
+<foaf:name>関西学院大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac2.kwansei.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003964">
+<foaf:name>大阪市立大学 学術情報総合センター</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.media.osaka-cu.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA014574">
+<foaf:name>創価大学 フレイザー図書館 (理工学部分館)</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005074">
+<foaf:name>北里大学 教養図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://saosrv.kitasato-u.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005085">
+<foaf:name>北里大学 医学図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://saosrv.kitasato-u.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA006317">
+<foaf:name>日本大学 歯学部図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001903">
+<foaf:name>東京農工大学 府中図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://libwebservice.biblio.tuat.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003363">
+<foaf:name>香川大学 附属図書館 医学部分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.lib.kagawa-u.ac.jp/webopac/ctlsrh.do?listcnt=50&amp;maxcnt=1000&amp;code=AA10545874&amp;code_type=NC"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA006088">
+<foaf:name>東京農業大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://webopac.nodai.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001528">
+<foaf:name>秋田大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.akita-u.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003647">
+<foaf:name>鹿児島大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://catalog.lib.kagoshima-u.ac.jp/opc/xc/search/*?os[isbn]=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA010438">
+<foaf:name>国立研究開発法人 産業技術総合研究所 つくば東 図書室</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001754">
+<foaf:name>千葉大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.ll.chiba-u.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008469">
+<foaf:name>奈良大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://library.nara-u.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA024239">
+<foaf:name>関西医療大学 図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002677">
+<foaf:name>京都大学 理学部</foaf:name>
+<rdfs:seeAlso rdf:resource="http://m.kulib.kyoto-u.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002338">
+<foaf:name>信州大学 附属図書館 繊維学部図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www-lib.shinshu-u.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA009563">
+<foaf:name>国立科学博物館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA007772">
+<foaf:name>大阪医科大学 図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002848">
+<foaf:name>大阪大学 附属図書館 総合図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.library.osaka-u.ac.jp/opac/opac_openurl.cgi?rfe_dat=ncid/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008516">
+<foaf:name>岡山理科大学 図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA012353">
+<foaf:name>東京農業大学 学術情報センター(オホーツク)</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008323">
+<foaf:name>神戸女子大学 図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA013979">
+<foaf:name>名古屋大学 附属図書館 医学部分館 保健学 図書室</foaf:name>
+<rdfs:seeAlso rdf:resource="http://nagoya-m-opac.nul.nagoya-u.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874&amp;initFlg=_RESULT_SET_NOTBIB"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005391">
+<foaf:name>昭和大学 図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002724">
+<foaf:name>京都大学 農学部 図書室</foaf:name>
+<rdfs:seeAlso rdf:resource="http://m.kulib.kyoto-u.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003432">
+<foaf:name>高知大学 学術情報基盤図書館 医学部分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.iic.kochi-u.ac.jp/webopac/ctlsrh.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005835">
+<foaf:name>東海大学 付属図書館 伊勢原図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.time.u-tokai.ac.jp/webopac/ufirdi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA010303">
+<foaf:name>国立研究開発法人 水産研究・教育機構 西海区水産研究所</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002280">
+<foaf:name>信州大学 附属図書館 中央図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www-lib.shinshu-u.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002087">
+<foaf:name>新潟大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.niigata-u.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001561">
+<foaf:name>山形大学 医学部図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://klibs1.kj.yamagata-u.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA009596">
+<foaf:name>国立保健医療科学院</foaf:name>
+<rdfs:seeAlso rdf:resource="http://webopac.niph.go.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003283">
+<foaf:name>山口大学 図書館 総合図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.yamaguchi-u.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA012171">
+<foaf:name>日本大学 生物資源科学部 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://brslib.nihon-u.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003512">
+<foaf:name>長崎大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lb.nagasaki-u.ac.jp/cgi-bin/opc/opaclinki.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA013050">
+<foaf:name>神奈川大学 平塚図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.kanagawa-u.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008968">
+<foaf:name>西九州大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://library.nisikyu-u.ac.jp/OPAC4/opac/ncid_search?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001652">
+<foaf:name>筑波大学 附属図書館 中央図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.tulips.tsukuba.ac.jp/scripts/opac/redirect?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002575">
+<foaf:name>三重大学 医学部図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.mie-u.ac.jp/opc/xc/openurl/search?rft.issn=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005154">
+<foaf:name>杏林大学 医学図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.kyorin-u.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005303">
+<foaf:name>実践女子大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac4.jissen.ac.jp/opac/opac_openurl.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA007466">
+<foaf:name>名城大学 附属図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003578">
+<foaf:name>大分大学 学術情報拠点(図書館)</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac2.lib.oita-u.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA009199">
+<foaf:name>情報・システム研究機構 国立極地研究所 情報図書室</foaf:name>
+<rdfs:seeAlso rdf:resource="http://libsv.nipr.ac.jp/mylimedio/search/search.do?mode=comp&amp;target=local&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA006678">
+<foaf:name>明治大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.meiji.ac.jp/webopac/ctlsrh.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003534">
+<foaf:name>長崎大学 附属図書館 医学分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lb.nagasaki-u.ac.jp/cgi-bin/opc/opaclinki.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005948">
+<foaf:name>東京家政大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://kensaku.tokyo-kasei.ac.jp/kensaku/opac_openurl.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA004355">
+<foaf:name>酪農学園大学 附属図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001583">
+<foaf:name>山形大学 農学部図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://klibs1.kj.yamagata-u.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001685">
+<foaf:name>宇都宮大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.utsunomiya-u.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002087">
+<foaf:name>新潟大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.niigata-u.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003159">
+<foaf:name>島根大学 附属図書館 医学図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003341">
+<foaf:name>鳴門教育大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.naruto-u.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001889">
+<foaf:name>東京学芸大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://library.u-gakugei.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001969">
+<foaf:name>東京海洋大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://lib.s.kaiyodai.ac.jp/opac/opac_openurl?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA016048">
+<foaf:name>羽衣国際大学 学術情報センター</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA004978">
+<foaf:name>大妻女子大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.lib.otsuma.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA010201">
+<foaf:name>国立研究開発法人 森林総合研究所 東北支所</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001277">
+<foaf:name>北海道教育大学 附属図書館 釧路館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://s-opac.sap.hokkyodai.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA018655">
+<foaf:name>島根県立大学短期大学部 松江キャンパス 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.u-shimane.ac.jp/opac/opac_openurl.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA02335X">
+<foaf:name>京都医療科学大学 図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA009665">
+<foaf:name>厚生労働省 国立医薬品食品衛生研究所 安全情報部図書係</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA004628">
+<foaf:name>自治医科大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://lib.jichi.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA014213">
+<foaf:name>兵庫県立大学 播磨理学学術情報館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://lib.laic.u-hyogo.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA018713">
+<foaf:name>熊本保健科学大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://aquarius.kumamoto-hsu.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005813">
+<foaf:name>東海大学 付属図書館 札幌図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.time.u-tokai.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001164">
+<foaf:name>北海道大学 大学院水産科学研究科・水産学部図書室</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.hokudai.ac.jp/opac/opac_openurl.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003760">
+<foaf:name>首都大学東京 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.opac.lib.tmu.ac.jp/webopac/ctlsrh.do?listcnt=20&amp;maxcnt=1000&amp;code=AA10545874&amp;code_type=NC"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA012670">
+<foaf:name>石巻専修大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.acc.senshu-u.ac.jp/opacishinomaki?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA009701">
+<foaf:name>農業・食品産業技術総合研究機構 農業環境変動研究センター 図書室</foaf:name>
+<rdfs:seeAlso rdf:resource="http://app.cc.affrc.go.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874&amp;holar=01"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002134">
+<foaf:name>富山大学 附属図書館 医薬学図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.u-toyama.ac.jp/opc/recordID/catalog.bib/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001743">
+<foaf:name>埼玉大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.saitama-u.ac.jp/opac/opac_openurl.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003137">
+<foaf:name>鳥取大学 附属図書館 医学図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.opac.lib.tottori-u.ac.jp/cgi-bin/opc/opaclinki.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003079">
+<foaf:name>奈良教育大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://libwww.nara-edu.ac.jp/mylimedio/search/search.do?mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003454">
+<foaf:name>九州大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://catalog.lib.kyushu-u.ac.jp/xc/openurl/search?rft.ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005212">
+<foaf:name>慶應義塾大学 信濃町メディアセンター</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001255">
+<foaf:name>北海道教育大学 附属図書館 函館館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://s-opac.sap.hokkyodai.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003170">
+<foaf:name>岡山大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://webcat.lib.okayama-u.ac.jp/mylimedio/search/search.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008946">
+<foaf:name>福岡歯科大学 情報図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA004719">
+<foaf:name>埼玉医科大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.saitama-med.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA012091">
+<foaf:name>東京大学大気海洋研究所 図書室</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.dl.itc.u-tokyo.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003691">
+<foaf:name>琉球大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.u-ryukyu.ac.jp/opc/xc/search/*?os[isbn]=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003716">
+<foaf:name>札幌医科大学 附属総合情報センター</foaf:name>
+<rdfs:seeAlso rdf:resource="http://hamanasu.cc.sapmed.ac.jp/mylimedio/search/search.do?local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA006306">
+<foaf:name>日本大学 医学部図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://medlib.nihon-u.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA009880">
+<foaf:name>農業・食品産業技術総合研究機構 北海道農業研究センター 図書室</foaf:name>
+<rdfs:seeAlso rdf:resource="http://app.cc.affrc.go.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874&amp;holar=34"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA004424">
+<foaf:name>岩手医科大学 附属図書館 分館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://webcat.lib.iwate-med.ac.jp/webopac/ctlsrh.do?code=AA10545874&amp;code_type=NC&amp;listcnt=50&amp;maxcnt=1000"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003986">
+<foaf:name>大阪府立大学 学術情報センター</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.osakafu-u.ac.jp/opac/opac_openurl/?lang=0&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA01401X">
+<foaf:name>公立大学法人 福井県立大学 附属図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA010314">
+<foaf:name>独立行政法人 水産総合研究センター 日本海区水産研究所</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003931">
+<foaf:name>京都府立大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opacs.pref.kyoto.lg.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;annex=2&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003090">
+<foaf:name>奈良女子大学 学術情報センター</foaf:name>
+<rdfs:seeAlso rdf:resource="https://yamato.lib.nara-wu.ac.jp/webopac/catdbl.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA012284">
+<foaf:name>広島大学 図書館 中央図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.hiroshima-u.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002509">
+<foaf:name>名古屋大学 生命農学 図書室</foaf:name>
+<rdfs:seeAlso rdf:resource="http://nagoya-m-opac.nul.nagoya-u.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874&amp;initFlg=_RESULT_SET_NOTBIB"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008243">
+<foaf:name>甲南大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://library.konan-u.ac.jp/gate?module=search&amp;path=search.do&amp;method=search&amp;searchForm.library=true&amp;searchForm.orderNumber=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA023994">
+<foaf:name>海洋研究開発機構 横須賀 図書室</foaf:name>
+<rdfs:seeAlso rdf:resource="http://www.jamstec.go.jp/opac/mylimedio/search/search.do?mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA02289X">
+<foaf:name>九州大学 附属図書館 伊都図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://catalog.lib.kyushu-u.ac.jp/xc/openurl/search?rft.ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA014563">
+<foaf:name>筑波技術大学 附属図書館 視覚障害系図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://library.k.tsukuba-tech.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001550">
+<foaf:name>山形大学 小白川図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://klibs1.kj.yamagata-u.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002360">
+<foaf:name>岐阜大学 医学図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.lib.gifu-u.ac.jp/cgi-bin/opc/opaclinki.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001266">
+<foaf:name>北海道教育大学 附属図書館 旭川館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://s-opac.sap.hokkyodai.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005493">
+<foaf:name>成城大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.lib.seijo.ac.jp/opac/opac_openurl?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002688">
+<foaf:name>京都大学 医学図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://m.kulib.kyoto-u.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA009381">
+<foaf:name>量子科学技術研究開発機構</foaf:name>
+<rdfs:seeAlso rdf:resource="http://ss4lime.qst.go.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA007127">
+<foaf:name>朝日大学 図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://lopac.asahi-u.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA014031">
+<foaf:name>帝塚山大学 図書館 分館 (学園前キャンパス図書館)</foaf:name>
+<rdfs:seeAlso rdf:resource="http://opac.tezukayama-u.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;category-mgz=1&amp;category-book=1&amp;annex=all&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA008844">
+<foaf:name>産業医科大学 図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA004355">
+<foaf:name>酪農学園大学 附属図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA005890">
+<foaf:name>東海大学 付属図書館 清水図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.time.u-tokai.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA003035">
+<foaf:name>神戸大学 附属図書館 自然科学系図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://op.lib.kobe-u.ac.jp/opac/opac_openurl/?rfe_dat=ncid/AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA006328">
+<foaf:name>日本大学 松戸歯学部図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://mascatlib.cin.nihon-u.ac.jp/opac/disp-query?disp=2&amp;con1=17&amp;kywd1=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001244">
+<foaf:name>北海道教育大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://s-opac.sap.hokkyodai.ac.jp/mylimedio/search/search.do?target=local&amp;mode=comp&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002236">
+<foaf:name>福井大学 附属図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="http://karin00.flib.u-fukui.ac.jp/webopac/ctlsrh.do?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA011780">
+<foaf:name>東京大学 理学部</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.dl.itc.u-tokyo.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA001845">
+<foaf:name>東京大学 農学生命科学図書館</foaf:name>
+<rdfs:seeAlso rdf:resource="https://opac.dl.itc.u-tokyo.ac.jp/opac/opac_openurl.cgi?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA015613">
+<foaf:name>総合研究大学院大学 附属図書館</foaf:name>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA002790">
+<foaf:name>京都大学 霊長類研究所 図書室</foaf:name>
+<rdfs:seeAlso rdf:resource="http://m.kulib.kyoto-u.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&amp;ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+<bibo:owner>
+<foaf:Organization rdf:about="http://ci.nii.ac.jp/library/FA004912">
+<foaf:name>和洋女子大学 メディアセンター</foaf:name>
+<rdfs:seeAlso rdf:resource="https://ecats.wayo.ac.jp/opac/opac_openurl/?ncid=AA10545874"/>
+</foaf:Organization>
+</bibo:owner>
+</rdf:Description>
+</rdf:RDF>

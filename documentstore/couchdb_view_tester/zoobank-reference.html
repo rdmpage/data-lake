@@ -1,0 +1,513 @@
+<html>
+	<head>
+		<title>ZooBank JSON to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<script src="viz.js"></script>
+		<!-- stuff below needs to go into CouchDB views -->
+		<script src="shared.js"></script>
+		<script src="language.js"></script>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>ZooBank JSON to n-triples</h1>
+
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>JSON</h2>
+			<!-- JSON for data object goes below -->
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+{
+	"message-format": "application\/vnd.zoobank+json",
+	"_id": "http:\/\/zoobank.org\/References\/0FB0955D-5FAF-47C4-A2BE-114E1DC7D997",
+	"message-timestamp": "2017-05-04T18:02:30+00:00",
+	"message-modified": "2017-05-04T18:02:30+00:00",
+	"message": {
+		"referenceuuid": "0FB0955D-5FAF-47C4-A2BE-114E1DC7D997",
+		"label": "Parrilla-Bel, Jara, Mark T. Young, Miguel Moreno-Azanza & Jos\u00e9 I. Canudo.  2013. The first metriorhynchid crocodyliform from the Middle Jurassic of Spain, with implications for evolution of the subclade Rhacheosaurini. Public Library of Science, ONE 8(1): e54275.",
+		"value": "Parrilla-Bel, Jara, Mark T. Young, Miguel Moreno-Azanza & Jos\u00e9 I. Canudo.  2013. The first metriorhynchid crocodyliform from the Middle Jurassic of Spain, with implications for evolution of the subclade Rhacheosaurini. Public Library of Science, ONE 8(1): e54275.",
+		"authorlist": "Parrilla-Bel, Jara, Mark T. Young, Miguel Moreno-Azanza & Jos\u00e9 I. Canudo.",
+		"year": "2013",
+		"title": "The first metriorhynchid crocodyliform from the Middle Jurassic of Spain, with implications for evolution of the subclade Rhacheosaurini",
+		"citationdetails": "<em>Public Library of Science, ONE<\/em> <b>8<\/b>(1): e54275.",
+		"volume": "8",
+		"number": "1",
+		"edition": "",
+		"publisher": "",
+		"placepublished": "",
+		"pagination": "e54275",
+		"startpage": "",
+		"endpage": "",
+		"language": "English",
+		"languageid": "19691433",
+		"referencetype": "Journal Article",
+		"lsid": "urn:lsid:zoobank.org:pub:0FB0955D-5FAF-47C4-A2BE-114E1DC7D997",
+		"parentreferenceid": "8D47F6C5-DF9C-4886-8091-4435EBD88CF2",
+		"parentreference": "Public Library of Science, ONE (PLoS ONE)",
+		"authors": [
+			[{
+				"familyname": "Parrilla-Bel",
+				"givenname": "Jara",
+				"gnubuuid": "44746D99-A7D1-4A53-BE50-71276F859324"
+			}],
+			[{
+				"familyname": "Young",
+				"givenname": "Mark Thomas",
+				"gnubuuid": "015D8A5F-3A47-42EA-AFA4-07BC5F796EE4"
+			}],
+			[{
+				"familyname": "Moreno-Azanza",
+				"givenname": "Miguel",
+				"gnubuuid": "3BA06DE0-12EC-408C-BAB6-BC898BEF9DC9"
+			}],
+			[{
+				"familyname": "Canudo",
+				"givenname": "Jos\u00e9 I.",
+				"gnubuuid": "37C94FC5-5489-4268-A4EB-757C61DD6763"
+			}]
+		],
+		"NomenclaturalActs": [{
+			"tnuuuid": "BB05397F-3EA7-42EB-98C9-D6AA3D2EC626",
+			"OriginalReferenceUUID": "0FB0955D-5FAF-47C4-A2BE-114E1DC7D997",
+			"protonymuuid": "BB05397F-3EA7-42EB-98C9-D6AA3D2EC626",
+			"label": "Maledictosuchus Parrilla-Bel, Young, Moreno-Azanza & Canudo 2013",
+			"value": "Maledictosuchus Parrilla-Bel, Young, Moreno-Azanza & Canudo 2013",
+			"lsid": "urn:lsid:zoobank.org:act:BB05397F-3EA7-42EB-98C9-D6AA3D2EC626",
+			"parentname": "",
+			"namestring": "Maledictosuchus",
+			"rankgroup": "Genus",
+			"usageauthors": "Parrilla-Bel, Young, Moreno-Azanza & Canudo",
+			"taxonnamerankid": "60",
+			"parentusageuuid": "",
+			"cleanprotonym": "Maledictosuchus Parrilla-Bel, Young, Moreno-Azanza & Canudo, 2013",
+			"NomenclaturalCode": "ICZN"
+		}, {
+			"tnuuuid": "503A90A7-DEB6-40E6-9CBC-B8A0FC076D5B",
+			"OriginalReferenceUUID": "0FB0955D-5FAF-47C4-A2BE-114E1DC7D997",
+			"protonymuuid": "503A90A7-DEB6-40E6-9CBC-B8A0FC076D5B",
+			"label": "riclaensis Parrilla-Bel, Young, Moreno-Azanza & Canudo 2013",
+			"value": "riclaensis Parrilla-Bel, Young, Moreno-Azanza & Canudo 2013",
+			"lsid": "urn:lsid:zoobank.org:act:503A90A7-DEB6-40E6-9CBC-B8A0FC076D5B",
+			"parentname": "Maledictosuchus Parrilla-Bel, Young, Moreno-Azanza & Canudo, 2013",
+			"namestring": "riclaensis",
+			"rankgroup": "Species",
+			"usageauthors": "Parrilla-Bel, Young, Moreno-Azanza & Canudo",
+			"taxonnamerankid": "70",
+			"parentusageuuid": "BB05397F-3EA7-42EB-98C9-D6AA3D2EC626",
+			"cleanprotonym": "Maledictosuchus riclaensis Parrilla-Bel, Young, Moreno-Azanza & Canudo, 2013",
+			"NomenclaturalCode": "ICZN"
+		}],
+		"doi": "10.1371\/journal.pone.0054275"
+	}
+}			</textarea>
+			<br />
+			<button onclick="convert()">Convert JSON to RDF</button>
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;background-color:#FF7;color:#222;overflow:auto;"></div>
+		<h2>Graph</h2>
+		<div id="graph" style="width:100%;overflow:auto;"></div>
+		<h2>JSON-LD</h2>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;overflow:auto;"></div>
+
+</div>			
+			
+		
+		
+		
+<script>
+
+// http://stackoverflow.com/a/17076120
+function decodeHTMLEntities(text) {
+   var entities = [
+        ['amp', '&'],
+        ['apos', '\''],
+        ['#x27', '\''],
+        ['#x2F', '/'],
+        ['#39', '\''],
+	['#039', '\''],
+        ['#47', '/'],
+        ['lt', '<'],
+        ['gt', '>'],
+        ['nbsp', ' '],
+        ['quot', '"']
+    ];
+
+    text = String(text);
+
+    for (var i = 0, max = entities.length; i < max; ++i) {
+        text = text.replace(new RegExp('&'+entities[i][0]+';', 'g'), entities[i][1]);
+    }
+
+    return text;
+}
+	
+	
+//----------------------------------------------------------------------------------------
+// START COUCHDB VIEW
+function message(doc) {
+  if (doc.message) {
+
+    var subject_id = doc.message.lsid;
+    var triples = [];
+    var type = '';
+
+    for (var i in doc.message) {
+      if (doc.message[i] != '') {
+        switch (i) {
+
+          case 'doi':
+            triples.push(triple(subject_id,
+              'http://schema.org/identifier',
+              'http://identifiers.org/doi/' + doc.message[i].toLowerCase()));
+
+            triples.push(triple(subject_id,
+              'http://prismstandard.org/namespaces/basic/2.1/doi',
+              doc.message[i].toLowerCase()));
+            break;
+
+          case 'lsid':
+            triples.push(triple(subject_id,
+              'http://schema.org/identifier',
+              doc.message[i]));
+            break;
+
+          case 'referenceuuid':
+            triples.push(triple(subject_id,
+              'http://schema.org/identifier',
+              doc.message[i].toLowerCase()));
+
+            triples.push(triple(subject_id,
+              'http://schema.org/url',
+              'http://zoobank.org/' + doc.message[i]));
+            break;
+
+          case 'title':
+            triples.push(triple(subject_id,
+              'http://schema.org/name',
+              decodeHTMLEntities(doc.message[i])));
+            break;
+
+          case 'referencetype':
+            switch (doc.message[i]) {
+              case 'Journal Article':
+                type = 'http://schema.org/ScholarlyArticle';
+                break;
+              case 'Periodical':
+                type = 'http://schema.org/Periodical';
+                break;
+              default:
+                break;
+            }
+            break;
+
+            // publisher
+            // should this be linked to journal rather than article?
+            // should this be an object rather than a string?
+          case 'publisher':
+            triples.push(triple(subject_id,
+              'http://schema.org/publisher',
+              doc.message[i]));
+            break;
+
+          case 'parentreference':
+            if (doc.message.referencetype == 'Journal Article') {
+              triples.push(triple(subject_id,
+                'http://prismstandard.org/namespaces/basic/2.1/publicationName',
+                doc.message[i]));
+            }
+            break;
+
+          case 'volume':
+            triples.push(triple(subject_id,
+              'http://schema.org/volumeNumber',
+              doc.message[i]));
+            break;
+
+          case 'number':
+            triples.push(triple(subject_id,
+              'http://schema.org/issueNumber',
+              doc.message[i]));
+            break;
+
+          case 'startpage':
+            triples.push(triple(subject_id,
+              'http://schema.org/pageStart',
+              doc.message[i]));
+            break;
+
+          case 'endpage':
+            triples.push(triple(subject_id,
+              'http://schema.org/pageEnd',
+              doc.message[i]));
+            break;
+
+          case 'pagination':
+            triples.push(triple(subject_id,
+              'http://schema.org/pagination',
+              doc.message[i]));
+            break;
+
+            // journal (or book)
+          case 'parentreferenceid':
+            var journal_id = 'urn:lsid:zoobank.org:pub:' + doc.message[i];
+
+            triples.push(triple(subject_id,
+              'http://schema.org/isPartOf',
+              journal_id
+            ));
+
+            // type (we don't actually know this, could be book)
+            /*
+			  triples.push(triple(journal_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/Periodical'));
+			  */
+
+            // journal name can be string or array
+            if (doc.message.parentreference) {
+              triples.push(triple(journal_id,
+                'http://schema.org/name',
+                doc.message.parentreference));
+            }
+            break;
+
+            // authors (includes author id as uuid)
+          case 'authors':
+            var n = doc.message[i].length;
+
+            // store an ordered list of authors as well?
+
+
+            for (var j = 0; j < n; j++) {
+              var author_id = '';
+
+              if (1) {
+                // use uuid if available, otherwise hash
+                if (doc.message[i][j][0].gnubuuid) {
+                  author_id = 'urn:lsid:zoobank.org:author:' + doc.message[i][j][0].gnubuuid;
+                } else {
+                  // #hash identifier 
+                  author_id = subject_id + '#author_' + (j + 1);
+                }
+              } else {
+                // always use #hash identifier 
+                author_id = subject_id + '#author_' + (j + 1);
+              }
+
+
+              // type, need to handle organisations as authors
+              triples.push(triple(author_id,
+                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                'http://schema.org/Person'));
+
+              triples.push(triple(subject_id,
+                'http://schema.org/author',
+                author_id));
+
+              // name 	
+              var name = '';
+
+              if (doc.message[i][j][0].givenname) {
+                triples.push(triple(author_id,
+                  'http://schema.org/givenName', // ?
+                  doc.message[i][j][0].givenname));
+
+                name += doc.message[i][j][0].givenname;
+              }
+
+              if (doc.message[i][j][0].familyname) {
+                triples.push(triple(author_id,
+                  'http://schema.org/familyName', // ?
+                  doc.message[i][j][0].familyname));
+
+                name += ' ' + doc.message[i][j][0].familyname;
+              }
+
+              if (name != '') {
+                triples.push(triple(author_id,
+                  'http://schema.org/name', // ?
+                  name));
+              }
+
+              // identifier
+              if (doc.message[i][j][0].gnubuuid) {
+                triples.push(triple(author_id,
+                  'http://schema.org/identifier',
+                  author_id));
+              }
+
+
+
+            }
+            break;
+
+            // names published
+          case 'NomenclaturalActs':
+            for (var j in doc.message[i]) {
+
+
+              // to do, not all names have LSIDs, e.g. 
+              var name_id = ''
+
+              if (doc.message[i][j].lsid && (doc.message[i][j].lsid != "")) {
+                name_id = doc.message[i][j].lsid;
+              } else {
+                name_id = 'http://zoobank.org/' + doc.message[i][j].tnuuuid;
+              }
+
+              triples.push(triple(name_id,
+                'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+                'http://rs.tdwg.org/ontology/voc/TaxonName#TaxonName'));
+
+              for (var k in doc.message[i][j]) {
+                if (doc.message[i][j][k] != '') {
+                  switch (k) {
+
+                    case 'lsid':
+                      triples.push(triple(name_id,
+                        'http://schema.org/identifier',
+                        doc.message[i][j][k]));
+                      break;
+
+                    case 'tnuuuid':
+                      triples.push(triple(name_id,
+                        'http://schema.org/identifier',
+                        'http://zoobank.org/' + doc.message[i][j][k]));
+
+                      triples.push(triple(name_id,
+                        'http://schema.org/url',
+                        'http://zoobank.org/' + doc.message[i][j][k]));
+                      break;
+
+                    case 'OriginalReferenceUUID':
+                      triples.push(triple(name_id,
+                        'http://rs.tdwg.org/ontology/voc/Common#publishedInCitation',
+                        'urn:lsid:zoobank.org:pub:' + doc.message[i][j][k]));
+
+                      // DwC
+                      triples.push(triple(name_id,
+                        'http://rs.tdwg.org/dwc/terms/namePublishedInID',
+                        'urn:lsid:zoobank.org:pub:' + doc.message[i][j][k]));
+                      break;
+
+                    case 'parentusageuuid':
+                      triples.push(triple(name_id,
+                        'http://rs.tdwg.org/dwc/terms/parentNameUsageID',
+                        'http://zoobank.org/' + doc.message[i][j][k]));
+                      break;
+
+                    case 'cleanprotonym':
+                      triples.push(triple(name_id,
+                        'http://schema.org/name',
+                        doc.message[i][j][k]));
+
+                      triples.push(triple(name_id,
+                        'http://rs.tdwg.org/dwc/terms/scientificName',
+                        doc.message[i][j][k]));
+                      break;
+
+                    case 'rankgroup':
+                      triples.push(triple(name_id,
+                        'http://rs.tdwg.org/ontology/voc/TaxonName#rankString',
+                        doc.message[i][j][k]));
+                      break;
+
+                    case 'namestring':
+                      var nameComplete = '';
+                      switch (doc.message[i][j].rankgroup) {
+                        case 'Genus':
+                          nameComplete = doc.message[i][j][k];
+                          break;
+
+                        case 'Species':
+                          var pos = doc.message[i][j].cleanprotonym.indexOf(doc.message[i][j][k]);
+                          var nameComplete = doc.message[i][j].cleanprotonym.substring(0, pos + doc.message[i][j][k].length);
+                          break;
+
+                        default:
+                          break;
+
+                      }
+                      if (nameComplete != '') {
+                        triples.push(triple(name_id,
+                          'http://rs.tdwg.org/ontology/voc/TaxonName#nameComplete',
+                          nameComplete));
+                      }
+                      break;
+
+                    case 'NomenclaturalCode':
+                      switch (doc.message[i][j][k]) {
+                        case 'ICZN':
+                          triples.push(triple(name_id,
+                            'http://rs.tdwg.org/ontology/voc/TaxonName#nomenclaturalCode',
+                            'http://rs.tdwg.org/ontology/voc/TaxonName#ICZN'));
+                          break;
+
+                        default:
+                          break;
+                      }
+                      break;
+
+                    default:
+                      break;
+                  }
+                }
+              }
+
+            }
+            break;
+
+          default:
+            break;
+        }
+      }
+    }
+
+
+    if (type == '') {
+      type = 'http://schema.org/CreativeWork';
+    }
+
+
+    // defaults
+    triples.push(triple(subject_id,
+      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+      type));
+
+    output(doc, triples);
+  }
+}
+
+function couchdb(doc) {
+  if (doc['message-format']) {
+    if (doc['message-format'] == 'application\/vnd.zoobank+json') {
+      message(doc);
+    }
+  }
+}
+// END COUCHDB VIEW
+
+		
+//----------------------------------------------------------------------------------------
+function convert() {
+	var json = $('#json').val();
+	var doc = JSON.parse(json);
+	
+	couchdb(doc);
+}
+
+	
+	</script>		
+			
+
+</div>
+</body>
+</html>			
