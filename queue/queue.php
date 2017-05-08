@@ -139,7 +139,8 @@ function fetch($item, $add_links = false)
 					$add_links = true;
 				}
 				
-				// Resolve links from ORCIDs (this can quickly explode)
+				// Resolve links from ORCIDs (this can quickly explode
+				// as we add DOIs and ORCIDs)
 				if (preg_match('/orcid.org/', $item->value))
 				{
 					//$add_links = true;

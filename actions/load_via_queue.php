@@ -109,13 +109,19 @@ $urls = array(
 
 // Index Fungorum example with basionym, publication, and orcids
 // need to automatically add IF basionyms to queue
-// ORCIDs for these authors have LOTs of references...
+// ORCIDs for these authors have LOTs of references so best suppress those
+// need glue to connect IF LSID to DOI for paper
 $urls = array(
 'urn:lsid:indexfungorum.org:names:813327',
 'urn:lsid:indexfungorum.org:names:813436',
 'http://orcid.org/0000-0002-1072-5166',
 'http://orcid.org/0000-0002-5144-6200',
 'http://dx.doi.org/10.1016/j.simyco.2015.12.002'
+);
+
+// revisied ORCID model, each document is separate
+$urls=array(
+'http://orcid.org/0000-0003-0566-372X'
 );
 
 $force = false;
