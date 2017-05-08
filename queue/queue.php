@@ -138,9 +138,11 @@ function fetch($item, $add_links = false)
 				{
 					$add_links = true;
 				}
+				
+				// Resolve links from ORCIDs (this can quickly explode)
 				if (preg_match('/orcid.org/', $item->value))
 				{
-					$add_links = true;
+					//$add_links = true;
 				}
 				
 				// Add links for ZooBank

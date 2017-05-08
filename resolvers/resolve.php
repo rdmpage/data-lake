@@ -9,6 +9,7 @@ require_once (dirname(__FILE__) . '/cinii/fetch.php');
 require_once (dirname(__FILE__) . '/crossref/fetch.php');
 //require_once (dirname(__FILE__) . '/gbif/fetch.php');
 //require_once (dirname(__FILE__) . '/genbank/fetch.php');
+require_once (dirname(__FILE__) . '/indexfungorum/fetch.php');
 require_once (dirname(__FILE__) . '/ion/fetch.php');
 require_once (dirname(__FILE__) . '/ipni/fetch.php');
 require_once (dirname(__FILE__) . '/orcid/fetch.php');
@@ -71,8 +72,17 @@ function classify_url($url)
 		$identifier->id = $m['id'];
 	}
 	
+	
+	// Index Fungorum name
+	if (preg_match('/urn:lsid:indexfungorum.org:names/', $url))
+	{
+		$identifier = new stdclass;
+		$identifier->namespace = 'INDEX_FUNGORUM_NAME';
+		$identifier->id = $url;	
+	}
+	
 	// ION name
-	if (preg_match('/urn:lsid:organismnames.com:name:/', $url))
+	if (preg_match('/urn:lsid:organismnames.com:name/', $url))
 	{
 		$identifier = new stdclass;
 		$identifier->namespace = 'ION_NAME';
@@ -192,6 +202,10 @@ function resolve_url($url)
 				$data = worldcat_fetch($identifier->id);
 				break;
 			*/
+			
+			case 'INDEX_FUNGORUM_NAME':
+				$data = indexfungorum_fetch($identifier->id);
+				break;
 			
 			case 'ION_NAME':
 				$data = ion_fetch($identifier->id);

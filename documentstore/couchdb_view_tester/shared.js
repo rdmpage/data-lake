@@ -217,6 +217,7 @@ jsonld.fromRDF(nquads, {format: 'application/nquads'}, function(err, j) {
  // tdwg
  "tc":"http://rs.tdwg.org/ontology/voc/Common#",
  "tn":"http://rs.tdwg.org/ontology/voc/TaxonName#",
+ "tpub":"http://rs.tdwg.org/ontology/voc/PublicationCitation#",
   
   // Identifiers
   "DOI" : "http://identifiers.org/doi/",

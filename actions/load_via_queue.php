@@ -107,6 +107,17 @@ $urls = array(
 'urn:lsid:zoobank.org:pub:79A6393D-8021-41B8-BF1A-2A3723AFECFB'
 );
 
+// Index Fungorum example with basionym, publication, and orcids
+// need to automatically add IF basionyms to queue
+// ORCIDs for these authors have LOTs of references...
+$urls = array(
+'urn:lsid:indexfungorum.org:names:813327',
+'urn:lsid:indexfungorum.org:names:813436',
+'http://orcid.org/0000-0002-1072-5166',
+'http://orcid.org/0000-0002-5144-6200',
+'http://dx.doi.org/10.1016/j.simyco.2015.12.002'
+);
+
 $force = false;
 $force = true;
 

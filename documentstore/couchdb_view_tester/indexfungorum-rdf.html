@@ -1,0 +1,346 @@
+<html>
+	<head>
+		<title>Index Fungorum RDF/XML to n-triples</title>
+		<meta charset="UTF-8"/>
+		<script src="jquery.js"></script>
+		<script src="jsonld.js"></script>
+		<script src="viz.js"></script>
+		<!-- stuff below needs to go into CouchDB views -->
+		<script src="shared.js"></script>
+		<script src="language.js"></script>
+		<script src="xml2json.js"></script>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>Index Fungorum RDF/XML</h1>
+
+<div>
+	<div style="width:100%;height:auto;">
+		<h2>RDF/XML</h2>
+			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
+{
+   "_id": "urn:lsid:indexfungorum.org:names:813327",
+   "_rev": "2-4d14db7b20d41759fb18d37e92600837",
+   "message-timestamp": "2017-05-08T09:34:48+00:00",
+   "message-modified": "2017-05-08T09:34:53+00:00",
+   "message-format": "application/rdf+xml",
+   "message": {
+       "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:TaxonName=\"http://rs.tdwg.org/ontology/voc/TaxonName#\" xmlns:ns=\"http://purl.org/dc/elements/1.1/\" xmlns:owl=\"http://www.w3.org/2002/07/owl#\" xmlns:PublicationCitation=\"http://rs.tdwg.org/ontology/voc/PublicationCitation#\" xmlns:Common=\"http://rs.tdwg.org/ontology/voc/Common#\">\r\n  <TaxonName:TaxonName rdf:about=\"urn:lsid:indexfungorum.org:names:813327\">\r\n    <ns:Title>Microsporomyces orientalis (C.H. Pohl, M.S. Smit &amp; Albertyn) Q.M. Wang, F.Y. Bai, M. Groenew. &amp; Boekhout2015</ns:Title>\r\n    <owl:versionInfo>1.1.2.1</owl:versionInfo>\r\n    <TaxonName:nameComplete>Microsporomyces orientalis</TaxonName:nameComplete>\r\n    <TaxonName:genusPart>Microsporomyces</TaxonName:genusPart>\r\n    <TaxonName:specificEpithet>orientalis</TaxonName:specificEpithet>\r\n    <TaxonName:authorship>(C.H. Pohl, M.S. Smit &amp; Albertyn) Q.M. Wang, F.Y. Bai, M. Groenew. &amp; Boekhout</TaxonName:authorship>\r\n    <TaxonName:basionymAuthorship>C.H. Pohl, M.S. Smit &amp; Albertyn</TaxonName:basionymAuthorship>\r\n    <TaxonName:combinationAuthorship>Q.M. Wang, F.Y. Bai, M. Groenew. &amp; Boekhout</TaxonName:combinationAuthorship>\r\n    <TaxonName:year>2015</TaxonName:year>\r\n    <TaxonName:microReference>177</TaxonName:microReference>\r\n    <Common:publishedInCitation rdf:nodeID=\"bnode0\" />\r\n    <TaxonName:rankString>sp.</TaxonName:rankString>\r\n    <TaxonName:nomenclaturalCode rdf:resource=\"http://rs.tdwg.org/ontology/voc/TaxonName#ICBN\" />\r\n    <TaxonName:hasBasionym rdf:resource=\"urn:lsid:indexfungorum.org:names:813436\" />\r\n  </TaxonName:TaxonName>\r\n  <PublicationCitation:PublicationCitation rdf:nodeID=\"bnode0\">\r\n    <PublicationCitation:year>2015</PublicationCitation:year>\r\n    <PublicationCitation:title>Stud. Mycol.</PublicationCitation:title>\r\n    <PublicationCitation:volume>81</PublicationCitation:volume>\r\n    <PublicationCitation:pages>177</PublicationCitation:pages>\r\n  </PublicationCitation:PublicationCitation>\r\n  <TaxonName:NomenclaturalCodeTerm rdf:about=\"http://rs.tdwg.org/ontology/voc/TaxonName#ICBN\" />\r\n  <TaxonName:TaxonName rdf:about=\"urn:lsid:indexfungorum.org:names:813436\" />\r\n</rdf:RDF>"
+   }
+}			</textarea>
+			<br />
+			<button onclick="convert()">Convert JSON to RDF</button>
+	</div>
+	<div style="clear:both;"></div>
+	
+	<div style="width:100%;">
+		<h2>Triples</h2>
+		<div id="output" style="width:100%;background-color:#FF7;color:#222;overflow:auto;"></div>
+		<h2>Graph</h2>
+		<div id="graph" style="width:100%;overflow:auto;"></div>
+		<h2>JSON-LD</h2>
+		<div id="jsonld" style="width:100%;white-space:pre;background-color:#333;color:white;overflow:auto;"></div>
+
+</div>			
+			
+		
+		
+		
+<script>
+
+// http://stackoverflow.com/a/17076120
+function decodeHTMLEntities(text) {
+   var entities = [
+        ['amp', '&'],
+        ['apos', '\''],
+        ['#x27', '\''],
+        ['#x2F', '/'],
+        ['#39', '\''],
+	['#039', '\''],
+        ['#47', '/'],
+        ['lt', '<'],
+        ['gt', '>'],
+        ['nbsp', ' '],
+        ['quot', '"']
+    ];
+
+    text = String(text);
+
+    for (var i = 0, max = entities.length; i < max; ++i) {
+        text = text.replace(new RegExp('&'+entities[i][0]+';', 'g'), entities[i][1]);
+    }
+
+    return text;
+}
+	
+//----------------------------------------------------------------------------------------
+// START COUCHDB VIEW
+function message(doc) {
+
+  var subject_id = doc._id;
+  var triples = [];
+  var type = '';
+
+  var xml = doc.message.xml;
+
+  // administrivia
+  xml = xml.replace(/<\?xml version="1.0" encoding="UTF-8"\?>\s*/i, '');
+  xml = xml.replace(/<\?xml-stylesheet type="text\/xsl" href="lsid.rdf.xsl"\?>\s*/, '');
+
+  // namespaces
+  xml = xml.replace(/<rdf:RDF\s+(xmlns:\w+=([a-zA-Z0-9:\/"\.#-]+)"\s*)+?>/, '<rdf:RDF>');
+
+  // can't use colons
+  xml = xml.replace(/<(\w+):(\w+)/gm, '<$1$2');
+  xml = xml.replace(/<\/(\w+):(\w+)>/gm, '</$1$2>');
+
+  // attributes that we missed
+  xml = xml.replace(/rdf:/gm, 'rdf');
+  xml = xml.replace(/tm:/gm, 'tm');
+
+  // remove linebreaks within attrribute lists - FFS
+  xml = xml.replace(/"\s*\n/gm, '" ');
+
+  //alert(xml);
+  //console.log(xml);
+
+  var json = xml2json.parser(xml);
+
+  //alert(JSON.stringify(json, null, 2));
+
+  if (json.rdfrdf) {
+
+    triples.push(triple(subject_id,
+      'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+      'http://rs.tdwg.org/ontology/voc/TaxonName#TaxonName'));
+
+    triples.push(triple(subject_id,
+      'http://schema.org/identifier',
+      subject_id));
+
+    triples.push(triple(subject_id,
+      'http://schema.org/url',
+      'http://www.indexfungorum.org/Names/NamesRecord.asp?RecordID=' + subject_id.replace(/urn:lsid:indexfungorum.org:names:/, '')));
+
+    // Publication
+    if (json.rdfrdf.publicationcitationpublicationcitation) {
+
+      var pub_id = subject_id + '#' + json.rdfrdf.publicationcitationpublicationcitation.rdfnodeid;
+
+      triples.push(triple(pub_id,
+        'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+        'http://rs.tdwg.org/ontology/voc/PublicationCitation#PublicationCitation'));
+
+      triples.push(triple(pub_id,
+        'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+        'http://schema.org/CreativeWork'));
+
+      for (var k in json.rdfrdf.publicationcitationpublicationcitation) {
+        var value = json.rdfrdf.publicationcitationpublicationcitation[k];
+        value = value.toString();
+        switch (k) {
+
+          case 'rdfnodeid':
+            triples.push(triple(pub_id,
+              'http://schema.org/identifier',
+              pub_id));
+            break;
+
+          case 'publicationcitationyear':
+            triples.push(triple(pub_id,
+              'http://rs.tdwg.org/ontology/voc/PublicationCitation#year',
+              value));
+            break;
+
+          case 'publicationcitationtitle':
+            triples.push(triple(pub_id,
+              'http://rs.tdwg.org/ontology/voc/PublicationCitation#title',
+              value));
+            break;
+
+          case 'publicationcitationvolume':
+            triples.push(triple(pub_id,
+              'http://rs.tdwg.org/ontology/voc/PublicationCitation#volume',
+              value));
+            break;
+
+          case 'publicationcitationpages':
+            triples.push(triple(pub_id,
+              'http://rs.tdwg.org/ontology/voc/PublicationCitation#pages',
+              value));
+            break;
+
+          default:
+            break;
+        }
+      }
+    }
+
+    // Taxonomic names (may have more than one if basionym present)
+    var taxonname = [];
+    if (Array.isArray(json.rdfrdf.taxonnametaxonname)) {
+      taxonname = json.rdfrdf.taxonnametaxonname;
+    } else {
+      taxonname.push(json.rdfrdf.taxonnametaxonname);
+    }
+
+    for (var m in taxonname) {
+      for (var k in taxonname[m]) {
+
+        if (typeof taxonname[m][k] === 'object') {
+          var value = taxonname[m][k];
+
+          switch (k) {
+
+            case 'commonpublishedincitation':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/Common#publishedInCitation',
+                subject_id + '#' + value.rdfnodeid));
+              break;
+
+            case 'taxonnamenomenclaturalcode':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#nomenclaturalCode',
+                value.rdfresource));
+              break;
+
+            case 'taxonnamehasbasionym':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#hasBasionym',
+                value.rdfresource));
+
+            default:
+              break;
+          }
+
+        } else {
+          var value = decodeHTMLEntities(taxonname[m][k]);
+
+          switch (k) {
+
+            case 'nstitle':
+              triples.push(triple(subject_id,
+                'http://purl.org/dc/terms/title',
+                value));
+
+              triples.push(triple(subject_id,
+                'http://schema.org/name',
+                value));
+              break;
+
+            case 'taxonnamerankstring':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#rankString',
+                value));
+              break;
+
+            case 'taxonnamenamecomplete':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#nameComplete',
+                value));
+              break;
+
+            case 'taxonnamegenuspart':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#genusPart',
+                value));
+              break;
+
+            case 'taxonnameinfragenericepithet':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#infragenericEpithet',
+                value));
+              break;
+
+            case 'taxonnamespecificepithet':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#specificEpithet',
+                value));
+              break;
+
+            case 'taxonnameinfraspecificepithet':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#infraspecificEpithet',
+                value));
+              break;
+
+            case 'taxonnameauthorship':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#authorship',
+                value));
+              break;
+
+            case 'taxonnamebasionymauthorship':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#basionymAuthorship',
+                value));
+              break;
+
+            case 'taxonnamecombinationauthorship':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#combinationAuthorship',
+                value));
+              break;
+
+            case 'taxonnameyear':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/TaxonName#year',
+                value));
+              break;
+
+              // IF has wrong prefix for this term
+            case 'taxonnamemicroreference':
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/Common#microreference',
+                value));
+              break;
+
+            case 'tcompublishedin':
+              value = value.replace(/\s+$/, '');
+              triples.push(triple(subject_id,
+                'http://rs.tdwg.org/ontology/voc/Common#publishedIn',
+                value));
+              break;
+
+            default:
+              break;
+          }
+        }
+      }
+    }
+  }
+
+  // do stuff	
+  output(doc, triples);
+}     
+         
+
+
+function couchdb(doc) {
+  if (doc['message-format']) {
+    if (doc['message-format'] == 'application/rdf+xml') {
+      message(doc);
+    }
+  }
+}
+// END COUCHDB VIEW
+
+		
+//----------------------------------------------------------------------------------------
+function convert() {
+	var json = $('#json').val();
+	var doc = JSON.parse(json);
+	
+	couchdb(doc);
+}
+
+	
+	</script>		
+			
+
+</div>
+</body>
+</html>			
