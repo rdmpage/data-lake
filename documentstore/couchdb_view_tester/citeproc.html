@@ -602,7 +602,22 @@ function message(doc) {
 			}               
 			break; 
 			
-			// journal
+			// journal			
+		  case 'container-title':
+			  // journal name can be string or array
+			  if (Array.isArray(doc.message['container-title'])) {
+				for (var j in doc.message['container-title']) {
+				  triples.push(triple(subject_id,
+					'http://prismstandard.org/namespaces/basic/2.1/publicationName',
+					doc.message['container-title'][j]));
+				}
+			  } else {
+				triples.push(triple(subject_id,
+				  'http://prismstandard.org/namespaces/basic/2.1/publicationName',
+				  doc.message['container-title']));
+			  }		  
+		    break;
+			
 		  case 'ISSN':
 			// one journal, but can have 1-2 ISSNs
 			// pick one for cluster_id

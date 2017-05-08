@@ -5394,18 +5394,378 @@ function message(doc) {
   }   
   
   // works
-  // Don't try and process within this view as authors with lots of works
-  // will cause CouchDB to crash
+  // List each one, and link to author via ORCID. Because ORCID doesn't include author 
+  // ORCIDs in list of works we need to do some fussing.
 
   var works = doc.message['orcid-profile']['orcid-activities']['orcid-works']['orcid-work'];
 
-  /*
   for (var i in works) {
-  }
-  */
- 
+  
+   //console.log(JSON.stringify(works[i]));
 
-  //}
+    var work = {};
+    work.type = [];
+
+    work.id = works[i]['put-code'];
+    work.title = works[i]['work-title']['title'].value;
+
+    if (works[i]['journal-title']) {
+      work.journal = works[i]['journal-title'].value;
+    }
+
+    // type
+    if (works[i]['work-type']) {
+      switch (works[i]['work-type']) {
+        case 'BOOK':
+          work.type.push('Book');
+          break;
+        case 'BOOK_CHAPTER':
+          work.type.push('Chapter');
+          break;
+        case 'JOURNAL_ARTICLE':
+          work.type.push('ScholarlyArticle');
+          break;
+        default:        
+          break;
+      }
+    }
+    if (work.type.length == 0) {
+    	work.type.push('CreativeWork');
+    }
+
+    // date
+    if (works[i]['publication-date']) {
+      if (works[i]['publication-date']['year'].value) {
+        work.year = works[i]['publication-date']['year'].value;
+      }
+    }
+
+    // Parse BibTex-------------------------------------------------------------------
+    // To do: should we parse authors in case they aren't listed in works-contributors,
+    // e.g see http://orcid.org/0000-0001-9892-0355
+    if (works[i]['work-citation']) {
+      if (works[i]['work-citation'].citation) {
+        var bibtex = works[i]['work-citation'].citation;
+
+        if (!works[i]['journal-title']) {
+          result = bibtex.match(/journal\s*=\s*\{([^\}]*)\}/);
+          if (result) {
+            work.journal = result[1];
+          }
+        }
+
+        result = bibtex.match(/year\s*=\s*\{([0-9]{4})\}/);
+        if (result) {
+          work.year = result[1];
+        }
+
+        result = bibtex.match(/volume\s*=\s*\{([^\}]*)\}/);
+        if (result) {
+          work.volume = result[1];
+        }
+
+        result = bibtex.match(/number\s*=\s*\{([^\}]*)\}/);
+        if (result) {
+          work.issue = result[1];
+        }
+
+        result = bibtex.match(/pages\s*=\s*\{([^\}]*)\}/);
+        if (result) {
+          work.pages = result[1];
+          var pages = work.pages.match(/(\d+)--(\d+)/);
+          if (pages) {
+            work.pageStart = pages[1];
+            work.pageEnd = pages[2];
+          }
+        }
+      }
+    }
+
+    // identifiers
+    if (works[i]['work-external-identifiers']) {
+      work.identifier = [];
+      for (var j in works[i]['work-external-identifiers']['work-external-identifier']) {
+        var identifier = works[i]['work-external-identifiers']['work-external-identifier'][j];
+        switch (identifier['work-external-identifier-type']) {
+          case 'DOI':
+            var doi = identifier['work-external-identifier-id'].value;
+            doi = doi.replace(/^doi:/, '');
+            doi = doi.replace(/\.$/, '');
+            doi = doi.replace(/^http:\/\/(dx.)?doi.org\//, '');
+            work.doi = doi;
+            work.subject_id = 'http://identifiers.org/doi/' + doi;
+            work.identifier.push(work.subject_id);
+            break;
+          case 'PMID':
+            var pmid = identifier['work-external-identifier-id'].value;
+            work.pmid = pmid;
+            if (!work.subject_id) {
+              work.subject_id = 'http://identifiers.org/pmid/' + pmid;
+            }
+            work.identifier.push('http://identifiers.org/pmid/' + pmid);
+            break;
+          case 'ISBN':
+            var isbn = identifier['work-external-identifier-id'].value;
+            work.isbn = isbn;
+            if (!work.subject_id) {
+              work.subject_id = 'http://identifiers.org/isbn/' + isbn;
+            }
+            work.identifier.push(isbn);
+            break;
+          case 'ISSN':
+            var list = identifier['work-external-identifier-id'].value.split(';');
+            work.issn = list;
+            break;
+          default:
+            if (identifier['work-external-identifier-id']) {
+              work.identifier.push(identifier['work-external-identifier-id'].value);
+            }
+            break;
+        }
+      }
+    }
+
+    // If no work id create one
+    if (!work.subject_id) {
+      work.subject_id = subject_id + '/' + work.id;
+    }
+    
+    // urls
+    if (works[i]['url']) {
+      work.url = [];
+      if (works[i]['url'].value) {
+        var urls = works[i]['url'].value.split(',');
+        for (var k in urls) {
+          work.url.push(urls[k]);
+        }
+      }
+    }
+    
+    // ORCID doesn't (apparently) label the author of each work with their ORCID,
+    // even for the person whose profile we are looking at! So, we need to find the
+    // best-matching name to that of the person with this profile and use that (sigh).
+    // Use fuzzy string matching for this.
+    if (works[i]['work-contributors']) {
+      work.author = [];
+      
+      // authors
+      var best_match = -1;
+      var best_score = 0.0;
+      
+      for (var j in works[i]['work-contributors']['contributor']) {
+        if (works[i]['work-contributors']['contributor'][j]['credit-name']) {
+          
+          var person = name_parse(works[i]['work-contributors']['contributor'][j]['credit-name'].value);
+          
+          if (works[i]['work-contributors']['contributor'][j]['contributor-orcid']) {
+          	person.orcid = works[i]['work-contributors']['contributor'][j]['contributor-orcid'];
+          } else {
+            // Score this name for match to the person who has this ORCID profile
+            s = fuzzy.get(person.name);
+          
+            if (s) {
+              if (s[0][0] > best_score) {
+                best_score = s[0][0];
+                best_match = j;
+              }
+            }
+          }
+          
+          work.author.push(person);
+        }
+      }
+      
+      // Flag the best match by assigning it the person's ORCID
+      if (best_match != -1) {
+         //console.log('best=' + JSON.stringify(work.author[best_match]));
+         work.author[best_match].orcid = subject_id;
+      }
+    }
+    
+    // If we don't have any authors then force a link between ORCID and work so
+    // that at least the person with this ORCID is linked to the work
+    if (!work.author) {
+    	triples.push(triple(work.subject_id,
+				'http://schema.org/author',
+				subject_id));
+    }
+    
+    
+    // process works here --------------------------------------------------------------
+    // Don't treat as a list, just use linkage from author ORCID to ORCID
+    /*
+    triples.push(triple(subject_id,
+            'http://schema.org/itemListElement',
+            work.subject_id)); 
+    */      
+            
+    for (var j in work) {
+      switch (j) {
+         // types
+         case 'type':
+           for (var k in work[j]) {
+  triples.push(triple(work.subject_id,
+    'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+    'http://schema.org/' + work[j][k]));
+           
+           }
+           break;
+           
+        
+         // authors, parse names into meaningful parts,
+         // need to link to ORCID (because ORCID doesn't do this [sigh])
+         case 'author':
+            var n = work[j].length;
+            for (var k = 0; k < n; k++) {
+              var author_id = work.subject_id + '#author_' + (k + 1);
+                            
+              var person = work[j][k];
+              
+              if (person.orcid) {
+                
+                // ORCID identifiers author
+				triples.push(triple(work.subject_id,
+				'http://schema.org/author',
+				person.orcid));
+				
+				triples.push(triple(person.orcid,
+   					 'http://schema.org/identifier',
+   						person.orcid));
+ 				
+				// add author order identifier so we can match to other versions of this work,
+				// e.g. in another person's ORCID profile
+				triples.push(triple(person.orcid,
+   					 'http://schema.org/identifier',
+   						author_id));
+                
+              } else {
+              
+              triples.push(triple(work.subject_id,
+				'http://schema.org/author',
+				author_id));
+            
+				triples.push(triple(author_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/Person'));
+				
+				triples.push(triple(author_id,
+   					 'http://schema.org/identifier',
+   						author_id));
+ 
+              if (person.givenName) {
+				  triples.push(triple(author_id,
+   				 'http://schema.org/givenName',
+    				person.givenName));
+              }
+              if (person.familyName) {
+				  triples.push(triple(author_id,
+   				 'http://schema.org/familyName',
+    				person.familyName));
+              }
+              if (person.name) {
+				  triples.push(triple(author_id,
+   				 'http://schema.org/name',
+    				person.name));
+              }
+              }
+              
+              //console.log(person.name);
+
+            
+           }
+           break;
+           
+           
+        // journal (no issn)
+        case 'journal':
+          if (work.issn) {
+          } else {
+			triples.push(triple(work.subject_id,
+            'http://prismstandard.org/namespaces/basic/2.1/publicationName',
+            work[j]));   
+          }
+          break;
+           
+         // container
+         case 'issn':
+           for (var k in work[j]) {
+             var journal_id = 'http://identifiers.org/issn/' + work[j][k];
+			  triples.push(triple(work.subject_id,
+				'http://schema.org/isPartOf',
+				journal_id
+			  ));
+
+			  // type
+			  triples.push(triple(journal_id,
+				'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
+				'http://schema.org/Periodical'));
+
+			  // issn
+			  triples.push(triple(journal_id,
+				'http://schema.org/issn',
+				work[j][k]));
+
+              // name
+              if (work.journal) {
+			    triples.push(triple(journal_id,
+			  	   'http://schema.org/name',
+			    	work.journal));
+			 }
+		   
+           
+           }
+           break;
+        
+         // identifiers
+         case 'identifier':
+            for (var k in work[j]) {
+  triples.push(triple(work.subject_id,
+    'http://schema.org/identifier',
+    work[j][k]));
+           
+           }
+           break;
+        
+         // attributes
+         case 'title':
+  triples.push(triple(work.subject_id,
+    'http://schema.org/name',
+    work[j]));
+         break;
+    
+            // article metadata
+      case 'issue':
+        triples.push(triple(work.subject_id,
+          'http://schema.org/issueNumber',
+          work[j]));
+        break;
+
+      case 'pages':
+        triples.push(triple(work.subject_id,
+          'http://schema.org/pagination',
+          work[j]));
+        break;
+
+      case 'volume':
+        triples.push(triple(work.subject_id,
+          'http://schema.org/volumeNumber',
+          work[j]));
+        break;
+ 
+      case 'year':
+        triples.push(triple(work.subject_id,
+          'http://schema.org/datePublished',
+          work[j]));
+        break;
+               
+        default:
+          break;
+      }
+    
+    
+    }
+
+  }
  
   output(doc, triples);
   
