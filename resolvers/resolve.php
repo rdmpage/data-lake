@@ -9,10 +9,12 @@ require_once (dirname(__FILE__) . '/cinii/fetch.php');
 require_once (dirname(__FILE__) . '/crossref/fetch.php');
 //require_once (dirname(__FILE__) . '/gbif/fetch.php');
 //require_once (dirname(__FILE__) . '/genbank/fetch.php');
+require_once (dirname(__FILE__) . '/ion/fetch.php');
 require_once (dirname(__FILE__) . '/ipni/fetch.php');
 require_once (dirname(__FILE__) . '/orcid/fetch.php');
 //require_once (dirname(__FILE__) . '/pubmed/fetch.php');
 //require_once (dirname(__FILE__) . '/worldcat/fetch.php');
+require_once (dirname(__FILE__) . '/wsc/fetch.php');
 require_once (dirname(__FILE__) . '/zoobank/fetch.php');
 
 //----------------------------------------------------------------------------------------
@@ -69,6 +71,14 @@ function classify_url($url)
 		$identifier->id = $m['id'];
 	}
 	
+	// ION name
+	if (preg_match('/urn:lsid:organismnames.com:name:/', $url))
+	{
+		$identifier = new stdclass;
+		$identifier->namespace = 'ION_NAME';
+		$identifier->id = $url;	
+	}
+	
 	// IPNI name
 	if (preg_match('/urn:lsid:ipni.org:names/', $url))
 	{
@@ -108,6 +118,16 @@ function classify_url($url)
 		$identifier->namespace = 'PMID';
 		$identifier->id = $m['pmid'];
 	}
+	
+	// World Spider Catalogue
+	
+	if (preg_match('/urn:lsid:nmbe.ch:spidersp/', $url))
+	{
+		$identifier = new stdclass;
+		$identifier->namespace = 'WSC_NAME';
+		$identifier->id = $url;	
+	}
+	
 	
 	// ZooBank reference
 	if (preg_match('/urn:lsid:zoobank.org:pub:(?<uuid>.*)$/', $url, $m))
@@ -173,6 +193,10 @@ function resolve_url($url)
 				break;
 			*/
 			
+			case 'ION_NAME':
+				$data = ion_fetch($identifier->id);
+				break;
+			
 			case 'IPNI_NAME':
 				$data = ipni_fetch($identifier->id);
 				break;
@@ -186,6 +210,10 @@ function resolve_url($url)
 				$data = pubmed_fetch($identifier->id);
 				break;
 		*/	
+		
+			case 'WSC_NAME':
+				$data = wsc_fetch($identifier->id);
+				break;		
 		
 			case 'ZOOBANK_PUB':
 				$data = zoobank_fetch_pub($identifier->id);

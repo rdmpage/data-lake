@@ -138,6 +138,10 @@ function fetch($item, $add_links = false)
 				{
 					$add_links = true;
 				}
+				if (preg_match('/orcid.org/', $item->value))
+				{
+					$add_links = true;
+				}
 				
 				// Add links for ZooBank
 				if (preg_match('/zoobank/', $item->value))

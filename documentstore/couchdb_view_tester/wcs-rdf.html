@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>RDF/XML to n-triples</title>
+		<title>World Spider Catalogue RDF/XML to n-triples</title>
 		<meta charset="UTF-8"/>
 		<script src="jquery.js"></script>
 		<script src="jsonld.js"></script>
@@ -19,15 +19,19 @@
 
 <div>
 	<div style="width:100%;height:auto;">
-		<h2>RDF/XML</h2>
+		<h2>World Spider Catalogue RDF/XML</h2>
 			<textarea id="json" style="width:100%;background-color:#224FBC;color:#FFFF66;" rows="20">
 {
-	"_id": "urn:lsid:organismnames.com:name:5304329",
-	"message": {
-		"xml": "<?xml version=\"1.0\" encoding=\"utf-8\" ?> <rdf:RDF xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:tdwg_pc=\"http://rs.tdwg.org/ontology/voc/PublicationCitation#\" xmlns:tdwg_co=\"http://rs.tdwg.org/ontology/voc/Common#\" xmlns:tdwg_tn=\"http://rs.tdwg.org/ontology/voc/TaxonName#\" xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><tdwg_tn:TaxonName rdf:about=\"5304329\"><dc:identifier>5304329</dc:identifier><dc:creator rdf:resource=\"http://www.organismnames.com\"/><dc:Title>Yangdelphax</dc:Title><tdwg_tn:nameComplete>Yangdelphax</tdwg_tn:nameComplete><tdwg_tn:nomenclaturalCode rdf:resource=\"http://rs.tdwg.org/ontology/voc/TaxonName#ICZN\"/><tdwg_co:PublishedIn>Reassessment of some of Kirkaldy's Australian species of Delphacini (Hemiptera: Delphacidae: Delphacinae). Austral Entomology, 55(3), Aug 2016: 247-260.  255 [Zoological Record Volume 152]</tdwg_co:PublishedIn><tdwg_co:microreference>255</tdwg_co:microreference><rdfs:seeAlso rdf:resource=\"http://www.organismnames.com/namedetails.htm?lsid=5304329\"/></tdwg_tn:TaxonName></rdf:RDF>"
-	},
-	"message-format": "application/rdf+xml"
-}			</textarea>
+   "_id": "urn:lsid:nmbe.ch:spidersp:047725",
+   "_rev": "2-1220b6f62c3ca9529f0a12053ba84275",
+   "message-timestamp": "2017-05-07T20:22:34+00:00",
+   "message-modified": "2017-05-07T20:22:34+00:00",
+   "message-format": "application/rdf+xml",
+   "message": {
+       "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<rdf:RDF xmlns:tn=\"http://rs.tdwg.org/ontology/voc/TaxonName#\" xmlns:nmbe=\"urn:lsid:nmbe.ch:predicates:\" xmlns:tc=\"http://rs.tdwg.org/ontology/voc/TaxonConcept#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:dwc=\"http://rs.tdwg.org/dwc/terms/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\n  <rdf:Description rdf:about=\"urn:lsid:nmbe.ch:spidersp:047725\">\n    <dc:date>2017-05-07</dc:date>\n    <dc:type>Scientific Name</dc:type>\n    <dc:creator rdf:resource=\"http://www.wsc.nmbe.ch\"/>\n    <dc:identifier>urn:lsid:nmbe.ch:spidersp:047725</dc:identifier>\n    <dc:title>Masteria emboaba</dc:title>\n    <dc:subject>Masteria emboaba Pedroso, Baptista &amp; Bertani, 2015</dc:subject>\n    <tn:nameComplete>Masteria emboaba</tn:nameComplete>\n    <tn:genusPart>Masteria</tn:genusPart>\n    <tn:specificEpithet>emboaba</tn:specificEpithet>\n    <tn:infraspecificEpithet/>\n    <tn:authorship>Pedroso, Baptista &amp; Bertani</tn:authorship>\n    <tn:year>2015</tn:year>\n    <dwc:nomenclaturalCode>ICZN</dwc:nomenclaturalCode>\n    <nmbe:statusString>VALID</nmbe:statusString>\n    <dwc:taxonRank>species</dwc:taxonRank>\n    <tc:hasInformation rdf:resource=\"http://wsc.nmbe.ch/species/54155\"/>\n    <dwc:namePublishedIn>Pedroso, D. R., Baptista, R. L. C. &amp; Bertani, R. (2015). A new species of Masteria (Araneae: Dipluridae: Masteriinae) from southeastern Brazil. Zoologia (Curitiba) 32(1): 59-65.</dwc:namePublishedIn>\n    <nmbe:publishedOnPage>60</nmbe:publishedOnPage>\n  </rdf:Description>\n</rdf:RDF>\n"
+   }
+}	
+		</textarea>
 			<br />
 			<button onclick="convert()">Convert JSON to RDF</button>
 	</div>
@@ -99,8 +103,6 @@ function message(doc) {
   xml = xml.replace(/rdf:/gm, 'rdf');
   xml = xml.replace(/tm:/, 'tm');
 
-  //alert(xml);
-
   var json = xml2json.parser(xml);
 
   if (json.rdfrdf) {
@@ -110,10 +112,10 @@ function message(doc) {
       'http://www.w3.org/1999/02/22-rdf-syntax-ns#type',
       'http://rs.tdwg.org/ontology/voc/TaxonName#TaxonName'));
 
-    for (var k in json.rdfrdf.tdwg_tntaxonname) {
+    for (var k in json.rdfrdf.rdfdescription ) {
 
-      if (typeof json.rdfrdf.tdwg_tntaxonname[k] === 'object') {
-        var value = json.rdfrdf.tdwg_tntaxonname[k];
+      if (typeof json.rdfrdf.rdfdescription[k] === 'object') {
+        var value = json.rdfrdf.rdfdescription[k];
 
         switch (k) {
 
@@ -144,19 +146,9 @@ function message(doc) {
         }
 
       } else {
-        var value = decodeHTMLEntities(json.rdfrdf.tdwg_tntaxonname[k]);
+        var value = decodeHTMLEntities(json.rdfrdf.rdfdescription[k]);
 
         switch (k) {
-
-          case 'dcidentifier':
-            triples.push(triple(subject_id,
-              'http://schema.org/identifier',
-              'urn:lsid:organismnames.com:name:' + value));
-
-            triples.push(triple(subject_id,
-              'http://schema.org/identifier',
-              'urn:lsid:organismnames.com:name:' + value));
-            break;
 
           case 'dctitle':
             triples.push(triple(subject_id,
@@ -168,20 +160,67 @@ function message(doc) {
               value));
             break;
 
-          case 'tdwg_tnnamecomplete':
+          case 'tnnamecomplete':
             triples.push(triple(subject_id,
               'http://rs.tdwg.org/ontology/voc/TaxonName#nameComplete',
               value));
             break;
 
-          case 'tdwg_comicroreference':
+          case 'tngenuspart':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#genusPart',
+              value));
+            break;
+
+          case 'tnspecificepithet':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#specificEpithet',
+              value));
+            break;
+
+          case 'tnauthorship':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#authorship',
+              value));
+            break;
+
+          case 'tnyear':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#year',
+              value));
+            break;
+            
+          case 'nmbestatusstring':         
+             triples.push(triple(subject_id,
+              'urn:lsid:nmbe.ch:predicates:statusString',
+              value));
+			 break;            
+
+          case 'nmbepublishedonpage':         
+             triples.push(triple(subject_id,
+              'urn:lsid:nmbe.ch:predicates:publishedOnPage',
+              value));
+          
             triples.push(triple(subject_id,
               'http://rs.tdwg.org/ontology/voc/Common#microreference',
               value));
             break;
+            
+          case 'dwctaxonrank':
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/dwc/terms/taxonRank',
+              value));          
+          
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/ontology/voc/TaxonName#rankString',
+              value));
+            break;
 
-          case 'tdwg_copublishedin':
-            value = value.replace(/\s+\[Zoological Record Volume \d+\]/, '');
+          case 'dwcnamepublishedin':          
+            triples.push(triple(subject_id,
+              'http://rs.tdwg.org/dwc/terms/namePublishedIn',
+              value));          
+          
             triples.push(triple(subject_id,
               'http://rs.tdwg.org/ontology/voc/Common#publishedIn',
               value));

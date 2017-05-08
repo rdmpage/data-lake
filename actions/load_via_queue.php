@@ -89,8 +89,23 @@ $urls = array(
 'http://orcid.org/0000-0002-7210-1033'
 );
 
+// ZooBank publication via LSID
+$urls = array(
+'urn:lsid:zoobank.org:pub:53A0DD28-F41B-493D-915D-A89404E349D7'
+);
 
+$urls = array(
+'urn:lsid:nmbe.ch:spidersp:047725'
+);
 
+// Spider taxonomist in ORCID
+$urls = array(
+'http://orcid.org/0000-0002-8186-8316'
+);
+
+$urls = array(
+'urn:lsid:zoobank.org:pub:79A6393D-8021-41B8-BF1A-2A3723AFECFB'
+);
 
 $force = false;
 $force = true;
