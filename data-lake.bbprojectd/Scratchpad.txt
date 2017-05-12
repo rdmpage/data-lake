@@ -1,4 +1,24 @@
 
+articles for author, with DOIs (some may have been added by import routines)
+
+SELECT *
+WHERE
+{
+    
+  ?work <http://schema.org/author>  <http://orcid.org/0000-0002-8758-9326> .
+  ?work  <http://schema.org/name> ?name .
+    OPTIONAL 
+    {
+        ?work <http://schema.org/identifier> ?identifier .
+        FILTER regex(str(?identifier),'doi','i') . 
+    }    
+     
+}
+
+
+
+
+------------
 Connecting all the dots
 
 

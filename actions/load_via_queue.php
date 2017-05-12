@@ -124,6 +124,26 @@ $urls=array(
 'http://orcid.org/0000-0003-0566-372X'
 );
 
+$urls = array('http://dx.doi.org/10.1007/s12225-010-9229-9'); // Kew Bulletin article with unstructured citations
+
+
+// ORCID with some references not linked to DOIs
+// Some references, such as Novon article http://biostor.org/reference/64541,
+// are in BioStor, so we can link ORCIDs to BioStor and BHL
+$urls = array(
+'http://orcid.org/0000-0002-8758-9326'
+);
+
+// J. J. Wieringa
+$urls = array(
+'http://orcid.org/0000-0003-0566-372X'
+);
+
+// CiNii
+$urls = array(
+'http://ci.nii.ac.jp/naid/110004661805#article'
+);
+
 $force = false;
 $force = true;
 

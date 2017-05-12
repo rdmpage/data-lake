@@ -92,7 +92,7 @@ function fetch($item, $add_links = false)
 	$data = null;
 	$data = resolve_url($item->value);
 	
-	print_r($data);
+	//print_r($data);
 	
 	if (!$data)
 	{
