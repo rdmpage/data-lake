@@ -3,11 +3,16 @@
 require_once(dirname(dirname(__FILE__)) . '/lib.php');
 require_once(dirname(dirname(__FILE__)) . '/shared/ncbi.php');
 
+require_once (dirname(dirname(dirname(__FILE__))) . '/documentstore/couchsimple.php');
+
 
 //----------------------------------------------------------------------------------------
 // CrossRef API
 function get_work($doi)
 {
+	global $couch;
+	$force = true;
+
 	$data = null;
 	
 	$url = 'https://api.crossref.org/v1/works/http://dx.doi.org/' . $doi;
@@ -38,6 +43,103 @@ function get_work($doi)
 			}
 			
 			// cited literature (ensure we use same logic when naming these as in CouchDB view)
+			// see http://data.crossref.org/schemas/common4.3.7.xsd
+			if (isset($data->message->reference))
+			{
+				// extract and add cited literature to database
+				
+				foreach ($data->message->reference as $cited) {
+				
+					$doc = new stdclass;
+					$doc->message = $reference;
+
+					$doc->{'message-format'} = 'application/vnd.crossref-citation+json'; // made up by rdmp	
+					$doc->{'message-timestamp'} = date("c", time());
+					$doc->{'message-modified'} 	= $doc->{'message-timestamp'};
+					
+					$doc->_id = 'http://identifiers.org/doi/' . $doi . '#' . $cited->key;
+					
+					$cited->{'cited-by'} = 'http://identifiers.org/doi/' . $doi;
+					
+					// utilities for searching
+					$cited->query = new stdclass;
+					
+					// OpenURL
+					$fragments = array();
+					foreach ($cited as $k => $v)
+					{
+						switch ($k)
+						{
+							case 'author':
+								$fragments['au'] = $v;
+								break;
+								
+							case 'journal-title':
+								$fragments['title'] = $v;
+								break;
+
+							case 'article-title':
+								$fragments['atitle'] = $v;
+								break;
+
+							case 'first-page':
+								$fragments['spage'] = $v;
+								break;
+								
+							case 'volume':
+							case 'year':
+								$fragments[$k] = $v;
+								break;
+								
+							default:
+								break;
+						}
+							
+					}
+					
+					if (count($fragments) > 2)
+					{
+						$cited->query->openurl = http_build_query($fragments);				
+					}
+					
+					// text string
+					if (isset($cited->unstructured))
+					{
+						$cited->query->string = $cited->unstructured;
+					}
+					else
+					{
+						$cited->query->string = '';
+						$keys = array('au', 'year', 'atitle', 'title', 'volume', 'spage');
+						foreach ($keys as $k)
+						{
+							$cited->query->string .= ' ' . $fragments[$k];
+						}
+						$cited->query->string = trim($cited->query->string);
+					}
+						
+					// to do: do we want to try and resolve any of these on the fly?
+					
+					$doc->message = $cited;
+				
+					// add to database----------------------------------------------------
+					$exists = $couch->exists($doc->_id);
+					if (!$exists)
+					{
+						$couch->add_update_or_delete_document($doc, $doc->_id, 'add');	
+					}
+					else
+					{
+						if ($force)
+						{
+							$couch->add_update_or_delete_document($doc, $doc->_id, 'update');
+						}
+					}
+				
+				}
+				
+			}
+			
 			
 			// funders
 			
@@ -87,7 +189,7 @@ function crossref_fetch($doi)
 
 // test cases
 
-if (0)
+if (1)
 {
 	$doi = '10.1371/journal.pone.0139421'; // no links to XML
 	
@@ -104,10 +206,12 @@ if (0)
 	
 	//$doi = '10.1016/j.ympev.2011.05.006';
 	
-	//$doi = '10.3897/zookeys.446.8195';
+	$doi = '10.3897/zookeys.446.8195';
 	
 	// CrossRef metadata has ORCIDs
-	$doi = '10.7554/eLife.08347';
+	//$doi = '10.7554/eLife.08347'; 
+	
+	$doi = '10.1007/s12225-010-9229-9'; 
 	
 	$data = crossref_fetch($doi);
 	
