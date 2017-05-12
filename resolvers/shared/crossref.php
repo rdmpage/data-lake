@@ -3,11 +3,14 @@
 // CrossRef search
 
 require_once (dirname(dirname(__FILE__)) . '/lib.php');
+require_once (dirname(dirname(__FILE__)) . '/fingerprint.php');
+require_once (dirname(dirname(__FILE__)) . '/lcs.php');
+
 
 
 //----------------------------------------------------------------------------------------
 // Use search API
-function crossref_search($citation)
+function crossref_search($citation, $double_check = true, $theshhold = 0.8)
 {
 	global $config;
 	
@@ -49,6 +52,69 @@ function crossref_search($citation)
 		{
 			$obj->results[0]->doi = str_replace('http://dx.doi.org/', '', $obj->results[0]->doi);
 			$result = $obj->results[0];
+			
+			if ($double_check)
+			{
+				// get metadata 
+				$query = explode('&', html_entity_decode($result->coins));
+				$params = array();
+				foreach( $query as $param )
+				{
+				  list($key, $value) = explode('=', $param);
+		  
+				  $key = preg_replace('/^\?/', '', urldecode($key));
+				  $params[$key][] = trim(urldecode($value));
+				}
+		
+				//print_r($params);
+		
+				$hit = '';
+				if (isset($params['rft.au']))
+				{
+					$hit = join(",", $params['rft.au']);
+				}
+		  
+				$hit .= ' ' . $params['rft.atitle'][0] 
+					. '. ' . $params['rft.jtitle'][0]
+					. ' ' . $params['rft.volume'][0]
+					. ': ' .  $params['rft.spage'][0];
+
+				$v1 = $citation;
+				$v2 = $hit;
+		
+				//echo "-- $hit\n";
+		
+				//echo "v1: $v1\n";
+				//echo "v2: $v2\n";
+		
+
+				$v1 = finger_print($v1);
+				$v2 = finger_print($v2);					
+
+				if (($v1 != '') && ($v2 != ''))
+				{
+					//echo "v1: $v1\n";
+					//echo "v2: $v2\n";
+
+					$lcs = new LongestCommonSequence($v1, $v2);
+					$d = $lcs->score();
+
+					// echo $d;
+
+					$score = min($d / strlen($v1), $d / strlen($v2));
+
+					//echo "score=$score\n";
+			
+					if ($score > $theshhold)
+					{
+			
+					}
+					else
+					{
+						unset ($result);
+					}
+				}
+			}			
 		}
 	}
 	
