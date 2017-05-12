@@ -621,7 +621,7 @@ function message(doc) {
 		  case 'ISSN':
 			// one journal, but can have 1-2 ISSNs
 			// pick one for cluster_id
-			 var journal_id = 'http://identifiers.org/issn/' + doc.message[i][0];
+			 var journal_id = 'http://www.worldcat.org/issn/' + doc.message[i][0];
 		 
 			  triples.push(triple(subject_id,
 				'http://schema.org/isPartOf',
@@ -669,7 +669,7 @@ function message(doc) {
 			  // identifiers
 			triples.push(triple(journal_id,
 			  'http://schema.org/identifier',
-			  'http://identifiers.org/issn/' + doc.message[i][j]));
+			  'http://www.worldcat.org/issn/' + doc.message[i][j]));
 		  
 		  
 
