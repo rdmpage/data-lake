@@ -271,6 +271,11 @@ function orcid_works($obj, $lookup_works)
 								$value = $identifier->{'work-external-identifier-id'}->value;
 								$reference->PMID = $value;
 								break;
+
+							case 'WOSUID':
+								$value = $identifier->{'work-external-identifier-id'}->value;
+								$reference->WOSUID = $value;
+								break;
 					
 							default:
 								break;
@@ -288,42 +293,138 @@ function orcid_works($obj, $lookup_works)
 					}
 				}
 				
-				/*
-				// to do: need to fix this code
-				if ($lookup_works)
+				// Support for queries ---------------------------------------------------
+				// Construct text string and OpenURL to help queries
+				// Could do this in Javascript in CouchDB instead,
+				// but we will also use it hear if we do on the fly lookup
+				$reference->query = new stdclass;
+								
+				$fragments = array();
+				
+				if (isset($reference->author))
 				{
-					// look for DOI if not present
-					if (!isset($reference->doi))
+					$authors = array();
+					foreach ($reference->author as $author)
 					{
-						$citation = '';
-						if (isset($reference->title))
+						$author_string = '';
+						if (isset($author->literal))
 						{
-							$citation = $reference->title;
+							$author_string = $author->literal;
 						}
-						if (isset($reference->journal))
+						else
 						{
-							$citation .= ' ' . $reference->journal;
-						}
-
-						if ($citation != '')
-						{		
-							echo "Looking up \"$citation\"... ";
-							$result = crossref_search($citation);
-							if (isset($result->doi))
+							if (isset($author->given))
 							{
-								echo $result->doi;
-								$reference->doi = $result->doi;
+								$author_string = $author->given;
 							}
-							echo "\n";
+							if (isset($author->family))
+							{
+								$author_string .= ' ' . $author->family;
+							}
+							$author_string = trim($author_string);
 						}
+						if ($author_string != '')
+						{
+							$authors[] = $author_string;
+						}					
+					}
+					$fragments['au'] = join('au=', $authors);
+				}
+								
+				if (isset($reference->issued))
+				{
+					if (isset($reference->issued->{'date-parts'}))
+					{
+						$fragments['year'] = $reference->issued->{'date-parts'}[0][0];
 					}
 				}
-				*/
+				
+				if (isset($reference->title))
+				{
+					$fragments['atitle'] = $reference->title;
+				}
+
+				if (isset($reference->{'container-title'}))
+				{
+					$fragments['title'] = $reference->{'container-title'}[0];
+				}
+
+				if (isset($reference->volume))
+				{
+					$fragments['volume'] = $reference->volume;
+				}
+
+				if (isset($reference->issue))
+				{
+					$fragments['issue'] = $reference->issue;
+				}
+
+				if (isset($reference->page))
+				{
+					$pages = $m['pages'];
+					if (preg_match('/(?<spage>\d+)-[-]?(?<epage>\d+)/', $reference->page, $mm))
+					{
+						$fragments['spage'] = $mm['spage'];
+						$fragments['epage'] = $mm['epage'];
+					}
+					else
+					{	
+						$fragments['pages'] = $reference->page;
+					}
+				}
+					
+				
+				
+				//print_r($fragments);
+						
+				// simple OpenURL query string
+				$reference->query->openurl = http_build_query($fragments);				
+				$reference->query->openurl = str_replace('au%3D', '&au=', $reference->query->openurl);
+				
+				// Simple text string for text-matching searches such as https://search.crossref.org
+				$reference->query->string = '';
+				$keys = array('au', 'year', 'atitle', 'title', 'volume', 'issue', 'spage', 'epage', 'pages');
+				foreach ($keys as $k)
+				{
+					switch ($k)
+					{
+						case 'au':
+							$reference->query->string = str_replace('au=', '; ', $fragments[$k]);
+							break;
+							
+						default:
+							$reference->query->string .= ' ' . $fragments[$k];
+							break;
+					}
+				}
+							
+				// Create structure to track what searches have been made for identifiers
+				// to do: need to fix this code
+				//if ($lookup_works)
+				if (1)
+				{
+					// look for DOI if not present
+					if (!isset($reference->DOI) && ($reference->query->string != ''))
+					{
+						echo "Looking up \"" . $reference->query->string . "\"... ";
+						$result = crossref_search($reference->query->string, true, 0.75);
+						if (isset($result->doi))
+						{
+							echo $result->doi;
+							$reference->DOI = $result->doi;
+						}
+						echo "\n";
+					}
+				}
+				
 
 				$doc->message = $reference;
 				
 				$doc->{'message-timestamp'} = date("c", time());
 				$doc->{'message-modified'} 	= $doc->{'message-timestamp'};
+				
+				//print_r($doc);
+				//exit();
 				
 				//echo json_encode($doc) . "\n";
 				
