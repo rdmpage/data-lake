@@ -6,38 +6,4 @@ See https://github.com/TLmaK0/gravizo for how to embed DOT files.
 
 ## CiNii 
 
-![Alt text](https://g.gravizo.com/source/custom_mark10?https%3A%2F%2Fraw.githubusercontent.com%2Frdmpage%2Fdata-lake%2Fmaster%2Fmodels%2FREADME.md)
-<details> 
-<summary></summary>
-custom_mark10
-	digraph G 
-	{
-		rankdir = LR;
-		"0" -> "http://schema.org/ScholarlyArticle" [label="type"];
-		"0" -> "http://ci.nii.ac.jp/naid/110004661805#article" [label="identifier"];
-		"0" -> "日本産魚類の十一新種" [label="name"];
-		"0" -> "社団法人日本動物学会" [label="publisher"];
-		"0" -> "動物学雑誌" [label="publicationName"];
-		"0" -> "0044-5118" [label="issn"];
-		"0" -> "29" [label="volumeNumber"];
-		"0" -> "339" [label="issueNumber"];
-		"0" -> "7" [label="pageStart"];
-		"0" -> "12" [label="pageEnd"];
-		"0" -> "1917-01-30" [label="datePublished"];
-		"0" -> "http://ci.nii.ac.jp/naid/110004661805" [label="url"];
-		"0" -> "http://ci.nii.ac.jp/ncid/AN00166645#entity" [label="isPartOf"];
-		"http://ci.nii.ac.jp/ncid/AN00166645#entity" -> "http://ci.nii.ac.jp/ncid/AN00166645#entity" [label="identifier"];
-		"http://ci.nii.ac.jp/ncid/AN00166645#entity" -> "http://schema.org/Periodical" [label="type"];
-		"http://ci.nii.ac.jp/ncid/AN00166645#entity" -> "動物学雑誌" [label="name"];
-		"http://ci.nii.ac.jp/ncid/AN00166645#entity" -> "http://www.worldcat.org/issn/0044-5118" [label="identifier"];
-		"http://ci.nii.ac.jp/ncid/AN00166645#entity" -> "0044-5118" [label="issn"];
-		"0" -> "The Zoological Society of Japan" [label="publisher"];
-		"0" -> "Doubutsugaku zasshi" [label="publicationName"];
-		"0" -> "http://ci.nii.ac.jp/images/nopreview.jpg" [label="thumbnailUrl"];
-		"0" -> "http://ci.nii.ac.jp/nrid/9000005011074#me" [label="author"];
-		"http://ci.nii.ac.jp/nrid/9000005011074#me" -> "http://schema.org/Person" [label="type"];
-		"http://ci.nii.ac.jp/nrid/9000005011074#me" -> "http://ci.nii.ac.jp/nrid/9000005011074#me" [label="identifier"];
-		"http://ci.nii.ac.jp/nrid/9000005011074#me" -> "田中 茂穂" [label="name"];
-	}
-custom_mark10
-</details>
+![Alt text](https://g.gravizo.com/svg?digraph%20G%20{%20rankdir%20=%20LR;%220%22%20-%3E%20%22http://schema.org/ScholarlyArticle%22%20[label=%22type%22];%220%22%20-%3E%20%22http://ci.nii.ac.jp/naid/110004661805%23article%22%20[label=%22identifier%22];%220%22%20-%3E%20%22日本産魚類の十一新種%22%20[label=%22name%22];%220%22%20-%3E%20%22社団法人日本動物学会%22%20[label=%22publisher%22];%220%22%20-%3E%20%22動物学雑誌%22%20[label=%22publicationName%22];%220%22%20-%3E%20%220044-5118%22%20[label=%22issn%22];%220%22%20-%3E%20%2229%22%20[label=%22volumeNumber%22];%220%22%20-%3E%20%22339%22%20[label=%22issueNumber%22];%220%22%20-%3E%20%227%22%20[label=%22pageStart%22];%220%22%20-%3E%20%2212%22%20[label=%22pageEnd%22];%220%22%20-%3E%20%221917-01-30%22%20[label=%22datePublished%22];%220%22%20-%3E%20%22http://ci.nii.ac.jp/naid/110004661805%22%20[label=%22url%22];%220%22%20-%3E%20%22http://ci.nii.ac.jp/ncid/AN00166645%23entity%22%20[label=%22isPartOf%22];%22http://ci.nii.ac.jp/ncid/AN00166645%23entity%22%20-%3E%20%22http://ci.nii.ac.jp/ncid/AN00166645%23entity%22%20[label=%22identifier%22];%22http://ci.nii.ac.jp/ncid/AN00166645%23entity%22%20-%3E%20%22http://schema.org/Periodical%22%20[label=%22type%22];%22http://ci.nii.ac.jp/ncid/AN00166645%23entity%22%20-%3E%20%22動物学雑誌%22%20[label=%22name%22];%22http://ci.nii.ac.jp/ncid/AN00166645%23entity%22%20-%3E%20%22http://www.worldcat.org/issn/0044-5118%22%20[label=%22identifier%22];%22http://ci.nii.ac.jp/ncid/AN00166645%23entity%22%20-%3E%20%220044-5118%22%20[label=%22issn%22];%220%22%20-%3E%20%22The%20Zoological%20Society%20of%20Japan%22%20[label=%22publisher%22];%220%22%20-%3E%20%22Doubutsugaku%20zasshi%22%20[label=%22publicationName%22];%220%22%20-%3E%20%22http://ci.nii.ac.jp/images/nopreview.jpg%22%20[label=%22thumbnailUrl%22];%220%22%20-%3E%20%22http://ci.nii.ac.jp/nrid/9000005011074%23me%22%20[label=%22author%22];%22http://ci.nii.ac.jp/nrid/9000005011074%23me%22%20-%3E%20%22http://schema.org/Person%22%20[label=%22type%22];%22http://ci.nii.ac.jp/nrid/9000005011074%23me%22%20-%3E%20%22http://ci.nii.ac.jp/nrid/9000005011074%23me%22%20[label=%22identifier%22];%22http://ci.nii.ac.jp/nrid/9000005011074%23me%22%20-%3E%20%22田中%20茂穂%22%20[label=%22name%22];})
