@@ -161,6 +161,8 @@ function output(doc, triples) {
 			dot += '"' + index + '" -> "' + object + '" [label="' + lastBit + '"];' + "\n";
 		 }
 		 dot += '}';
+		 
+		 alert(dot);
 	  
 		   var graph = Viz(dot, "svg", "dot");
 		  $('#graph').html(graph);

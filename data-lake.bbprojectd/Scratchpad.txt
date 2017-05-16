@@ -176,6 +176,17 @@ OPTIONAL {
     
 }
 
+Where is a journal published (via WorldCat data)
+
+SELECT *
+WHERE
+{
+  ?periodical  <http://schema.org/issn> ?issn .
+  ?workExample <http://schema.org/workExample> ?periodical .
+  ?workExample <http://purl.org/library/oclcnum> ?oclcnum .
+  ?workExample <http://purl.org/library/placeOfPublication> ?place .
+  ?place <http://schema.org/name> ?placeName .
+}
 
 
 
