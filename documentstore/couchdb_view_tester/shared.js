@@ -123,7 +123,7 @@ function output(doc, triples) {
 	  // graph
 	  if (1)
 	  {
-		  var dot = 'digraph { rankdir = LR;';
+		  var dot = 'digraph G { rankdir = LR;';
 	  
 		  var nodes = [];
 	  
@@ -162,7 +162,7 @@ function output(doc, triples) {
 		 }
 		 dot += '}';
 		 
-		 alert(dot);
+		 //alert(dot);
 	  
 		   var graph = Viz(dot, "svg", "dot");
 		  $('#graph').html(graph);
