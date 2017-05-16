@@ -1,4 +1,4 @@
-digraph { rankdir = LR;"0" -> "http://schema.org/ScholarlyArticle" [label="type"];
+digraph G { rankdir = LR;"0" -> "http://schema.org/ScholarlyArticle" [label="type"];
 "0" -> "http://ci.nii.ac.jp/naid/110004661805#article" [label="identifier"];
 "0" -> "日本産魚類の十一新種" [label="name"];
 "0" -> "社団法人日本動物学会" [label="publisher"];
